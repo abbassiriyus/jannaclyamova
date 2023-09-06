@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -32,7 +32,7 @@ list-style: none;
 }
 
 .navbar ul{
-    gap: 10px;
+    gap: 30px;
 }
 .navbar li{
     font-family: 'PT Sans Caption', sans-serif;
@@ -53,6 +53,9 @@ color: rgba(255, 255, 255, 1);
 }
 .navbar .bot{
     width: 2.5vw;
+}
+.navbar .bot1{
+    width: 30px;
 }
 .navbar .toggle{
     display: none;
@@ -90,7 +93,7 @@ color: rgba(255, 255, 255, 1);
 
 @media(max-width:550px){
     .form,.nav-link{
-    display: none;
+    display: none !important;
 }
 .navbar .media_toggle{
     display: block;
@@ -127,14 +130,88 @@ cursor: pointer;
 .header_glavniy {
 display: flex;
 align-items: flex-end;
-min-height: 900px;
+
+background: rgba(146, 67, 247, 1);
+/* min-height: 900px; */
+max-height: 800px;
+position: relative;
+z-index: -1;
+/* padding-top: 100px; */
+justify-content: space-between;
+}
+.header_glavniy .glavniy_img{
+    height: 100%;
+    max-width: 65%;
 }
 .header_glavniy .glavniy_text {
-    font-family: SignPainter;
-    font-size: 128px;
-    font-weight: 400;
-    line-height: 124px;
-    letter-spacing: 0em;
+    font-family: 'Bad Script', cursive;
+    font-size: 4vw;
+    line-height: 6vw;
+    letter-spacing: 10px;
+    font-weight: 100;
+    margin-right: 30px;
+    padding-bottom: 30px;
     text-align: right;
+    user-select: none;
 color: white;    
 }
+.header_button{
+    font-family: 'PT Sans Caption', sans-serif;
+font-size: 32px;
+font-weight: 700;
+/* line-height: 38px; */
+letter-spacing: 0em;
+/* text-align: right; */
+color: rgba(39, 24, 69, 1);
+
+    /* width: 437px; */
+/* height: 91px; */
+padding: 25px 40px;
+border: none;
+border-radius:15px;
+
+background: rgba(253, 186, 26, 1);
+
+}
+@media (max-width:1400px){
+  .header_button{
+    padding: 10px 20px;
+    font-size: 23px;
+  }  
+}
+@media (max-width:972px){
+    .header_button{
+      padding: 4px 10px;
+      font-size: 15px;
+    }  
+    .header_glavniy .glavniy_text{
+        font-size: 12px;
+    }
+  }
+  @media (max-width:643px){
+    .header_button{
+      padding: 4px 10px;
+      font-size: 10px;
+    }  
+  }
+  @media (max-width:477px){
+    .header_button{
+      padding: 4px 5px;
+      font-size: 8px;
+    }  
+    .header_glavniy .glavniy_text{
+        font-size: 8px;
+    }
+  }
+
+
+.reklama_user{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+
+
+
