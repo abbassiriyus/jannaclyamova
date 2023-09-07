@@ -1179,3 +1179,15 @@ font-size: 50px;
     justify-content: center;align-items: center;
     margin-bottom: 50px;
 }
+
+
+/* reviews */
+
+.flex_reviews_img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img_reviews{
+    height: 500px;
+}
