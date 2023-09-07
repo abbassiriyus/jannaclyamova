@@ -264,6 +264,7 @@ line-height: normal;
 .header_ikki_uzun{
     background: #F5F2ED;
     padding-top: 9.671vw;
+    padding-bottom: 9.671vw ;
 
 }
 .cards_vlublenniye{
@@ -327,16 +328,16 @@ line-height: normal;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px;
-    gap: 50px;
-    padding-bottom: 40px;
+    padding: 2.604vw;
+    gap: 2.604vw;
+    padding-bottom: 2.083vw;
 }
 .excursiya_big_card{
 z-index: 123;
 }
 .excursiya_circle_card{
-    width: 446px;
-height: 446px;
+    width: 23.229vw;
+height: 23.229vw;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -344,35 +345,65 @@ border-radius: 50%;
 background: #FFF;
 }
 .excursiya_circle_img_one{
-    margin-top: -50px;
+    margin-top: -2.604vw;
+    width: 23.490vw;
+height: 19.896vw;
 }
 .excursiya_circle_img_two{
-    margin-top: -20px;
-    margin-left: 40px;
+    margin-top: -1.042vw;
+    margin-left: 2.083vw;
+    width: 25.104vw;
+height: 21.354vw;
 }
 .excursiya_circle_img_three{
-    margin-top: -60px;
+    margin-top: -3.125vw;
+    width: 27.344vw;
+height: 23.646vw;
 }
 .line_dashed_img{
     position: absolute;
     left: 20.5%;
     top: 0px;
+    width: 54.792vw;
+height: 445.23.192vw;
 }
 .excursiya_circle_text{
     color: #271845;
 text-align: center;
 font-family: 'PT Sans Caption', sans-serif;
-font-size: 38px;
+font-size: 1.979vw;
 font-style: normal;
 font-weight: 700;
 }
 
-@media (max-width:1538px) {
+@media (max-width:500px) {
     .line_dashed_img{
         display: none;
     }
+    .excusriya_text{
+        font-size: 35px;
+    }
+    .excursiya_circle_card{
+        width:300px ;
+        height: 300px;
+    }
+    .excursiya_circle_img_one{
+        width: 80%;
+        height: 80%;
+    }
+    .excursiya_circle_img_two{
+        width: 90%;
+        height: 80%;
+    }
+    .excursiya_circle_img_three{
+        width: 100%;
+        height: 90%;
+    }
+    .excursiya_circle_text{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 }
-
 
 
 
@@ -382,7 +413,7 @@ font-weight: 700;
     justify-content: center;
     margin-top: 4.688vw;
     color: #220A2E;
-text-align: right;
+text-align: center;
 font-family: 'Bad Script', cursive;
 font-size: 6vw;
 font-style: normal;
@@ -391,8 +422,518 @@ line-height: normal;
 }
 
 .header_ikki_uzun .header_family_card{
-    width: 90%;
-    height: 100px;
-    border-radius: 77px;
+    width: 87%;
+    padding: 2.604vw;
+    padding-right: 5.208vw;
+    margin-bottom: 2.917vw !important;
+    gap: 0.833vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4.010vw;
     background: #A886B9;
+}
+.family_img_one{
+width: 39.948vw;
+height: 33.958vw;
+margin-top: -8.1vw;
+margin-bottom: -10.417vw;
+border-radius: 3.646vw;
+}
+.family_db{
+    display: block;
+    text-align: center;
+}
+.family_db_name{
+    margin-top: -2vw;
+    color: #FFF;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.family_db_text{
+    /* margin-top: -1.042vw; */
+    color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2.1vw;
+font-style: normal;
+font-weight: 700;
+line-height: 2.240vw;
+}
+.header_family_card_two{
+    width: 87%;
+    padding: 2.604vw;
+    padding-right: 5.208vw;
+    margin-bottom: 3.917vw !important;
+    gap: 0.833vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4.010vw;
+    background: #A886B9;
+}
+.family_db_name_db{
+    margin-top: 1vw;
+    color: #FFF;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 4vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+line-height: 4vw;
+}
+.family_db_text_db{
+    margin-top: 1vw !important;
+    margin-bottom: .5vw !important;
+    width: 80%;
+    margin: auto;
+    color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2.1vw;
+font-style: normal;
+font-weight: 700;
+line-height: 2.240vw;
+}
+.family_img_two{
+    width: 31.719vw;
+height: 25.771vw;
+margin-top: -9.8vw;
+margin-bottom: -4.1vw;
+/* margin-right: 50px; */
+border-radius: 3.646vw;
+}
+.family_db_two {
+margin-left: -5.208vw;
+}
+.family_img_three{
+    width: 40.948vw;
+    height: 35vw;
+    margin-top: -12vw;
+    margin-left: 3.646vw;
+    margin-bottom: -7.2vw;
+    border-radius: 3.646vw;
+}
+.family_db_name_db_two{
+    color: #FFF;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 4vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+line-height: 4vw;
+}
+.family_db_text_db_two{
+    margin-top: 1vw !important;
+    width: 80%;
+    margin: auto;
+    color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2.1vw;
+font-style: normal;
+font-weight: 700;
+line-height: 2.240vw;
+}
+.family_db_three{
+    margin-right: -2.604vw;
+}
+.family_db_text_db_three{
+    margin-top: 1vw !important;
+    width: 85%;
+    margin: auto;
+    color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2.1vw;
+font-style: normal;
+font-weight: 700;
+line-height: 2.240vw;
+}
+.header_family_card_three{
+    width: 87%;
+    padding: 2.604vw;
+    padding-right: 5.208vw;
+    margin-bottom: 10.917vw !important;
+    gap: 0.833vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4.010vw;
+    background: #A886B9;
+}
+@media (max-width: 500px){
+    .family_text {
+        font-size: 35px;
+    }
+    .header_family_card_three{
+        margin-bottom: 110vw !important;
+    }
+    }
+
+
+
+
+.header_mix_df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.854vw;
+    margin-bottom: 7.604vw;
+    margin-top: -13.417vw;
+}
+.mix_card{
+    width: 24.896vw;
+height: 23.958vw;
+padding: 2.083vw;
+text-align: center;
+border-radius: 4.010vw;
+background: #CAC2DA;
+transition: all .3s ease;
+cursor: pointer;
+}
+.mix_card:hover{
+    background: #FDBA1A;
+}
+.mix_img{
+    width: 6.719vw;
+height: 6.719vw;
+}
+.mix_name{
+    color: #271845;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 4.208vw;
+font-style: normal;
+font-weight: 400;
+line-height: 6.208vw;
+}
+.mix_text{
+    width: 80%;
+    margin: auto;
+color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2vw;
+font-style: normal;
+font-weight: 700;
+}
+.mix_narx{
+    margin-top: 1.042vw;
+    color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2.500vw;
+font-style: normal;
+font-weight: 700;
+line-height: 3.125vw;
+}
+.mix_date{
+    margin-top: 1.563vw;
+    color: #FFF;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2.500vw;
+font-style: normal;
+font-weight: 700;
+}
+@media (max-width:500px) {
+    .header_mix_df{
+        margin-top: -110vw;
+        flex-wrap: wrap;
+        gap: 3.854vw;
+    }
+    .mix_card{
+        width: 280px;
+        height: 280px;
+        padding: 20px;
+    }
+    .mix_img{
+        width: 100px;
+        height: 100px;
+    }
+    .mix_name{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .mix_text{
+        font-size: 20px;
+    }
+    .mix_narx{
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: normal;
+    }
+    .mix_date{
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: normal;
+    }
+}
+
+
+
+
+
+.probudijenwinu_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4.688vw;
+    color: #220A2E;
+font-family: 'Bad Script', cursive;
+font-size: 6vw;
+font-style: normal;
+font-weight: 400;
+line-height: 5.208vw;
+}
+.header_probudijenwinu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.duwa_jenwini_img{
+    width: 45.354vw;
+height: 45.146vw;
+margin-left: 3vw;
+margin-top: 5.208vw;
+}
+.duwa_jenwini_df{
+    text-align: center;
+}
+.text_duwa{
+    color: #271845;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.name_duwa{
+    margin-top: 1.563vw;
+    color: #FDBA1A;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.inp_name{
+    width: 39.688vw;
+height: 5.208vw;
+margin-top: 3.125vw;
+border-radius: 1.302vw;
+padding-inline: 1.042vw;
+border: 0.260vw solid #E1E1E1;
+background: #FFF;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+outline: none;
+}
+.inp_number{
+    width: 39.688vw;
+    height: 5.208vw;
+    margin-top: 1.563vw;
+    border-radius: 1.302vw;
+    padding-inline: 1.042vw;
+    border: 0.260vw solid #E1E1E1;
+    background: #FFF;
+    color: #271845;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+}
+.btn_duwa{
+    width: 24.115vw;
+height: 4.740vw;
+margin-top: 4.688vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+border: none;
+color: #271845 !important;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.367vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+@media (max-width:500px) {
+    .probudijenwinu_text {
+        margin-top: 50px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .duwa_jenwini_img{
+        display: none;
+    }
+    .duwa_jenwini_df{
+        margin-top: 30px;
+        display: block;
+    }
+    .text_duwa{
+        font-size: 14px;
+    }
+    .name_duwa{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .inp_name{
+        width: 90%;
+        height: 40px;
+        margin-top: 30px;
+        padding-inline: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .inp_number{
+        width: 90%;
+        height: 40px;
+        margin-top: 15px;
+        padding-inline: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .btn_duwa{
+        width: 95%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+.header_master{
+    background: #FFF7EE;
+    padding-top: 4.688vw;
+}
+.master_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 0.521vw;
+}
+.master_card{
+    margin: auto;
+    margin-top: -2.604vw;
+}
+.master_class{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4.688vw;
+    color: #220A2E;
+font-family: 'Bad Script', cursive;
+font-size: 5vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.master_janna{
+    color: #FDBA1A;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 6vw;
+font-style: normal;
+font-weight: 700;
+line-height: 3.646vw;
+}
+.master_ul{
+    margin-top: 1.563vw;
+    margin-left: 0.521vw;
+
+}
+.master_li{
+display: flex;
+align-items: center;
+justify-content: left;
+margin-left: 5.208vw;
+list-style: none;
+}
+.master_ul .li_dot{
+    width: 0.260vw;
+    height: 0.260vw;
+    margin:1.042vw 0.781vw 0.260vw 0.260vw;
+    border-radius: 50%;
+    background: #FDBA1A;
+}
+.master_li .master_text{
+    padding-top: 0.521vw;
+    font-size: 2vw;
+    color: #220A2E;
+font-size: 2.500vw;
+font-style: normal;
+font-weight: 700;
+    font-family: 'PT Sans Caption', sans-serif;
+    line-height: 4.646vw;
+    cursor: pointer;
+}
+.master_img{
+    width: 32.552vw;
+height: 37.031vw;
+margin: auto;
+margin-left: -2.604vw;
+}
+.master_happiness{
+    margin-top: 60px;
+    color: #220A2E;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 3.333vw;
+font-style: normal;
+font-weight: 700;
+}
+.master_btn_div{
+    display: flex;
+    justify-content: center;
+margin-top: 2.604vw;
+padding-bottom: 5vw;
+}
+.master_btn_zakas{
+    width: 22.760vw;
+height: 4.740vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+border: none;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media (max-width:500px) {
+    .master_btn_zakas{
+        width: 80%;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
 }
