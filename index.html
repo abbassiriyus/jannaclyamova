@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- swipper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 <body>
  <div class="navbar">
@@ -262,7 +264,8 @@
     </div>
     <div class="calendar_events">
         <h1 class="product_h1">Календарь</h1>
-        <div class="calendar_events_small">
+        <div class="big_for_block">
+           <div class="calendar_events_small">
             <div class="for_experement">
                  <i class='bx bx-calendar'></i>  
             <div class="for_block_text_in_calendar">
@@ -274,6 +277,7 @@
                <p class="text_master_klass">МАСТЕР КЛАСС</p> 
             </div>
         </div>
+        <div class="height_line_div"></div>
         <div class="calendar_events_small">
             <div class="for_experement">
                  <i class='bx bx-calendar'></i>  
@@ -286,6 +290,7 @@
                <p class="text_master_klass">МАРАФОН</p> 
             </div>
         </div>
+        <div class="height_line_div"></div>
         <div class="calendar_events_small">
             <div class="for_experement">
                  <i class='bx bx-calendar'></i>  
@@ -298,6 +303,7 @@
                <p class="text_master_klass">МАСТЕР КЛАСС</p> 
             </div>
         </div>
+        <div class="height_line_div"></div>
         <div class="calendar_events_small">
             <div class="for_experement">
                  <i class='bx bx-calendar'></i>  
@@ -309,7 +315,9 @@
             <div class="calendar_master_klass">
                <p class="text_master_klass">КУРС</p> 
             </div>
+        </div> 
         </div>
+        
         <div class="div_for_button">
         <button class="calendar_button">Подробнее про события</button>
         </div>
@@ -321,39 +329,153 @@
 
 <div class="life_reviews_card">
     <h1 class="product_h1">Живые отзывы</h1>
-    <div class="flex_reviews_img">
-        <div class="img_reviews_div">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> 
             <img src="./media/image/image 1.png" alt="" class="img_reviews">
-            <i class='bx bx-play'></i>
-        </div>
-        <div class="img_reviews_div">
+            <i class='bx bx-play bx_play1'></i></div>
+          <div class="swiper-slide"> 
             <img src="./media/image/image 2.png" alt="" class="img_reviews">
-            <i class='bx bx-play'></i>
+            <i class='bx bx-play bx_play2'></i></div>
+          <div class="swiper-slide"> 
+            <img src="./media/image/image 3.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play3'></i></div>
+    
+          <div class="swiper-slide"><img src="./media/image/image 1.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play1'></i></div>
+          <div class="swiper-slide"><img src="./media/image/image 2.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play2'></i></div>
+          <div class="swiper-slide"> <img src="./media/image/image 3.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play3'></i></div>
+    
+          <div class="swiper-slide"> <img src="./media/image/image 1.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play1'></i></div>
+          <div class="swiper-slide"> <img src="./media/image/image 2.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play2'></i></div>
+          <div class="swiper-slide"><img src="./media/image/image 3.png" alt="" class="img_reviews">
+            <i class='bx bx-play bx_play3'></i></div>
         </div>
-<div class="img_reviews_div">
-    <img src="./media/image/image 3.png" alt="" class="img_reviews">
-    <i class='bx bx-play'></i>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    <div class="but_in_reviews_div">
+         <button class="but_in_reviews">
+        заказать консультацию
+    </button>
+    </div>
+   
 </div>
 
-
+<div class="articles_video">
+    <div class="articles">
+        <h1 class="product_h1">Статьи</h1>
+        <div class="flex_articles">
+            <img class="articles_img" src="./media/image/image 9.png" alt="">   
+            <p class="articles_text">Кому нужно зайти в клуб Миллионеров?</p>
+          </div>
+          <div class="flex_articles">
+            <img class="articles_img" src="./media/image/image 8.png" alt="">   
+            <p class="articles_text">Какой результат у участниц нынешнего потока?</p>
+          </div>
+          <div class="flex_articles">
+            <img class="articles_img" src="./media/image/image 7.png" alt="">   
+            <p class="articles_text">В клубе миллионеров они все зарабатывают миллионами?</p>
+          </div>
+    </div>
+    <div class="video">
+        <h1 class="product_h1">Видео</h1>
+        <div class="flex_video">
+            <img class="img_video" src="./media/image/image 4.png" alt="">
+            <img class="img_video" src="./media/image/image 5.png" alt="" >
+        </div>
+        <div class="flex_video">
+            <img class="img_video" src="./media/image/image 6.png" alt="" >
+        </div>
     </div>
 </div>
 
 
-<!-- <footer>
-    <div class="footer_kotta_div">
-        <img src="./media/image/Desktop - 37.png" alt="">
-        <div class="flex_footer_div">
-            <a href="#">программы</a>
-            <a href="#">отзывы</a>
-            <a href="#">статьи</a>
-            <a href="#">о нас</a>
-            <a href="#">контакты</a>
-            <a href="#">мероприятия</a>
-            
+<div class="answer_to_question">
+    <h1 class="product_h2">Ответы на вопросы</h1>
+    <img class="sloy32" src="./media/image/Слой 3 2.png" alt="">
+    <img class="sloy35" src="./media/image/Слой 3 5.png" alt="">
+    <div class="kotta_div_question">
+        <div class="kichkina_div_question">
+            <p class="text_question">Какая стоимость ваших мастер классов?</p>
+            <i class='bx bx-plus-medical'></i>
+        </div>
+        <div class="kichkina_div_question">
+            <p class="text_question">В каком городе вы живёте?</p>
+            <i class='bx bx-plus-medical'></i>
+        </div>
+        <div class="kichkina_div_question">
+            <p class="text_question">Проводите ли Вы онлайн сессии?</p>
+            <i class='bx bx-plus-medical'></i>
+        </div>
+        <div class="kichkina_div_question">
+            <p class="text_question">Как попасть в Клуб Миллионеров?</p>
+            <i class='bx bx-plus-medical'></i>
+        </div>
+        <div class="kichkina_div_question">
+            <p class="text_question">В Клубе Миллионеров все зарабатывают миллионами?</p>
+            <i class='bx bx-plus-medical'></i>
         </div>
     </div>
-</footer> -->
+    <p class="text_center_question">Если вы не нашли ответ на ваш вопрос, <br> оставьте заявку и мы вам перезвоним</p>
+    <div class="div_for_button_in_question">
+        <button class="but_ostavit_zayav">оставить заявку</button>
+    </div>
+    <div class="footer">
+        <div class="div_kishkina_into_footer">
+             <img src="./media/image/Жанна Слямова 1.png" alt="" class="logo_in_footer">
+        <div class="a_href_in_footer">
+            <a class="text_into_a_href" href="#">программы</a>
+            <a class="text_into_a_href" href="#">отзывы</a>
+            <a class="text_into_a_href" href="#">статьи</a>
+            <a class="text_into_a_href" href="#">о нас</a>
+            <a class="text_into_a_href" href="#">контакты</a>
+            <a class="text_into_a_href" href="#">мероприятия</a>
+        </div>
+        <div class="img_into_footer">
+           <a href="#"><img src="./media/image/telegram.png" alt="" class="img_in_footer"></a> 
+           <a href="#"><img src="./media/image/whatsapp.png" alt="" class="img_in_footer"></a> 
+           <a href="#"><img src="./media/image/instagram (2) 1.png" alt="" class="img_in_footer"></a> 
+           <a href="#"><img src="./media/image/free-icon-youtube-3938037.png" alt="" class="img_in_footer"></a> 
+        </div>
+        </div>
+       <div class="div_kishkina_into_footer2">
+        <p class="footer_text">Политика конфеденциальности</p>
+        <p class="footer_text">Публичная оферта</p>
+        <p class="footer_text">Согласие на обработку данных</p>
+       </div>
+    </div>
+</div>
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 3,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
+
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+      return direction;
+    }
+  </script>
 </body>
 </html>
