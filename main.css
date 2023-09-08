@@ -931,6 +931,16 @@ font-weight: 700;
 line-height: normal;
 cursor: pointer;
 }
+.accordion-item{
+    width: 80% !important;
+    margin: auto;
+}
+.accordion-button{
+    width: 100% !important;
+}
+.accordion-header{
+    margin-bottom: -1px !important ;
+}
 @media (max-width:500px) {
     .master_btn_zakas{
         width: 80%;

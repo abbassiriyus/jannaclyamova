@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.page4_header_glavniy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.417vw;
+    padding-top: 4.167vw;
+    padding-bottom: 3.5vw;
+}
+.glavniy_img{
+    width: 40.260vw;
+height: 42.396vw;
+margin-left: -5.208vw;
+}
+.page4_glavni_name{
+    text-align: center;
+    display: block;
+}
+.glavni_name{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 4.688vw;
+        color: #220A2E;
+    font-family: 'Bad Script', cursive;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.208vw;
+}
+.glavni_text{
+    margin-top: 0.521vw;
+    color: #271845;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 2vw;
+font-style: normal;
+font-weight: 700;
+line-height: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header_master{
+    background: #FFF7EE;
+    padding-top: 4.688vw;
+    padding-bottom: 5vw;
+}
+.master_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 0.521vw;
+}
+.master_card{
+    margin: auto;
+    margin-top: -2.604vw;
+}
+.master_class{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4.688vw;
+    color: #220A2E;
+font-family: 'Bad Script', cursive;
+font-size: 5vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.master_janna{
+    color: #FDBA1A;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 6vw;
+font-style: normal;
+font-weight: 700;
+line-height: 3.646vw;
+}
+.master_ul{
+    margin-top: 1.563vw;
+    margin-left: 0.521vw;
+
+}
+.master_li{
+display: flex;
+align-items: center;
+justify-content: left;
+margin-left: 5.208vw;
+list-style: none;
+}
+.master_ul .li_dot{
+    width: 0.260vw;
+    height: 0.260vw;
+    margin:1.042vw 0.781vw 0.260vw 0.260vw;
+    border-radius: 50%;
+    background: #FDBA1A;
+}
+.master_li .master_text{
+    padding-top: 0.521vw;
+    font-size: 2vw;
+    color: #220A2E;
+font-size: 2.500vw;
+font-style: normal;
+font-weight: 700;
+    font-family: 'PT Sans Caption', sans-serif;
+    line-height: 4.646vw;
+    cursor: pointer;
+}
+.master_img{
+    width: 32.552vw;
+height: 37.031vw;
+margin: auto;
+margin-left: -2.604vw;
+}
+
+
+
+
+
+
+.page4_big_div{
+    background: #FCF9F4;
+    padding-top: 4.688vw;
+    text-align: center;
+}
+
+.excusriya_text_page4{
+    display: flex;
+    justify-content: center;
+    color: #220A2E;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 6vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header_excursiya{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2.604vw;
+    gap: 2.604vw;
+    padding-bottom: 2.083vw;
+}
+.excursiya_big_card_page4{
+z-index: 123 !important;
+text-align: center;
+margin-top: 20px;
+}
+.excursiya_circle_card_page4{
+    width: 23.229vw;
+height: 23.229vw;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background: rgba(253, 186, 26, 0.20);;
+}
+.excursiya_circle_img_one{
+    margin-top: -2.604vw;
+    width: 23.490vw;
+height: 19.896vw;
+}
+.excursiya_circle_img_two{
+    margin-top: -1.042vw;
+    margin-left: 2.083vw;
+    width: 25.104vw;
+height: 21.354vw;
+}
+.excursiya_circle_img_three{
+    margin-top: -3.125vw;
+    width: 27.344vw;
+height: 23.646vw;
+}
+.excursiya_circle_img_four{
+    width: 23.542vw;
+    height: 20vw;
+    margin-top: 1.042vw;
+}
+.excursiya_circle_img_five{
+    width: 29.427vw;
+    height: 19.896vw;
+}
+.excursiya_circle_img_olti{
+    width: 27.656vw;
+    height: 23.281vw;
+    margin-top: -1.563vw;
+    margin-left: 1.563vw;
+}
+
+.line_dashed_img{
+    position: absolute;
+    left: 20.5%;
+    top: 1.302vw;
+    width: 54.792vw;
+height: 445.23.192vw;
+}
+.line_dashed_img_page4{
+    position: absolute;
+    left: 20.5%;
+    top: 1.302vw;
+    width: 54.792vw;
+height: 445.23.192vw;
+}
+.excursiya_circle_text{
+    color: #271845;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.979vw;
+font-style: normal;
+font-weight: 700;
+}
+.excursiya_btn_page4{
+    width: 18.365vw;
+height: 3.5vw;
+margin-top: 1.042vw;
+border-radius: 3.125vw;
+border: 0.104vw solid #271845;
+background: #FCF9F4;
+color: #220A2E;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.575vw;
+font-style: normal;
+font-weight: 700;
+cursor: pointer;
+}
+.page4_excursiya_btn{
+    width: 24.115vw;
+height: 4.740vw;
+margin-top: 4.688vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+border: none;
+color: #271845 !important;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.367vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+@media (max-width:500px) {
+    .line_dashed_img{
+        display: none;
+    }
+    .line_dashed_img_page4{
+        display: none;
+    }
+    .excusriya_text_page4{
+        font-size: 20px;
+    }
+    .excursiya_circle_card_page4{
+        width:300px ;
+        height: 300px;
+    }
+    .excursiya_circle_img_one{
+        width: 90%;
+        height: 80%;
+    }
+    .excursiya_circle_img_two{
+        width: 90%;
+        height: 80%;
+    }
+    .excursiya_circle_img_three{
+        width: 100%;
+        height: 90%;
+    }
+    .excursiya_circle_img_four{
+        width: 90%;
+        height: 80%;
+    }
+    .excursiya_circle_img_five{
+        width: 110%;
+        height: 80%;
+    }
+    .excursiya_circle_img_olti{
+        width: 100%;
+        height: 90%;
+    }
+    .excursiya_circle_text{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .excursiya_btn_page4{
+        width: 80%;
+        height: 35px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    .page4_excursiya_btn{
+        width: 60%;
+        height: 35px;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+}

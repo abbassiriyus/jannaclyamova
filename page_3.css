@@ -41,3 +41,226 @@ line-height: 6.208vw;
     line-height: 6.208vw;
     margin-bottom: 1.563vw;
 }
+
+
+
+
+
+
+
+.header_page3_molochniy{
+    padding-top: 0.521vw;
+    padding-bottom: 1.521vw;
+    background-color: #FFF7EE;
+
+}
+.probudijenwinu_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4.688vw;
+    color: #220A2E;
+font-family: 'Bad Script', cursive;
+font-size: 6vw;
+font-style: normal;
+font-weight: 400;
+line-height: 5.208vw;
+}
+.header_page3_probudijenwinu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.208vw;
+}
+.duwa_jenwini_img{
+    width: 45.354vw;
+height: 45.146vw;
+margin-left: 3vw;
+margin-top: 5.208vw;
+}
+.duwa_jenwini_df{
+    text-align: center;
+}
+.text_duwa{
+    color: #271845;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.name_duwa{
+    margin-top: 1.563vw;
+    color: #FDBA1A;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.inp_name{
+    width: 39.688vw;
+height: 5.208vw;
+margin-top: 3.125vw;
+border-radius: 1.302vw;
+padding-inline: 1.042vw;
+border: 0.260vw solid #E1E1E1;
+background: #FFF;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+outline: none;
+}
+.inp_number{
+    width: 39.688vw;
+    height: 5.208vw;
+    margin-top: 1.563vw;
+    border-radius: 1.302vw;
+    padding-inline: 1.042vw;
+    border: 0.260vw solid #E1E1E1;
+    background: #FFF;
+    color: #271845;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+}
+.btn_duwa{
+    width: 24.115vw;
+height: 4.740vw;
+margin-top: 4.688vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+border: none;
+color: #271845 !important;
+text-align: center;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.367vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+
+.swiper-pagination-horizontal{
+    display: none;
+}
+.swiper-slide-active{
+/* height: 38.458vw !important; */
+    opacity: 1 !important;
+    scale: 0.8 !important;
+    margin: auto;
+    text-align: center;
+}
+.swiper-button-next , .swiper-button-prev{
+    color: #FDBA1A !important; 
+}
+.swiper-slide{
+    scale: 0.7;
+    /* height: 34.458vw !important; */
+    opacity: 0.5;
+}
+@media (max-width:500px) {
+    .probudijenwinu_text {
+        margin-top: 50px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .duwa_jenwini_img{
+        display: none;
+    }
+    .duwa_jenwini_df{
+        margin-top: 30px;
+        display: block;
+    }
+    .text_duwa{
+        font-size: 14px;
+    }
+    .name_duwa{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .inp_name{
+        width: 90%;
+        height: 40px;
+        margin-top: 30px;
+        padding-inline: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .inp_number{
+        width: 90%;
+        height: 40px;
+        margin-top: 15px;
+        padding-inline: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .btn_duwa{
+        width: 95%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
+
+
+
+.footer{
+    width: 90%;
+margin-top: 5.208vw !important;
+border-radius: 3.542vw;
+background: #331644;
+display: flex;
+padding:3.083vw;
+gap: 4.688vw;
+margin: auto;
+  }
+  .a_href_in_footer{
+    display: flex;
+    align-items: center;
+    gap: 1.354vw;
+    margin-top: 1.563vw;
+    margin-bottom: 1.563vw;
+  }
+  .text_into_a_href{
+    text-decoration: none;
+    color: #FFF;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .img_into_footer{
+    display: flex;
+    align-items: center;
+    gap: 1.302vw;
+  }
+  .div_kishkina_into_footer2{
+    display: block;
+    margin: auto;
+  }
+  .footer_text{
+    color: rgba(255, 255, 255, 0.50);
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: 1.563vw;
+  }
+  .img_in_footer{
+    width: 2.396vw;
+height: 2.396vw;
+  }
+  .futer_text{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+  }
