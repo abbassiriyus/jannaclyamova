@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page_3.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <link
+    rel="modulepreload"
+    href="https://triple-slider.uiinitiative.com/assets/vendor.fd82d376.js"
+  />
+  <!-- <link
+    rel="stylesheet"
+    href="https://triple-slider.uiinitiative.com/assets/index.b097f28c.css"
+  /> -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="header_page3_otziv">
+        <img class="header_otziv2_img" src="./media/image/отзывы 2.png" alt="">
+        <h2 class="page3_name">ОТЗЫВЫ</h2>
+    </div>
+
+    <center class="textoviye_otzv">
+        Текстовые отзывы
+      </center>
+
+      <div class="page3_swipers">
+<div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./media/image/Слой 10 1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/image/Слой 10 1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/image/Слой 10 1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/image/Слой 10 1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/image/Слой 10 1.png" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="bx bx-chevron-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="bx bx-chevron-left"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    
+
+
+
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          centeredSlides: true,
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+              slideToClickedSlide: true,
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 1,
+  
+              spaceBetween: 10,
+              slideToClickedSlide: true,
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 2,
+              centeredSlides: true,
+              spaceBetween: 20,
+              slideToClickedSlide: true,
+            },
+            991: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+              slideToClickedSlide: true,
+            },
+            1440: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slideToClickedSlide: true,
+            },
+            1880: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slideToClickedSlide: true,
+            },
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

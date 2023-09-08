@@ -199,6 +199,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+cursor: pointer;
 }
 
 @media (max-width:1200px) {
@@ -700,7 +701,7 @@ line-height: 5.208vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 5.208vw;
 }
 .duwa_jenwini_img{
     width: 45.354vw;
@@ -928,6 +929,7 @@ font-size: 1.5vw;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+cursor: pointer;
 }
 @media (max-width:500px) {
     .master_btn_zakas{
@@ -937,3 +939,281 @@ line-height: normal;
         font-size: 12px;
     }
 }
+
+
+
+
+
+
+.swiper-slide-active{
+    scale: 1.2;
+}
+
+
+.header_otziv{
+    padding-top: 2.604vw;
+    padding-bottom: 2.604vw;
+    background: #220A2E;
+    position: relative;
+}
+.otziv_name{
+    color: #FFF;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 6vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* .swiper-slide-active{
+    scale: 1.2;
+}
+.header_otziv .mySwiper{
+    text-align: center;
+}
+.otziv_swiper_img{
+    width: 26.302vw;
+height: 46.094vw;
+}
+.swiper-wrapper{
+    width: 80% !important;
+}
+.swiper-button-next{
+    color: #FDBA1A !important;
+}
+.swiper-button-prev{
+    color: #FDBA1A !important;
+} */
+.swiper-container{
+    width: 100%;
+}
+.otziv_star_img_one{
+    position: absolute;
+    top: 7.813vw;
+    right: 0px;
+}
+.otziv_star_img_two{
+    position: absolute;
+    bottom: 0px;
+}
+.otziv_btn{
+    width: 22.760vw;
+height: 4.740vw;
+margin-top: 4.688vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+border: none;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product_h2{
+    font-family: 'Bad Script', cursive;
+    color: #fff;
+    text-align: center;
+    /* margin-top: 2.604vw; */
+    font-size: 4.167vw;
+    z-index: 99999;
+  }
+
+  .answer_to_question{
+    background-color: #220A2E;
+    /* margin-bottom: 2.604vw; */
+    padding-bottom: 2.604vw;
+  }
+  .kichkina_div_question{
+    background-color: #fff;
+    margin-top: 1.042vw;
+    width: 70%;
+    margin-left: 15%;
+    height: 1.563vw;
+    border-radius: 1.042vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.042vw;
+    z-index: 123;
+
+  }
+  .text_question{
+    color: #220A2E;
+    font-size: 1.302vw;
+  }
+
+
+  .text_center_question{
+    text-align: center;
+    color: #fff;
+    font-size: 1.667vw;
+    margin-top: 2.563vw;
+font-family: 'PT Sans Caption', sans-serif;
+
+  }
+  .but_ostavit_zayav{
+    width: 22.760vw;
+    height: 4.740vw;
+    margin-top: 3.125vw;   
+    border-radius: 1.510vw;
+    border: none;
+    background: #FDBA1A;
+    color: #271845;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+  }
+  .div_for_button_in_question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sloy32{
+    display: none;
+    position: absolute;
+    right: 0vw;
+    margin-top: -7.813vw;
+  }
+  .sloy35{
+    display: none;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 15.625vw;
+  }
+  .kichkinaro_div_question{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1.042vw;
+  }
+  .accordion-item h2{
+    background-color: #220A2E;;
+    
+  }
+
+ .accordion-item button{
+    width: 70.573vw;
+    height: 5vw;
+    position: relative;
+    margin-top: 30px !important;
+    border-radius: 1.042vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 1.042vw;
+    padding-right: 4.5vw;
+    z-index: 123;
+    outline: none;
+    border-radius: 1.302vw !important;
+border: 0.260vw solid #E1E1E1;
+background: #FFF;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+  .accordion-body{
+    /* width: 65.573vw;  */
+    padding: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    margin: auto;
+    border-bottom-left-radius: 1.302vw;
+    border-bottom-right-radius: 1.302vw;
+  }
+  
+  .bx-plus{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 11vw;
+    font-size: 5.167vw;
+color: #271845;
+z-index: 123;
+  }
+  .logo_in_footer{
+    width: 9.635vw;
+height: 3.333vw;
+  }
+
+
+
+
+
+
+  .footer{
+    width: 90%;
+margin-top: 5.208vw !important;
+border-radius: 3.542vw;
+background: #331644;
+display: flex;
+padding:3.083vw;
+gap: 4.688vw;
+margin: auto;
+  }
+  .a_href_in_footer{
+    display: flex;
+    align-items: center;
+    gap: 1.354vw;
+    margin-top: 1.563vw;
+    margin-bottom: 1.563vw;
+  }
+  .text_into_a_href{
+    text-decoration: none;
+    color: #FFF;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .img_into_footer{
+    display: flex;
+    align-items: center;
+    gap: 1.302vw;
+  }
+  .div_kishkina_into_footer2{
+    display: block;
+    margin: auto;
+  }
+  .footer_text{
+    color: rgba(255, 255, 255, 0.50);
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: 1.563vw;
+  }
+  .img_in_footer{
+    width: 2.396vw;
+height: 2.396vw;
+  }
+  .futer_text{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+  }

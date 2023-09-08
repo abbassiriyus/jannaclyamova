@@ -585,7 +585,9 @@ font-family: 'Playfair Display', serif;
 }
 
 /* product page */
-
+.life_reviews_card{
+    position: relative;
+}
 .product_h1{
     font-family: 'Bad Script', cursive;
     color: #220A2E;
@@ -594,6 +596,13 @@ font-family: 'Playfair Display', serif;
     font-size: 80px;
 }
 
+.life_reviews_img{
+    position: absolute;
+    top:-50px;
+    z-index: -234;
+    width: 100%;
+    height: 115vh !important;
+}
 .text_in_small_product{
     color: #FDBA1A;
     font-family: 'Bad Script', cursive;
@@ -1433,6 +1442,7 @@ font-size: 30px;
 }
 
 .but_in_reviews_div{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
