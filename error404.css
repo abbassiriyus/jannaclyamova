@@ -1,0 +1,12 @@
+.error_text{
+    color: #220A2E;
+    text-align: center;
+    font-size: 30px;
+}
+.img_error_404{
+    width: 70%;
+}
+.div_error_page{
+    display: flex;
+    justify-content: center;align-items: center;
+}

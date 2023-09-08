@@ -1208,6 +1208,15 @@ font-family: 'Playfair Display', serif;
     }
 }
 
+@media (max-width:400px) {
+    .product_h5{
+        font-size: 50px !important; 
+    }
+    .you_a_woman{
+        font-size: 10px !important;
+    }
+}
+
 .product_h5{
     font-family: 'Bad Script', cursive;
     color: #220A2E;
