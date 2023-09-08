@@ -955,8 +955,37 @@ cursor: pointer;
 
 
 
+.main_swipers{
+    padding-top: 1vw;
+    background: #220A2E;
+}
+.main_otziv_name{
+    color: #fff;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 7.292vw;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1vw;
+    margin-bottom: -2vw;
+}
+.swiper-pagination-horizontal{
+    display: none;
+}
 .swiper-slide-active{
-    scale: 1.2;
+/* height: 38.458vw !important; */
+    opacity: 1 !important;
+    scale: 0.8 !important;
+    margin: auto;
+    text-align: center;
+}
+.swiper-button-next , .swiper-button-prev{
+    color: #FDBA1A !important; 
+}
+.swiper-slide{
+    scale: 0.7;
+    /* height: 34.458vw !important; */
+    opacity: 0.5;
 }
 
 
@@ -1218,6 +1247,7 @@ font-size: 1.667vw;
 font-style: normal;
 font-weight: 700;
 line-height: 1.563vw;
+margin-bottom: 0px;
   }
   .img_in_footer{
     width: 2.396vw;
