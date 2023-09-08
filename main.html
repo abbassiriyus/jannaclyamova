@@ -1,199 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <link href="https://fonts.cdnfonts.com/css/signpainter" rel="stylesheet">
-    <link href="https://db.onlinewebfonts.com/c/cfdf18a10f253f0aa9db6db978d328c0?family=SignPainter+HouseScript" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/cfdf18a10f253f0aa9db6db978d328c0?family=SignPainter+HouseScript"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div class="navbar">
         <img class="logo" src="./media/Жанна Слямова 1.png" alt="">
         <ul class="nav-link">
-            <a href="#"><li class="nav">программы</li></a>
-            <a href="#"><li class="nav">отзывы</li></a>
-             <a href="#"><li class="nav">статьи</li></a>
-             <a href="#"><li class="nav">о нас</li></a>
-             <a href="#"><li class="nav">контакты</li></a>
+            <a href="#">
+                <li class="nav">программы</li>
+            </a>
+            <a href="#">
+                <li class="nav">отзывы</li>
+            </a>
+            <a href="#">
+                <li class="nav">статьи</li>
+            </a>
+            <a href="#">
+                <li class="nav">о нас</li>
+            </a>
+            <a href="#">
+                <li class="nav">контакты</li>
+            </a>
         </ul>
         <ul class="form">
-            <a href="#"><li ><img src="./media/image/telegram.png" class="bot" alt=""></li></a>
-            <a href="#"><li ><img src="./media/image/whatsapp.png" class="bot" alt=""></li></a>
-            <a href="#"><li ><img src="./media/image/instagram (2) 1.png" class="bot" alt=""></li></a>
-            <a href="#"><li ><img src="./media/image/free-icon-youtube-3938037.png" class="bot" alt=""></li></a>
-        
+            <a href="#">
+                <li><img src="./media/image/telegram.png" class="bot" alt=""></li>
+            </a>
+            <a href="#">
+                <li><img src="./media/image/whatsapp.png" class="bot" alt=""></li>
+            </a>
+            <a href="#">
+                <li><img src="./media/image/instagram (2) 1.png" class="bot" alt=""></li>
+            </a>
+            <a href="#">
+                <li><img src="./media/image/free-icon-youtube-3938037.png" class="bot" alt=""></li>
+            </a>
+
         </ul>
-        
+
         <div class="toggle">
             <i onclick="document.querySelector('.media_toggle').style='right: 0px;'" class='bx bx-menu-alt-left'></i>
         </div>
         <ul class="media_toggle">
-            <div class="close_toggle" onclick="document.querySelector('.media_toggle').style='right: -320px;'" >x</div>
+            <div class="close_toggle" onclick="document.querySelector('.media_toggle').style='right: -320px;'">x</div>
             <a href="#">
-                <li class="nav_media">программы</li></a>
-            <a href="#"><li class="nav_media">отзывы</li></a>
-             <a href="#"><li class="nav_media">статьи</li></a>
-             <a href="#"><li class="nav_media">о нас</li></a>
-             <a href="#"><li class="nav_media">контакты</li></a>
-        <div class="media_link">
-               <a href="#"><li ><img src="./media/image/telegram.png" class="bot1" alt=""></li></a>
-            <a href="#"><li ><img src="./media/image/whatsapp.png" class="bot1" alt=""></li></a>
-            <a href="#"><li ><img src="./media/image/instagram (2) 1.png" class="bot1" alt=""></li></a>
-            <a href="#"><li ><img src="./media/image/free-icon-youtube-3938037.png" class="bot1" alt=""></li></a>
-        </div>
+                <li class="nav_media">программы</li>
+            </a>
+            <a href="#">
+                <li class="nav_media">отзывы</li>
+            </a>
+            <a href="#">
+                <li class="nav_media">статьи</li>
+            </a>
+            <a href="#">
+                <li class="nav_media">о нас</li>
+            </a>
+            <a href="#">
+                <li class="nav_media">контакты</li>
+            </a>
+            <div class="media_link">
+                <a href="#">
+                    <li><img src="./media/image/telegram.png" class="bot1" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="./media/image/whatsapp.png" class="bot1" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="./media/image/instagram (2) 1.png" class="bot1" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="./media/image/free-icon-youtube-3938037.png" class="bot1" alt=""></li>
+                </a>
+            </div>
         </ul>
-         </div>
+    </div>
 
 
 
-         <div class="header_stranisa_ikki">
-            <img class="header_ikki_img" src="./media/image/я женщина 1.png" alt="">
-            <div class="header_ikki_db">
-                <div class="header_date_div">
-                    <p class="db_date">12 сентября 2023</p>
-                </div>
-                <span class="db_inside_master">МАСТЕР КЛАСС</span>
-                <p class="db_jenwina_card">
-                    Я - ЖЕНЩИНА
-                </p>
-                <button class="db_btn_zakas">заказать консультацию</button>
+    <div class="header_stranisa_ikki">
+        <img class="header_ikki_img" src="./media/image/я женщина 1.png" alt="">
+        <div class="header_ikki_db">
+            <div class="header_date_div">
+                <p class="db_date">12 сентября 2023</p>
             </div>
-         </div>
+            <span class="db_inside_master">МАСТЕР КЛАСС</span>
+            <p class="db_jenwina_card">
+                Я - ЖЕНЩИНА
+            </p>
+            <button class="db_btn_zakas">заказать консультацию</button>
+        </div>
+    </div>
 
 
-         <div class="header_ikki_uzun">
-            <div class="cards_vlublenniye">
-                <h2 class="vlublenniye_text">Это билет в ваше «И жили они долго и счастливо». Если отношения с мужем потеряли былую искру, если не можете сделать выбор в отношениях, если никак не можете притянуть в свою жизнь мужчину с которым были бы счастливы — этот мастер-класс для вас!</h2>
-                <img class="vlublenniye_img" src="./media/image/k 1.png" alt="">
-            </div>
-
-            <h2 class="excusriya_text">Что Вас ждёт!?</h2>
-
-
-            <div class="header_excursiya">
-                <div class="excursiya_big_card">
-                    <div class="excursiya_circle_card">
-                        <img class="excursiya_circle_img_one" src="./media/image/даты 1.png" alt="">
-                    </div>
-                    <p class="excursiya_circle_text">Мастер класс<br>
-                        длительностью<br>
-                        12 дней</p>
-                </div>
-
-                <div class="excursiya_big_card">
-                    <div class="excursiya_circle_card">
-                        <img class="excursiya_circle_img_two" src="./media/image/учится 1.png" alt="">
-                    </div>
-                    <p class="excursiya_circle_text">Лекции с <br>домашними<br> заданиями</p>
-                </div>
-
-                <div class="excursiya_big_card">
-                    <div class="excursiya_circle_card">
-                        <img class="excursiya_circle_img_three" src="./media/image/медитаци 1.png" alt="">
-                    </div>
-                    <p class="excursiya_circle_text">Медитации с<br> глубокими<br> проработками</p>
-                </div>
-
-                <img class="line_dashed_img" src="./media/image/Vector 1.png" alt="">
-            </div>
-
-            <h2 class="family_text">Для кого подойдёт!?</h2>
-
-
-            
-            <div class="header_family_card">
-                <img class="family_img_one" src="./media/image/ctvmz 1.png" alt="">
-                <div class="family_db">
-                    <h3 class="family_db_name">Для семейных</h3>
-                    <p class="family_db_text">наладить отношения с супругом, четко определить ваш ли это человек, разжечь былой огонь в отношениях</p>
-                </div>
-            </div>
-
-            <div class="header_family_card_two">
-                <div class="family_db_two">
-                    <h3 class="family_db_name_db">Для тех, у кого<br>
-                        есть партнер</h3>
-                    <p class="family_db_text_db">понять ваш ли это человек и сделать правильный выбор</p>
-                </div>
-                <img class="family_img_two" src="./media/image/5385923 1.png" alt="">
-            </div>
-
-            <div class="header_family_card_three">
-                <img class="family_img_three" src="./media/image/я сама 1.png" alt="">
-                <div class="family_db_three">
-                    <h3 class="family_db_name_db_two">Для тех, кто<br>
-                        в поиске</h3>
-                    <p class="family_db_text_db_three">понять какого человека вы хотите видеть рядом и притянуть именно его в свою жизнь</p>
-                </div>
-            </div>
-
-
-         </div>
-
-
-
-        <div class="header_mix_df">
-            <div class="mix_card">
-                <img class="mix_img" src="./media/image/формат 1.png" alt="">
-                <h3 class="mix_name">Формат</h3>
-                <p class="mix_text">Видео и аудио (в записи — доступ к урокам остается навсегда)</p>
-            </div>
-
-            <div class="mix_card">
-                <img class="mix_img" src="./media/image/деньги 1.png" alt="">
-                <h3 class="mix_name">Стоимость</h3>
-                <span class="mix_narx">22 800 ₸<br>
-                    4 000 ₽</span>
-            </div>
-
-            <div class="mix_card">
-                <img class="mix_img" src="./media/image/календарь 9.png" alt="">
-                <h3 class="mix_name">Начало</h3>
-                <span class="mix_date">12 сентября<br> 2023</span>
-            </div>
-
+    <div class="header_ikki_uzun">
+        <div class="cards_vlublenniye">
+            <h2 class="vlublenniye_text">Это билет в ваше «И жили они долго и счастливо». Если отношения с мужем
+                потеряли былую искру, если не можете сделать выбор в отношениях, если никак не можете притянуть в свою
+                жизнь мужчину с которым были бы счастливы — этот мастер-класс для вас!</h2>
+            <img class="vlublenniye_img" src="./media/image/k 1.png" alt="">
         </div>
 
+        <h2 class="excusriya_text">Что Вас ждёт!?</h2>
 
-        <div class="probudijenwinu_text">Пробуди в себе женщину<br> прямо сейчас</div>
 
-        <div class="header_probudijenwinu">
-            <img class="duwa_jenwini_img" src="./media/image/Слой 1а 1.png" alt="">
-            <div class="duwa_jenwini_df">
-                <p class="text_duwa">В жизни все идет не так; не можете найти<br> себя, не знаете что делать; хочется все<br> изменить, но не знаете с чего начать</p>
-                <h4 class="name_duwa">Я ПОВЕРНУ ТЕБЯ К ТВОЕЙ ДУШЕ!</h4>
-                <input class="inp_name" type="text" name="" id="" placeholder="Как тебя зовут?">
-                <input class="inp_number" type="text" name="" id="" placeholder="Номер для связи">
-                <button class="btn_duwa">записаться на мастер класс</button>
+        <div class="header_excursiya">
+            <div class="excursiya_big_card">
+                <div class="excursiya_circle_card">
+                    <img class="excursiya_circle_img_one" src="./media/image/даты 1.png" alt="">
+                </div>
+                <p class="excursiya_circle_text">Мастер класс<br>
+                    длительностью<br>
+                    12 дней</p>
+            </div>
+
+            <div class="excursiya_big_card">
+                <div class="excursiya_circle_card">
+                    <img class="excursiya_circle_img_two" src="./media/image/учится 1.png" alt="">
+                </div>
+                <p class="excursiya_circle_text">Лекции с <br>домашними<br> заданиями</p>
+            </div>
+
+            <div class="excursiya_big_card">
+                <div class="excursiya_circle_card">
+                    <img class="excursiya_circle_img_three" src="./media/image/медитаци 1.png" alt="">
+                </div>
+                <p class="excursiya_circle_text">Медитации с<br> глубокими<br> проработками</p>
+            </div>
+
+            <img class="line_dashed_img" src="./media/image/Vector 1.png" alt="">
+        </div>
+
+        <h2 class="family_text">Для кого подойдёт!?</h2>
+
+
+
+        <div class="header_family_card">
+            <img class="family_img_one" src="./media/image/ctvmz 1.png" alt="">
+            <div class="family_db">
+                <h3 class="family_db_name">Для семейных</h3>
+                <p class="family_db_text">наладить отношения с супругом, четко определить ваш ли это человек, разжечь
+                    былой огонь в отношениях</p>
+            </div>
+        </div>
+
+        <div class="header_family_card_two">
+            <div class="family_db_two">
+                <h3 class="family_db_name_db">Для тех, у кого<br>
+                    есть партнер</h3>
+                <p class="family_db_text_db">понять ваш ли это человек и сделать правильный выбор</p>
+            </div>
+            <img class="family_img_two" src="./media/image/5385923 1.png" alt="">
+        </div>
+
+        <div class="header_family_card_three">
+            <img class="family_img_three" src="./media/image/я сама 1.png" alt="">
+            <div class="family_db_three">
+                <h3 class="family_db_name_db_two">Для тех, кто<br>
+                    в поиске</h3>
+                <p class="family_db_text_db_three">понять какого человека вы хотите видеть рядом и притянуть именно его
+                    в свою жизнь</p>
             </div>
         </div>
 
 
+    </div>
 
-        <div class="header_master">
-            <div class="master_cards">
-                <div class="master_card">
+
+
+    <div class="header_mix_df">
+        <div class="mix_card">
+            <img class="mix_img" src="./media/image/формат 1.png" alt="">
+            <h3 class="mix_name">Формат</h3>
+            <p class="mix_text">Видео и аудио (в записи — доступ к урокам остается навсегда)</p>
+        </div>
+
+        <div class="mix_card">
+            <img class="mix_img" src="./media/image/деньги 1.png" alt="">
+            <h3 class="mix_name">Стоимость</h3>
+            <span class="mix_narx">22 800 ₸<br>
+                4 000 ₽</span>
+        </div>
+
+        <div class="mix_card">
+            <img class="mix_img" src="./media/image/календарь 9.png" alt="">
+            <h3 class="mix_name">Начало</h3>
+            <span class="mix_date">12 сентября<br> 2023</span>
+        </div>
+
+    </div>
+
+
+    <div class="probudijenwinu_text">Пробуди в себе женщину<br> прямо сейчас</div>
+
+    <div class="header_probudijenwinu">
+        <img class="duwa_jenwini_img" src="./media/image/Слой 1а 1.png" alt="">
+        <div class="duwa_jenwini_df">
+            <p class="text_duwa">В жизни все идет не так; не можете найти<br> себя, не знаете что делать; хочется
+                все<br> изменить, но не знаете с чего начать</p>
+            <h4 class="name_duwa">Я ПОВЕРНУ ТЕБЯ К ТВОЕЙ ДУШЕ!</h4>
+            <input class="inp_name" type="text" name="" id="" placeholder="Как тебя зовут?">
+            <input class="inp_number" type="text" name="" id="" placeholder="Номер для связи">
+            <button class="btn_duwa">записаться на мастер класс</button>
+        </div>
+    </div>
+
+
+
+    <div class="header_master">
+        <div class="master_cards">
+            <div class="master_card">
                 <h2 class="master_class">Ведущая мастер класса</h2>
                 <h1 class="master_janna">Жанна Слямова</h1>
                 <ul class="master_ul">
-                    <li class="master_li"> <div class="li_dot"></div><p class="master_text"> Международный коуч</p></li>
-                    <li class="master_li"> <div class="li_dot"></div><p class="master_text">Долларовый миллионер</p></li>
-                    <li class="master_li"> <div class="li_dot"></div><p class="master_text">Проводником Души</p></li>
-                    <li class="master_li"> <div class="li_dot"></div><p class="master_text">Енергопрактик</p></li>
+                    <li class="master_li">
+                        <div class="li_dot"></div>
+                        <p class="master_text"> Международный коуч</p>
+                    </li>
+                    <li class="master_li">
+                        <div class="li_dot"></div>
+                        <p class="master_text">Долларовый миллионер</p>
+                    </li>
+                    <li class="master_li">
+                        <div class="li_dot"></div>
+                        <p class="master_text">Проводником Души</p>
+                    </li>
+                    <li class="master_li">
+                        <div class="li_dot"></div>
+                        <p class="master_text">Енергопрактик</p>
+                    </li>
                 </ul>
+            </div>
+            <img class="master_img" src="./media/image/фото 1.png" alt="">
+        </div>
+        <h1 class="master_happiness">Ваше женское счастье в руках эксперта</h1>
+        <div class="master_btn_div">
+            <button class="master_btn_zakas">заказать консультацию</button>
+        </div>
+    </div>
+
+
+
+    <div class="header_otziv">
+        <!-- <h2 class="otziv_name">Отзывы</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./media/image/Слой 10 1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./media/image/Слой 10 1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./media/image/Слой 10 1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./media/image/Слой 10 1.png" alt=""></div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <img class="otziv_star_img_one" src="./media/image/Слой 3 2.png" alt="">
+        <img class="otziv_star_img_two" src="./media/image/Слой 3 5.png" alt=""> -->
+    </div>
+
+
+
+
+
+
+
+
+    <div class="answer_to_question">
+        <h1 class="product_h2">Ответы на вопросы</h1>
+        <img class="sloy32" src="./media/image/Слой 3 2.png" alt="">
+        <img class="sloy35" src="./media/image/Слой 3 5.png" alt="">
+        <!-- <div class="kotta_div_question">
+            <div class="kichkinaro_div_question">
+                <input class="narx_inp" type="text" name="" id="" placeholder="Какая стоимость ваших мастер классов?">
+                <i class='bx bx-plus'></i>
+            </div>
+            <div class="kichkinaro_div_question">
+                <input class="narx_inp" type="text" name="" id="" placeholder="В каком городе вы живёте?">
+                <i class='bx bx-plus'></i>
+            </div>
+            <div class="kichkinaro_div_question">
+                <input class="narx_inp" type="text" name="" id="" placeholder="Проводите ли Вы онлайн сессии?">
+                <i class='bx bx-plus'></i>
+            </div>
+            <div class="kichkinaro_div_question">
+                <input class="narx_inp" type="text" name="" id="" placeholder="Как попасть в Клуб Миллионеров?">
+                <i class='bx bx-plus'></i>
+            </div>
+            <div class="kichkinaro_div_question">
+                <input class="narx_inp" type="text" name="" id=""
+                    placeholder="В Клубе Миллионеров все зарабатывают миллионами?">
+                <i class='bx bx-plus'></i>
+            </div>
+        </div> -->
+        
+
+        <div class="kotta_div_question">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
                 </div>
-                <img class="master_img" src="./media/image/фото 1.png" alt="">
-            </div>
-            <h1 class="master_happiness">Ваше женское счастье в руках эксперта</h1>
-            <div class="master_btn_div">
-                <button class="master_btn_zakas">заказать консультацию</button>
-            </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <p class="text_center_question">Если вы не нашли ответ на ваш вопрос, <br> оставьте заявку и мы вам перезвоним
+        </p>
+        <div class="div_for_button_in_question">
+            <button class="but_ostavit_zayav">оставить заявку</button>
         </div>
 
-         
+
+
+
+
+        <div class="footer">
+            <div class="div_kishkina_into_footer">
+                <img src="./media/image/Жанна Слямова 1.png" alt="" class="logo_in_footer">
+                <div class="a_href_in_footer">
+                    <a class="text_into_a_href" href="#">программы</a>
+                    <a class="text_into_a_href" href="#">отзывы</a>
+                    <a class="text_into_a_href" href="#">статьи</a>
+                    <a class="text_into_a_href" href="#">о нас</a>
+                    <a class="text_into_a_href" href="#">контакты</a>
+                    <a class="text_into_a_href" href="#">мероприятия</a>
+                </div>
+                <div class="img_into_footer">
+                    <a href="#"><img src="./media/image/telegram.png" alt="" class="img_in_footer"></a>
+                    <a href="#"><img src="./media/image/whatsapp.png" alt="" class="img_in_footer"></a>
+                    <a href="#"><img src="./media/image/instagram (2) 1.png" alt="" class="img_in_footer"></a>
+                    <a href="#"><img src="./media/image/free-icon-youtube-3938037.png" alt="" class="img_in_footer"></a>
+                </div>
+            </div>
+            <div class="div_kishkina_into_footer2">
+                <p class="footer_text"><a class="futer_text" href="">Политика<br> конфеденциальности</a></p><br>
+                <p class="footer_text"><a class="futer_text" href="">Публичная оферта</a></p><br>
+                <p class="footer_text"><a class="futer_text" href="">Согласие на обработку<br> данных</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
+
 </html>
