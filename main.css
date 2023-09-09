@@ -977,6 +977,7 @@ cursor: pointer;
     padding-top: 1vw;
     text-align: center;
     background: #220A2E;
+    user-select: none;
 }
 .main_stars1{
     width: 20.365vw;

@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<!-- swipper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+       <!-- swipper -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 <body>
@@ -248,16 +250,20 @@
 
 <div class="events">
     <div class="new_events">
-        <div class="five_new_events">
-             <p class="you_a_woman">
+        <div class="five_new_events"> 
+            <div class="time_master_class_kotta">
+               <i class='bx bx-calendar bx_calendar2'></i>  
+ 
+                <p class="time_master_class">
+                    15-23 сентября, <br> 2023
+                </p>  
+            </div>
+            
+             
+            <div class="calendar_master">
+              <p class="you_a_woman">
                  “Я ЖЕНЩИНА”
              </p>
-            <div class="calendar_master">
-                <i class='bx bx-calendar bx_calendar2'></i>  
- 
-                <p class="time_master_class">
-                    15-23 сентября, <br> 2023
-                </p>
                  
                      <button class="but_in_div_mastter">
                      МАСТЕР КЛАСС
@@ -265,18 +271,20 @@
              
              </div>
         </div>
-        <div class="therst_new_events">
-           <p class="you_a_woman">
-                    Денежная Энергия
+        <div class="therst_new_events"> 
+            <div class="time_master_class_kotta">
+               <i class='bx bx-calendar bx_calendar2'></i>  
+ 
+                <p class="time_master_class">
+                    15-23 сентября, <br> 2023
+                </p>  
+            </div>
+            
+             
+            <div class="calendar_master">
+              <p class="you_a_woman">
+                Денежная Энергия
              </p>
-        
-           
-            <div class="calendar_master">
-                <i class='bx bx-calendar bx_calendar2'></i>  
- 
-                <p class="time_master_class">
-                    15-23 сентября, <br> 2023
-                </p>
                  
                      <button class="but_in_div_mastter">
                      МАСТЕР КЛАСС
@@ -284,17 +292,20 @@
              
              </div>
         </div>
-        <div class="fourth_new_events">
-           <p class="you_a_woman">
-                    “Счастье в семье”
+        <div class="fourth_new_events"> 
+            <div class="time_master_class_kotta">
+               <i class='bx bx-calendar bx_calendar2'></i>  
+ 
+                <p class="time_master_class">
+                    15-23 сентября, <br> 2023
+                </p>  
+            </div>
+            
+             
+            <div class="calendar_master">
+              <p class="you_a_woman">
+                “Счастье в семье”
              </p>
-           
-            <div class="calendar_master">
-                <i class='bx bx-calendar bx_calendar2'></i>  
- 
-                <p class="time_master_class">
-                    15-23 сентября, <br> 2023
-                </p>
                  
                      <button class="but_in_div_mastter">
                      МАСТЕР КЛАСС
@@ -302,10 +313,9 @@
              
              </div>
         </div>
-
     </div>
     <div class="calendar_events">
-        <h1 class="product_h1">Календарь</h1>
+        <h1 class="product_h11">Календарь</h1>
         <div class="big_for_block">
            <div class="calendar_events_small">
             <div class="for_experement">
@@ -316,7 +326,9 @@
             </div>  
             </div>
             <div class="calendar_master_klass">
-               <p class="text_master_klass">МАСТЕР КЛАСС</p> 
+               <button class="text_master_klass">
+                МАСТЕР КЛАСС
+               </button>
             </div>
         </div>
         <div class="height_line_div"></div>
@@ -369,45 +381,55 @@
 </div>   
 </div>
 
-<div class="life_reviews_card">
-    <h1 class="product_h1">Живые отзывы</h1>
-    <img class="life_reviews_img" src="./media/image/Слой 1 4.png" alt="">
-    <div class="swiper">
+ 
+
+
+<div class="main_swipers">
+    <h2 class="main_otziv_name">Живые отзывы</h2>
+    <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"> 
-            <img src="./media/image/image 1.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play1'></i>
+            <div class="swiper-slide">
+                <video class="video_in_swiper" width="600" height="1000"  controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div class="swiper-slide">
+                <video class="video_in_swiper" width="600" height="1000"  controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div class="swiper-slide">
+                <video class="video_in_swiper" width="600" height="1000"  controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div class="swiper-slide">
+                <video class="video_in_swiper" width="600" height="1000"  controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div class="swiper-slide">
+                <video class="video_in_swiper" width="600" height="1000"  controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
         </div>
-          <div class="swiper-slide"> 
-            <img src="./media/image/image 2.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play2'></i></div>
-          <div class="swiper-slide"> 
-            <img src="./media/image/image 3.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play3'></i></div>
-    
-          <div class="swiper-slide"><img src="./media/image/image 1.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play1'></i></div>
-          <div class="swiper-slide"><img src="./media/image/image 2.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play2'></i></div>
-          <div class="swiper-slide"> <img src="./media/image/image 3.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play3'></i></div>
-    
-          <div class="swiper-slide"> <img src="./media/image/image 1.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play1'></i></div>
-          <div class="swiper-slide"> <img src="./media/image/image 2.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play2'></i></div>
-          <div class="swiper-slide"><img src="./media/image/image 3.png" alt="" class="img_reviews">
-            <i class='bx bx-play bx_play3'></i></div>
+        <div class="swiper-button-next">
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    <div class="but_in_reviews_div">
-         <button class="but_in_reviews">
-        заказать консультацию
-    </button>
+        <div class="swiper-button-prev">
+        </div>
+        <div class="swiper-pagination"></div>
     </div>
-   
 </div>
 
 <div class="articles_video">
@@ -429,109 +451,196 @@
     <div class="video">
         <h1 class="product_h1">Видео</h1>
         <div class="flex_video">
-            <video class="video_in_video" width="320" height="240"  controls>
+            <div class="video_div">
+              <video class="video_in_video" width="320" height="240"  controls>
             <source src="movie.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
             Your browser does not support the video tag.
-          </video>
-          <video class="video_in_video" width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
+          </video>  
+          <p class="text_in_video">фильм "Жанна. Проводник Души"</p>
+          <p class="text_in_video">BIIK QAMAL</p>
+            </div>
+            
+            <div class="video_div">
+                <video class="video_in_video" width="320" height="240"  controls>
+              <source src="movie.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>  
+            <p class="text_in_video">Казаский род, культ предков и их</p>
+            <p class="text_in_video">поддержка. Интервью Динары...</p>
+              </div>
         </div>
         <div class="flex_video">
-            <video class="video_in_video" width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
+            <div class="video_div">
+                <video class="video_in_video" width="320" height="240"  controls>
+              <source src="movie.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>  
+            <p class="text_in_video">Эксклюзивное интервью Баян</p>
+            <p class="text_in_video">Алагузовой с экспертом по работе ...</p>
+              </div>
         </div>
     </div>
 </div>
 
 
-<div class="answer_to_question">
-    <h1 class="product_h2">Ответы на вопросы</h1>
-    <img class="sloy32" src="./media/image/Слой 3 2.png" alt="">
-    <img class="sloy35" src="./media/image/Слой 3 5.png" alt="">
-    <div class="kotta_div_question">
-        <div class="kichkina_div_question">
-            <p class="text_question">Какая стоимость ваших мастер классов?</p>
-            <i class='bx bx-plus-medical'></i>
+
+    <div class="answer_to_question">
+        <h1 class="product_h2">Ответы на вопросы</h1>
+        <img class="sloy32" src="./media/image/Слой 3 2.png" alt="">
+        <img class="sloy35" src="./media/image/Слой 3 5.png" alt="">
+        
+
+        <div class="kotta_div_question">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Какая стоимость ваших мастер классов?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        В каком городе вы живёте?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Проводите ли Вы онлайн сессии?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Как попасть в Клуб Миллионеров?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                        В Клубе Миллионеров все зарабатывают миллионами?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+              </div>
         </div>
-        <div class="kichkina_div_question">
-            <p class="text_question">В каком городе вы живёте?</p>
-            <i class='bx bx-plus-medical'></i>
+        <p class="text_center_question">Если вы не нашли ответ на ваш вопрос, <br> оставьте заявку и мы вам перезвоним
+        </p>
+        <div class="div_for_button_in_question">
+            <button class="but_ostavit_zayav">оставить заявку</button>
         </div>
-        <div class="kichkina_div_question">
-            <p class="text_question">Проводите ли Вы онлайн сессии?</p>
-            <i class='bx bx-plus-medical'></i>
-        </div>
-        <div class="kichkina_div_question">
-            <p class="text_question">Как попасть в Клуб Миллионеров?</p>
-            <i class='bx bx-plus-medical'></i>
-        </div>
-        <div class="kichkina_div_question">
-            <p class="text_question">В Клубе Миллионеров все зарабатывают миллионами?</p>
-            <i class='bx bx-plus-medical'></i>
+
+
+
+
+
+        <div class="footer">
+            <div class="div_kishkina_into_footer">
+                <img src="./media/image/Жанна Слямова 1.png" alt="" class="logo_in_footer">
+                <div class="a_href_in_footer">
+                    <a class="text_into_a_href" href="#">программы</a>
+                    <a class="text_into_a_href" href="#">отзывы</a>
+                    <a class="text_into_a_href" href="#">статьи</a>
+                    <a class="text_into_a_href" href="#">о нас</a>
+                    <a class="text_into_a_href" href="#">контакты</a>
+                    <a class="text_into_a_href" href="#">мероприятия</a>
+                </div>
+                <div class="img_into_footer">
+                    <a href="#"><img src="./media/image/telegram.png" alt="" class="img_in_footer"></a>
+                    <a href="#"><img src="./media/image/whatsapp.png" alt="" class="img_in_footer"></a>
+                    <a href="#"><img src="./media/image/instagram (2) 1.png" alt="" class="img_in_footer"></a>
+                    <a href="#"><img src="./media/image/free-icon-youtube-3938037.png" alt="" class="img_in_footer"></a>
+                </div>
+            </div>
+            <div class="div_kishkina_into_footer2">
+                <p class="footer_text"><a class="futer_text" href="">Политика<br> конфеденциальности</a></p><br>
+                <p class="footer_text"><a class="futer_text" href="">Публичная оферта</a></p><br>
+                <p class="footer_text"><a class="futer_text" href="">Согласие на обработку<br> данных</a></p>
+            </div>
         </div>
     </div>
-    <p class="text_center_question">Если вы не нашли ответ на ваш вопрос, <br> оставьте заявку и мы вам перезвоним</p>
-    <div class="div_for_button_in_question">
-        <button class="but_ostavit_zayav">оставить заявку</button>
-    </div>
-    <div class="footer">
-        <div class="div_kishkina_into_footer">
-             <img src="./media/image/Жанна Слямова 1.png" alt="" class="logo_in_footer">
-        <div class="a_href_in_footer">
-            <a class="text_into_a_href" href="#">программы</a>
-            <a class="text_into_a_href" href="#">отзывы</a>
-            <a class="text_into_a_href" href="#">статьи</a>
-            <a class="text_into_a_href" href="#">о нас</a>
-            <a class="text_into_a_href" href="#">контакты</a>
-            <a class="text_into_a_href" href="#">мероприятия</a>
-        </div>
-        <div class="img_into_footer">
-           <a href="#"><img src="./media/image/telegram.png" alt="" class="img_in_footer"></a> 
-           <a href="#"><img src="./media/image/whatsapp.png" alt="" class="img_in_footer"></a> 
-           <a href="#"><img src="./media/image/instagram (2) 1.png" alt="" class="img_in_footer"></a> 
-           <a href="#"><img src="./media/image/free-icon-youtube-3938037.png" alt="" class="img_in_footer"></a> 
-        </div>
-        </div>
-       <div class="div_kishkina_into_footer2">
-        <p class="footer_text">Политика конфеденциальности</p>
-        <p class="footer_text">Публичная оферта</p>
-        <p class="footer_text">Согласие на обработку данных</p>
-       </div>
-    </div>
-</div>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-<script>
-    var swiper = new Swiper('.swiper', {
-      slidesPerView: 3,
-      direction: getDirection(),
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      on: {
-        resize: function () {
-          swiper.changeDirection(getDirection());
-        },
-      },
-    });
 
-    function getDirection() {
-      var windowWidth = window.innerWidth;
-      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+      var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          centeredSlides: true,
+          pagination: {
+              el: ".swiper-pagination",
+              type: "fraction",
+          },
+          breakpoints: {
+              // when window width is >= 320px
+              320: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                  slideToClickedSlide: true,
+              },
+              // when window width is >= 480px
+              480: {
+                  slidesPerView: 1,
 
-      return direction;
-    }
+                  spaceBetween: 10,
+                  slideToClickedSlide: true,
+              },
+              // when window width is >= 640px
+              640: {
+                  slidesPerView: 2,
+                  centeredSlides: true,
+                  spaceBetween: 20,
+                  slideToClickedSlide: true,
+              },
+              991: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                  slideToClickedSlide: true,
+              },
+              1440: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                  slideToClickedSlide: true,
+              },
+              1880: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                  slideToClickedSlide: true,
+              },
+          },
+          navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+          },
+      });
   </script>
+
 </body>
 </html>
