@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.page7_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    background: #F8F8F8;
+    padding-top: 4.688vw;
+    padding-bottom: 10.417vw;
+}
+.page7_calendar_img{
+    width: 50.677vw;
+height: 33.802vw;
+}
+.calendar_name{
+    color: #271845;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6vw;
+}
+.calendar_text{
+    color: #271845;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+}
+.calendar_btn{
+    width: 22.760vw;
+    height: 4.740vw;
+    margin-top: 3.125vw;   
+    border-radius: 1.510vw;
+    border: none;
+    background: #FDBA1A;
+    color: #271845;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
