@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
 }
+*,
+*::before,
+*::after {
+  box-sizing:content-box !important;
+}
 
 
 
@@ -157,6 +162,7 @@ border: 2px solid #FFF;
 .header_date_div .db_date{
     width: 280px;
 height: 34px;
+margin-bottom: 0px;
 color: #FFF;
 text-align: center;
 font-family: 'PT Sans Caption', sans-serif;
@@ -258,6 +264,9 @@ cursor: pointer;
         margin-top: 3vw;
     }
 }
+
+
+
 
 
 
@@ -405,6 +414,8 @@ font-weight: 700;
         margin-bottom: 20px;
     }
 }
+
+
 
 
 
@@ -667,7 +678,7 @@ font-weight: 700;
         line-height: normal;
     }
     .mix_text{
-        font-size: 20px;
+        font-size: 18px;
     }
     .mix_narx{
         margin-top: 30px;
@@ -941,6 +952,12 @@ cursor: pointer;
 .accordion-header{
     margin-bottom: -1px !important ;
 }
+.accordion-button{
+    box-sizing: border-box !important;
+}
+.collapsed{
+    box-sizing: border-box !important;
+}
 @media (max-width:500px) {
     .master_btn_zakas{
         width: 80%;
@@ -1004,25 +1021,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-/* .swiper-slide-active{
-    scale: 1.2;
-}
-.header_otziv .mySwiper{
-    text-align: center;
-}
-.otziv_swiper_img{
-    width: 26.302vw;
-height: 46.094vw;
-}
-.swiper-wrapper{
-    width: 80% !important;
-}
-.swiper-button-next{
-    color: #FDBA1A !important;
-}
-.swiper-button-prev{
-    color: #FDBA1A !important;
-} */
 .swiper-container{
     width: 100%;
 }
@@ -1049,6 +1047,49 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 cursor: pointer;
+}
+/* .swiper-horizontal {
+margin-top: -100px;
+margin-bottom: -100px;
+} */
+@media (max-width:800px) {
+    .swiper-slide img{width: 100%;}
+    .swiper-slide-active{
+        /* height: 38.458vw !important; */
+            opacity: 1 !important;
+            scale: 0.8 !important;
+            margin: auto;
+            text-align: center;
+        }
+        .swiper-slide{
+            scale: 0.5;
+            /* height: 34.458vw !important; */
+            opacity: 0.5;
+        }
+        .accordion-body{
+            font-size: 1.667vw;
+        }
+}
+@media (max-width:500px) {
+    .swiper-slide-active{
+        /* height: 38.458vw !important; */
+            opacity: 1 !important;
+            scale: 0.5 !important;
+            margin: auto;
+            text-align: center;
+        }
+        .swiper-slide{
+            scale: 0.4;
+            /* height: 34.458vw !important; */
+            opacity: 0.5;
+        }
+        .swiper-wrapper{
+            margin-top: -100px;
+            margin-bottom: -100px;
+        }
+        .main_otziv_name {
+            font-size: 46px;
+        }
 }
 
 
@@ -1077,6 +1118,7 @@ cursor: pointer;
     /* margin-bottom: 2.604vw; */
     padding-bottom: 2.604vw;
   }
+
   .kichkina_div_question{
     background-color: #fff;
     margin-top: 1.042vw;
@@ -1199,7 +1241,11 @@ z-index: 123;
     width: 9.635vw;
 height: 3.333vw;
   }
-
+@media (max-width:500px) {
+    .product_h2{
+        font-size: 30px;
+    }
+}
 
 
 
