@@ -975,6 +975,7 @@ cursor: pointer;
 .main_swipers{
     padding-top: 1vw;
     background: #220A2E;
+    user-select: none;
 }
 .main_otziv_name{
     color: #fff;
