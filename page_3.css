@@ -85,6 +85,15 @@ cursor: pointer;
     line-height: 6.208vw;
     margin-bottom: 1.563vw;
 }
+@media (max-width:500px) {
+    .textoviye_otzv{
+        margin-top: 28px;
+        font-size: 30px;
+    }
+}
+
+
+
 
 
 
@@ -254,6 +263,142 @@ cursor: pointer;
         font-size: 14px;
     }
 }
+
+
+
+
+
+
+.page3_swipers{
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.main_stars1{
+    width: 20.365vw;
+height: 17.240vw;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.main_stars2{
+    width: 33.365vw;
+height: 17.240vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.main_otziv_name{
+    color: #fff;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 7.292vw;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1vw;
+    margin-bottom: -2vw;
+}
+.swiper-pagination-horizontal{
+    display: none;
+}
+.swiper-slide-active{
+    opacity: 1 !important;
+    scale: 0.8 !important;
+    margin: auto;
+    text-align: center;
+}
+.swiper-button-next , .swiper-button-prev{
+    color: #FDBA1A !important; 
+}
+.swiper-slide{
+    scale: 0.7;
+    opacity: 0.5;
+}
+
+
+.header_otziv{
+    padding-top: 2.604vw;
+    padding-bottom: 2.604vw;
+    background: #220A2E;
+    position: relative;
+}
+.otziv_name{
+    color: #FFF;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 6vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.swiper-container{
+    width: 100%;
+}
+.otziv_star_img_one{
+    position: absolute;
+    top: 7.813vw;
+    right: 0px;
+}
+.otziv_star_img_two{
+    position: absolute;
+    bottom: 0px;
+}
+.otziv_btn{
+    width: 22.760vw;
+height: 4.740vw;
+margin-top: 4.688vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+border: none;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .swiper-slide img{width: 100%;}
+    .swiper-slide-active{
+            opacity: 1 !important;
+            scale: 0.8 !important;
+            margin: auto;
+            text-align: center;
+        }
+        .swiper-slide{
+            scale: 0.5;
+            opacity: 0.5;
+        }
+        .accordion-body{
+            font-size: 1.667vw;
+        }
+}
+@media (max-width:500px) {
+    .swiper-slide-active{
+            opacity: 1 !important;
+            scale: 0.5 !important;
+            margin: auto;
+            text-align: center;
+        }
+        .swiper-slide{
+            scale: 0.4;
+            opacity: 0.5;
+        }
+        .swiper-wrapper{
+            margin-top: -100px;
+            margin-bottom: -100px;
+        }
+        .main_otziv_name {
+            font-size: 46px;
+        }
+}
+
+
+
+
+
 
 
 
