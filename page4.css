@@ -510,6 +510,7 @@ cursor: pointer;
     background-color: #220A2E;
     /* margin-bottom: 2.604vw; */
     padding-bottom: 2.604vw;
+    position: relative;
   }
   .kichkina_div_question{
     background-color: #fff;
@@ -561,17 +562,19 @@ font-family: 'PT Sans Caption', sans-serif;
     align-items: center;
   }
   .sloy32{
-    display: none;
+    width: 20.365vw;
+height: 17.240vw;
     position: absolute;
-    right: 0vw;
-    margin-top: -7.813vw;
-  }
-  .sloy35{
-    display: none;
+    top: 1.042vw;
+    right: 0px;
+}
+.sloy35{
+    width: 33.365vw;
+height: 17.240vw;
     position: absolute;
-    margin-left: -20%;
-    margin-top: 15.625vw;
-  }
+    bottom: 18vw;
+    left: 0px;
+}
   .kichkinaro_div_question{
     text-align: center;
     margin: auto;
