@@ -178,7 +178,22 @@ border: none;
     /* margin-bottom: 2.604vw; */
     padding-top: 3vw;
     padding-bottom: 2.604vw;
+    position: relative;
   }
+  .sloy32{
+    width: 20.365vw;
+height: 17.240vw;
+    position: absolute;
+    top: 1.042vw;
+    right: 0px;
+}
+.sloy35{
+    width: 33.365vw;
+height: 17.240vw;
+    position: absolute;
+    bottom: 18vw;
+    left: 0px;
+}
   .kichkina_div_question{
     background-color: #fff;
     margin-top: 1.042vw;
@@ -227,18 +242,6 @@ font-family: 'PT Sans Caption', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .sloy32{
-    display: none;
-    position: absolute;
-    right: 0vw;
-    margin-top: -7.813vw;
-  }
-  .sloy35{
-    display: none;
-    position: absolute;
-    margin-left: -20%;
-    margin-top: 15.625vw;
   }
   .kichkinaro_div_question{
     text-align: center;
