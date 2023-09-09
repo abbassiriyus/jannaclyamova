@@ -6,7 +6,6 @@
 }
 
 body{
-    background: #F5F2ED;
     overflow-x: hidden;
 }
 
@@ -1213,10 +1212,39 @@ font-family: 'Playfair Display', serif;
         font-size: 50px !important; 
     }
     .you_a_woman{
+        font-size: 20px !important;
+    }
+        .but_in_div_mastter{
+        border: none;
+        color: #220A2E;
+        width: 80px !important;
+        height: 25px !important;
+        background-color: #fff;
+        border-radius: 19px;
+        font-family: 'Noto Serif', serif;
+        font-size: 8px !important;
+    }
+    .product_h11{
+        font-family: 'Bad Script', cursive;
+        color: #220A2E;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 50px !important;
+    }
+    .time_master_class{
+        font-size: 10px !important;
+    }
+    .bx_calendar2{
         font-size: 10px !important;
     }
 }
-
+.product_h11{
+    font-family: 'Bad Script', cursive;
+    color: #220A2E;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+}
 .product_h5{
     font-family: 'Bad Script', cursive;
     color: #220A2E;
@@ -1337,7 +1365,7 @@ font-size: 30px;
     color: #FDBA1A;
     font-size: 10px;
 }
-.calendar_master_klass{
+.text_master_klass{
     border-radius: 50px;
     border: 1px solid #FDBA1A;
     height: 35px;
@@ -1346,6 +1374,7 @@ font-size: 30px;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    background-color: #F5F2ED;
 }
 .calendar_button{
     border: none;
@@ -1372,15 +1401,34 @@ font-size: 30px;
     margin-bottom: 15px;
 }
 
+.text_master_klass:active{
+    color: white;
+    background: #FDBA1A;
+}
+
 @media (max-width:500px) {
     .calendar_events_small{
         display: block;
     }
     .calendar_master_klass{
-        margin-left: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .text_master_klass{
+        width: 100%;
+        margin-left: -8%;
+    }
+    .for_experement{
+        display: block;
     }
     .calendar_button{
         margin-bottom: 30px;
+    }
+    .height_line_div{
+        display: none;
     }
     .product_h10{
         font-family: 'Bad Script', cursive;
@@ -1388,6 +1436,15 @@ font-size: 30px;
         text-align: center;
         margin-top: 50px;
         font-size: 50px !important;
+    }
+    .for_block_text_in_calendar{
+        text-align: center;
+        width: 100%;
+    }
+    .calendar_master_klass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 .product_h10{
@@ -1401,18 +1458,12 @@ font-size: 30px;
 /* reviews */
 
 .flex_reviews_img{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     width: 90%;
     margin-left: 5%;
 }
 .img_reviews{
     height: 400px;
     margin-top: 40px;
-}
-.img_reviews:hover{
-    scale: 1.1;
 }
 .bx_play3{
     z-index: 99999;
@@ -1464,6 +1515,7 @@ font-size: 30px;
     height: 100%;
   }
 
+
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -1493,10 +1545,10 @@ font-size: 30px;
 
 
   .articles_video{
-    display: flex;
-    justify-content: space-between;
+    display: flex ;
+    justify-content: space-between ;
     background-color: #fff;
-    padding: 50px;
+    padding: 50px ;
   }
   .flex_articles{
     display: flex;
@@ -1596,6 +1648,7 @@ font-size: 30px;
         justify-content: center;
       }
 }
+
 
 /* answer_to_question */
 

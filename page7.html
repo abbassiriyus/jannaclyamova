@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./page7.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
+    <div class="navbar">
+        <img class="logo" src="./media/Жанна Слямова 1.png" alt="">
+        <ul class="nav-link">
+            <a href="#"><li class="nav">программы</li></a>
+            <a href="#"><li class="nav">отзывы</li></a>
+             <a href="#"><li class="nav">статьи</li></a>
+             <a href="#"><li class="nav">о нас</li></a>
+             <a href="#"><li class="nav">контакты</li></a>
+        </ul>
+        <ul class="form">
+            <a href="#"><li ><img src="./media/image/telegram.png" class="bot" alt=""></li></a>
+            <a href="#"><li ><img src="./media/image/whatsapp.png" class="bot" alt=""></li></a>
+            <a href="#"><li ><img src="./media/image/instagram (2) 1.png" class="bot" alt=""></li></a>
+            <a href="#"><li ><img src="./media/image/free-icon-youtube-3938037.png" class="bot" alt=""></li></a>
+        
+        </ul>
+        
+        <div class="toggle">
+            <i onclick="document.querySelector('.media_toggle').style='right: 0px;'" class='bx bx-menu-alt-left'></i>
+        </div>
+        <ul class="media_toggle">
+            <div class="close_toggle" onclick="document.querySelector('.media_toggle').style='right: -320px;'" >x</div>
+            <a href="#"> <li class="nav_media">программы</li></a>
+            <a href="#"><li class="nav_media">отзывы</li></a>
+             <a href="#"><li class="nav_media">статьи</li></a>
+             <a href="#"><li class="nav_media">о нас</li></a>
+             <a href="#"><li class="nav_media">контакты</li></a>
+        <div class="media_link">
+               <a href="#"><li ><img src="./media/image/telegram.png" class="bot1" alt=""></li></a>
+            <a href="#"><li ><img src="./media/image/whatsapp.png" class="bot1" alt=""></li></a>
+            <a href="#"><li ><img src="./media/image/instagram (2) 1.png" class="bot1" alt=""></li></a>
+            <a href="#"><li ><img src="./media/image/free-icon-youtube-3938037.png" class="bot1" alt=""></li></a>
+        </div>
+        </ul>
+         </div>
+
+
+
     <div class="page7_header">
         <img class="page7_calendar_img" src="./media/image/календарь 10.png" alt="">
         <div class="page7_aside">
@@ -19,7 +59,217 @@
         </div>
     </div>
 
+    <div class="page7_schedule">
+        <h1 class="page7_schedule_h1">
+            Расписание мероприятий
+        </h1>
+        <div class="page7_schedule_div_kotta">
+           
+               <div class="page7_schedule_div_info">
+            <div class="page7_schedule_div_kichik">
+                <p class="page7_schedule_div_kichik_text">Город:</p>
+                <select class="page7_schedule_select" name="" id="">
+                    <option class="page7_schedule_option" value=""><p class="page7_schedule_option_text">Не выбрано</p></option>
+                    <option class="page7_schedule_option" value="">Россия</option>
+                    <option class="page7_schedule_option" value="">Англия</option>
+                    <option class="page7_schedule_option" value="">Америка</option>
+                    <option class="page7_schedule_option" value="">Казакистан</option>
+                    <option class="page7_schedule_option" value="">Узбекистон</option>
+                    <option class="page7_schedule_option" value="">Канада</option>
+                </select>
+            </div>
+            <div class="page7_schedule_div_kichik">
+                <p class="page7_schedule_div_kichik_text">Формат:</p>
+                <select class="page7_schedule_select" name="" id="">
+                    <option class="page7_schedule_option" value="">Не выбрано</option>
+                    <option class="page7_schedule_option" value="">0</option>
+                    <option class="page7_schedule_option" value="">1</option>
+                    <option class="page7_schedule_option" value="">2</option>
+                    <option class="page7_schedule_option" value="">3</option>
+                    <option class="page7_schedule_option" value="">4</option>
+                    <option class="page7_schedule_option" value="">5</option>
+                </select>
+            </div>
+            <div class="page7_schedule_div_kichik">
+                <p class="page7_schedule_div_kichik_text">Месяц:</p>
+                <select class="page7_schedule_select" name="" id="">
+                    <option class="page7_schedule_option" value="">Не выбрано</option>
+                    <option class="page7_schedule_option" value="">Январь</option>
+                    <option class="page7_schedule_option" value="">Февраль</option>
+                    <option class="page7_schedule_option" value="">Март</option>
+                    <option class="page7_schedule_option" value="">Апрель</option>
+                    <option class="page7_schedule_option" value="">Май</option>
+                    <option class="page7_schedule_option" value="">Июнь</option>
+                    <option class="page7_schedule_option" value="">Июль</option>
+                    <option class="page7_schedule_option" value="">Август</option>
+                    <option class="page7_schedule_option" value="">Сентябрь</option>
+                    <option class="page7_schedule_option" value="">Октябр</option>
+                    <option class="page7_schedule_option" value="">Ноябрь</option>
+                    <option class="page7_schedule_option" value="">Декабрь</option>
+                </select>
+            </div>
+            </div>         <div class="page7_schedule_button">
+                <button class="but_page7_schedule">
+                    ОТФИЛЬТРОВАТЬ
+                </button> 
+            </div>
+        </div>
+   
+    </div>
 
 
+
+    <div class="new_event_big_div">
+        <h1 class="product_h5">Ближайшие события</h1> 
+    
+    
+    <div class="events">
+        <div class="new_events">
+            <div class="five_new_events">
+                 <p class="you_a_woman">
+                     “Я ЖЕНЩИНА”
+                 </p>
+                <div class="calendar_master">
+                    <i class='bx bx-calendar bx_calendar2'></i>  
+     
+                    <p class="time_master_class">
+                        15-23 сентября, <br> 2023
+                    </p>
+                     
+                         <button class="but_in_div_mastter">
+                         МАСТЕР КЛАСС
+                     </button>
+                 
+                 </div>
+            </div>
+            <div class="therst_new_events">
+               <p class="you_a_woman">
+                        Денежная Энергия
+                 </p>
+            
+               
+                <div class="calendar_master">
+                    <i class='bx bx-calendar bx_calendar2'></i>  
+     
+                    <p class="time_master_class">
+                        15-23 сентября, <br> 2023
+                    </p>
+                     
+                         <button class="but_in_div_mastter">
+                         МАСТЕР КЛАСС
+                     </button>
+                 
+                 </div>
+            </div>
+            <div class="fourth_new_events">
+               <p class="you_a_woman">
+                        “Счастье в семье”
+                 </p>
+               
+                <div class="calendar_master">
+                    <i class='bx bx-calendar bx_calendar2'></i>  
+     
+                    <p class="time_master_class">
+                        15-23 сентября, <br> 2023
+                    </p>
+                     
+                         <button class="but_in_div_mastter">
+                         МАСТЕР КЛАСС
+                     </button>
+                 
+                 </div>
+            </div>
+    
+        </div>
+        <div class="calendar_events">
+            <h1 class="product_h1">Календарь</h1>
+            <div class="big_for_block">
+               <div class="calendar_events_small">
+                <div class="for_experement">
+                     <i class='bx bx-calendar'></i>  
+                <div class="for_block_text_in_calendar">
+                    <p class="calendar_text_p">12 сентября, 2023</p>
+                    <p class="calendar_text_p2">“Я ЖЕНЩИНА”</p>
+                </div>  
+                </div>
+                <div class="calendar_master_klass">
+                   <p class="text_master_klass">МАСТЕР КЛАСС</p> 
+                </div>
+            </div>
+            <div class="height_line_div"></div>
+            <div class="calendar_events_small">
+                <div class="for_experement">
+                     <i class='bx bx-calendar'></i>  
+                <div class="for_block_text_in_calendar">
+                    <p class="calendar_text_p">15-23 сентября, 2023</p>
+                    <p class="calendar_text_p2">Денежная энергия</p>
+                </div>  
+                </div>
+                <div class="calendar_master_klass">
+                   <p class="text_master_klass">МАРАФОН</p> 
+                </div>
+            </div>
+            <div class="height_line_div"></div>
+            <div class="calendar_events_small">
+                <div class="for_experement">
+                     <i class='bx bx-calendar'></i>  
+                <div class="for_block_text_in_calendar">
+                    <p class="calendar_text_p">24 сентября, 2023</p>
+                    <p class="calendar_text_p2">“Счастье в семье”</p>
+                </div>  
+                </div>
+                <div class="calendar_master_klass">
+                   <p class="text_master_klass">МАСТЕР КЛАСС</p> 
+                </div>
+            </div>
+            <div class="height_line_div"></div>
+            <div class="calendar_events_small">
+                <div class="for_experement">
+                     <i class='bx bx-calendar'></i>  
+                <div class="for_block_text_in_calendar">
+                    <p class="calendar_text_p">30 сентября, 2023</p>
+                    <p class="calendar_text_p2">Свет Человека</p>
+                </div>  
+                </div>
+                <div class="calendar_master_klass">
+                   <p class="text_master_klass">КУРС</p> 
+                </div>
+            </div> 
+            </div>
+            
+            <div class="div_for_button">
+            <button class="calendar_button">Подробнее про события</button>
+            </div>
+    
+    
+        </div>
+    </div>   
+    </div>
+
+
+    <div class="footer">
+        <div class="div_kishkina_into_footer">
+             <img src="./media/image/Жанна Слямова 1.png" alt="" class="logo_in_footer">
+        <div class="a_href_in_footer">
+            <a class="text_into_a_href" href="#">программы</a>
+            <a class="text_into_a_href" href="#">отзывы</a>
+            <a class="text_into_a_href" href="#">статьи</a>
+            <a class="text_into_a_href" href="#">о нас</a>
+            <a class="text_into_a_href" href="#">контакты</a>
+            <a class="text_into_a_href" href="#">мероприятия</a>
+        </div>
+        <div class="img_into_footer">
+           <a href="#"><img src="./media/image/telegram.png" alt="" class="img_in_footer"></a> 
+           <a href="#"><img src="./media/image/whatsapp.png" alt="" class="img_in_footer"></a> 
+           <a href="#"><img src="./media/image/instagram (2) 1.png" alt="" class="img_in_footer"></a> 
+           <a href="#"><img src="./media/image/free-icon-youtube-3938037.png" alt="" class="img_in_footer"></a> 
+        </div>
+        </div>
+       <div class="div_kishkina_into_footer2">
+        <p class="footer_text">Политика конфеденциальности</p>
+        <p class="footer_text">Публичная оферта</p>
+        <p class="footer_text">Согласие на обработку данных</p>
+       </div>
+    </div>
 </body>
 </html>

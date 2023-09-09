@@ -6,7 +6,6 @@
 }
 
 
-
 .page7_header{
     display: flex;
     justify-content: center;
@@ -52,4 +51,111 @@ height: 33.802vw;
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
+}
+
+.page7_schedule_h1{
+    font-family: 'Bad Script', cursive;
+    color: #220A2E;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+
+.page7_schedule_div_kotta{
+    background-color: #F5F2ED;
+    width: 90%;
+    padding: 20px;
+    margin-left: 4%;
+    border-radius: 50px;
+}
+.page7_schedule_div_info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F5F2ED;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.forflex_page7_schedule{
+display: flex;
+justify-content: space-around;
+}
+.page7_schedule{
+    background-color: #fff;
+}
+
+.page7_schedule_select{
+    background-color: #E1E1E1;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    color: #FDBA1A;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.page7_schedule_option_text{
+    color: #220A2E !important;
+}
+.page7_schedule_div_kichik{
+    margin-top: 20px;
+    width: 330px;
+}
+.page7_schedule_div_kichik_text{
+    font-size: 30px;
+    color: #271845;
+}
+
+.but_page7_schedule{
+    color: #FDBA1A;
+    border-radius: 25px;
+    border: 1px solid #FDBA1A;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.page7_schedule_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+@media (max-width:1222px) {
+    .page7_schedule_select{
+        background-color: #E1E1E1;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        color: #FDBA1A;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .page7_schedule_div_kichik{
+        margin-top: 20px;
+        width: 220px;
+    }
+}
+
+@media (max-width:543px) {
+    .page7_schedule_div_kichik_text{
+        text-align: center;
+    }
+    .page7_schedule_select{
+        background-color: #E1E1E1;
+        width: 300px;
+        height: 40px;
+        border-radius: 15px;
+        color: #FDBA1A;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .page7_schedule_div_kichik{
+        margin-top: 20px;
+        width: 300px;
+    }
 }
