@@ -947,6 +947,7 @@ cursor: pointer;
 .accordion-item{
     width: 80% !important;
     margin: auto;
+    border-radius: 30px !important;
 }
 .accordion-button{
     width: 100% !important;
@@ -1280,14 +1281,22 @@ line-height: normal;
   }
   .accordion-body{
     /* width: 65.573vw;  */
+    margin-top: -20px !important;
     padding: 20px;
+    padding-top: 40px !important;
     /* display: flex; */
     /* align-items: center; */
     margin: auto;
-    border-bottom-left-radius: 1.302vw;
-    border-bottom-right-radius: 1.302vw;
+    background: #fff;
+    border-bottom-left-radius: 1.302vw !important;
+    border-bottom-right-radius: 1.302vw !important;
   }
-  
+  .accordion-item{
+    border-radius: 30px;
+  }
+  .accordion-body{
+    border-bottom-left-radius: 30px !important;
+  }
   .bx-plus{
     position: absolute;
     display: flex;
