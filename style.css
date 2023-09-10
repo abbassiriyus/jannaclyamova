@@ -1834,12 +1834,10 @@ font-size: 30px;
   @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;
-      transform: rotate(90deg);
     }
 
     .swiper-button-prev {
       left: 20px;
-      transform: rotate(90deg);
     }
   }
 
@@ -2033,21 +2031,21 @@ font-size: 30px;
     align-items: center;
   }
   .sloy32{
+    width: 20.365vw;
+height: 17.240vw;
     position: absolute;
-    margin-left: 90%;
-    margin-top: -150px;
-    width: 200px;
-  }
-  .sloy35{
+    top: 1.042vw;
+    right: 0px;
+}
+.sloy35{
+    width: 33.365vw;
+height: 17.240vw;
     position: absolute;
-    margin-left: 0%;
-    margin-top: 480px;
-    width: 300px;
-  }
+    bottom: 18vw;
+    left: 0px;
+}
   @media (max-width:950px) {
-    .sloy35{
-        margin-left: -15%;
-    }
+
     .text_question{
         font-size: 20px;
       }
@@ -2112,4 +2110,13 @@ font-size: 30px;
 .img_into_footer .bot{
     width: 46px;
     height: 46px;
+}
+
+@media (max-width:500px) {
+    .otziv_btn{
+        width: 280px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
 }
