@@ -1983,7 +1983,8 @@ font-size: 30px;
 
   .answer_to_question{
     background-color: #220A2E;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 2.604vw;
   }
   .kichkina_div_question{
     background-color: #fff;

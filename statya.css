@@ -5,6 +5,9 @@
     margin: 0;
 }
 
+*, ::after, ::before {
+  box-sizing: content-box !important;
+}
 
 
 .statya_header{
@@ -155,7 +158,12 @@ line-height: normal;
 border: none;
 
 }
-
+.accordion-button{
+  box-sizing: border-box !important;
+}
+.collapsed{
+  box-sizing: border-box !important;
+}
 
 
 
@@ -350,6 +358,8 @@ line-height: normal;
     display: flex;
     align-items: center;
     gap: 1.302vw;
+    text-decoration: none;
+    list-style: none;
   }
   .div_kishkina_into_footer2{
     display: block;
