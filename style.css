@@ -2111,7 +2111,10 @@ height: 17.240vw;
     width: 46px;
     height: 46px;
 }
-
+.img_into_footer{
+    text-decoration: none;
+    list-style: none;
+}
 @media (max-width:500px) {
     .otziv_btn{
         width: 280px;

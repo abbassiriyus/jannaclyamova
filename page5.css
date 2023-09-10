@@ -437,6 +437,10 @@ line-height: normal;
     align-items: center;
     gap: 1.302vw;
   }
+  .img_into_footer{
+    text-decoration: none;
+    list-style: none;
+}
   .div_kishkina_into_footer2{
     display: block;
     margin: auto;
