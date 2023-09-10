@@ -881,7 +881,7 @@ font-family: 'Playfair Display', serif;
 }
 .jupiter_in_product{
     width: 400px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-top: -300px;
 }
 }
@@ -2123,3 +2123,4 @@ height: 17.240vw;
         border-radius: 10px;
     }
 }
+
