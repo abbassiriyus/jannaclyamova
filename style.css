@@ -8,7 +8,9 @@
     margin-right: -40px;
   }
  
-
+body{
+    overflow-x: hidden;
+}
 
 
 /* navbar */
@@ -912,7 +914,7 @@ font-family: 'Playfair Display', serif;
 }
 .jupiter_in_product{
     width: 400px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: -300px;
 }
 }
@@ -969,11 +971,14 @@ font-family: 'Playfair Display', serif;
 .moneystar_in_product2{
     display: none;
 }
-.jupiter_in_product{
-    width: 350px;
-    margin-left: 10% !important;
-    margin-top: -450px;
+
 }
+@media (max-width:731px) {
+    .jupiter_in_product{
+        width: 350px;
+        margin-left: 10% !important;
+        margin-top: -450px;
+    }
 }
 @media (max-width:593px) {
     .staradnw_in_product{
