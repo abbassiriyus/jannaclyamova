@@ -4,7 +4,10 @@
     padding: 0;
     margin: 0;
 }
-
+.media_toggle{
+    margin-right: -40px;
+  }
+  
 body{
     overflow-x: hidden;
 }
@@ -1099,7 +1102,7 @@ font-family: 'Playfair Display', serif;
         text-align: center;
     }
     .calendar_events{
-        width: 100% !important;
+        width: 90% !important;
     }
     .new_events{
         width: 100%;
@@ -1162,7 +1165,7 @@ font-family: 'Playfair Display', serif;
     color: #220A2E;
     text-align: center;
     margin-top: 50px;
-    font-size: 80px;
+    font-size: 60px;
 }
 .product_h5{
     font-family: 'Bad Script', cursive;
@@ -1441,8 +1444,7 @@ font-family: 'Playfair Display', serif;
         font-family: 'Noto Serif', serif;
         text-align: center;
     }
-    .bx_calendar2{
-}
+
 
     .calendar_master{
     display: flex;
@@ -2063,7 +2065,8 @@ font-size: 30px;
         height: 15px;
       }
       .product_h2{
-        font-size: 50px;
+        padding-top: 20px;
+        font-size: 40px;
       }
       .text_question{
         font-size: 15px;
@@ -2071,7 +2074,19 @@ font-size: 30px;
       .bx-plus-medical{
         font-size: 25px;
       }
+      .text_center_question{
+        font-size: 18px;
+      }
+      .img_into_footer .bot{
+        width: 30px !important;
+        height: 30px !important;
+    }
     
+  }
+  @media (max-width:500px) {
+    .but_ostavit_zayav {
+        width: 90%;
+    }
   }
 
   
@@ -2092,4 +2107,9 @@ font-size: 30px;
     font-weight: 400;
     margin-top: 1vw;
     margin-bottom: -2vw;
+}
+
+.img_into_footer .bot{
+    width: 46px;
+    height: 46px;
 }
