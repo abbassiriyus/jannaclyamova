@@ -64,15 +64,7 @@ color: rgba(255, 255, 255, 1);
 .navbar .toggle{
     display: none;
 }
-.navbar_mediya{
-    background-color: #000000c9;
-    width: 100%;
-    height: 100vh;
-    z-index: 99999;
-    position: fixed;
-    top: 0;
-    display: none;
-}
+
 .navbar .close_toggle{
     position: absolute;
     right: 30px;
@@ -84,25 +76,26 @@ color: rgba(255, 255, 255, 1);
 .navbar .media_toggle{
     z-index: 99999 ;
     width: 320px;
+    height: 100vh;
     background: rgba(51, 22, 68, 1);
     padding-top: 10vh;
   position: fixed;
     top: 0px;
     right: -320px;
-    min-height: 90vh;
     display: none; 
     transition: 0.4s;
 }
 .navbar .media_toggle li{
     list-style: none;
     text-align: center;
-
+    margin-left: -5%;
 }
 .navbar .media_link{
     display: flex;  
     justify-content: center;
     gap: 5px;
-  
+    margin-right: 10%;
+    margin-top: 30px;
 }
 
 @media(max-width:550px){
