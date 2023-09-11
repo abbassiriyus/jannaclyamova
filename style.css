@@ -25,10 +25,20 @@ body{
 @media (max-width:1000px) {
     .navbar{
         height: auto !important;
-        justify-content: space-between !important;
+        padding: 1.042vw;
+        justify-content: space-around !important;
     }
     .navbar .logo{
+        vertical-align:top;
         min-width: 50px !important;
+    }
+    .logo_ahref{
+        width: 50px;
+    }
+}
+@media (max-width:550px) {
+    .navbar{
+        justify-content: space-between !important;
     }
 }
 .navbar .nav-link{
