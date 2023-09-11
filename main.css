@@ -1183,6 +1183,7 @@ line-height: normal;
   }
   .accordion-body{
     border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
   }
   .bx-plus{
     position: absolute;
