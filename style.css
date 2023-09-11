@@ -24,7 +24,7 @@ body{
 }
 @media (max-width:1000px) {
     .navbar{
-        height: 40px !important;
+        height: auto !important;
         justify-content: space-between !important;
     }
     .navbar .logo{
@@ -2266,7 +2266,7 @@ height: 3.333vw;
     }
     .img_into_footer .bot{
         width: 26px;
-        height: 6px;
+        height: 26px;
     }
 }
 

@@ -376,7 +376,9 @@ cursor: pointer;
 }
 
 @media (max-width:800px) {
-    .swiper-slide img{width: 100%;}
+    .swiper-slide img{
+        scale: 0.7;
+    }
     .swiper-slide-active{
             opacity: 1 !important;
             scale: 0.8 !important;
