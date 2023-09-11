@@ -330,7 +330,9 @@ height: 17.240vw;
     scale: 0.7;
     opacity: 0.5;
 }
-
+.page3_swipers .swiper-wrapper{
+    height: 700px !important;
+}
 
 .header_otziv{
     padding-top: 2.604vw;
@@ -379,8 +381,8 @@ cursor: pointer;
     .swiper-slide img{
         scale: 0.7;
     }
-    .swiper-wrapper{
-        height: 600px !important;
+   .page3_swipers .swiper-wrapper{
+        height: 500px !important;
     }
     .swiper-slide-active{
             opacity: 1 !important;
@@ -413,6 +415,9 @@ cursor: pointer;
         }
         .main_otziv_name {
             font-size: 46px;
+        }
+        .page3_swipers .swiper-slide img{
+            scale: .4;
         }
 }
 
