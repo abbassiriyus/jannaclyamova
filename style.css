@@ -254,8 +254,8 @@ flex-wrap: wrap;
 background-color: #220A2E;
 height: auto;
 color: white;
-width: 90%;
-margin-left: 5%;
+width: 80%;
+margin-left: 8%;
 border-radius: 60px;
 margin-top: 100px;
 margin-bottom: 10px;
@@ -403,59 +403,13 @@ margin-top: 10px;
             line-height: 20px;
             margin-top: 10px;
         }
-    }
-
-    /* @media (max-width: 425px) {
-        .reklama_card2{
-            margin-top: 20px;
-            width: 110px;
-    }
-    .reklama_card3{
-        margin-top: 20px;
-        width: 110px;
-}
-.reklama_card1{
-    margin-top: 20px;
-    width: 110px;
-}
-.reklama_img{
-    width: 100px ;
-}
-.reklama_text1{
-    font-size: 2vw;
-    width: 110px;
-    line-height: 20px;
-    margin-top: 10px;
-    }
-    
-    .reklama_text2{
-        font-size: 2vw;
-        width: 110px;
-        line-height: 20px;
-        margin-top: 10px;
-        }
-    
-    .reklama_text3{
-            font-size: 2vw;
-            width: 110px;
-            line-height: 20px;
-            margin-top: 10px;
-        }
-
         .reklama_user{
-            display: block;
-            background-color: #220A2E;
-            height: auto;
-            color: white;
-            width: 90%;
+            width: 80%;
             margin-left: 4%;
-            border-radius: 60px;
-            margin-top: 100px;
-            margin-bottom: 10px;
-            text-align: center;
-            padding: 20px;
             }
-    } */
+    }
+
+   
 
 /* about self */
 
@@ -1102,11 +1056,11 @@ font-family: 'Playfair Display', serif;
 }
 .product_page{
     width: 80% !important;
-    margin-left: 10% !important;
+    margin-left: 5% !important;
 }
 .product_page1{
     width: 80% !important;
-    margin-left: 10% !important;
+    margin-left: 5% !important;
 }
 .button_product{
     display: flex;
@@ -1235,7 +1189,6 @@ font-family: 'Playfair Display', serif;
     align-items: start;
     justify-content: space-around;
     gap: 50px;
-    padding: 15px;
 }
 @media (max-width: 950px) {
     .events{
@@ -1244,19 +1197,19 @@ font-family: 'Playfair Display', serif;
         text-align: center;
     }
     .calendar_events{
-        width: 95% !important;
+        width: 90% !important;
     }
     .new_events{
-        width: 100%;
-        margin-left: 0%;
+        width: 95%;
+        margin-left: 0.5%;
     }
-    .product_h5{
+    /* .product_h5{
         font-family: 'Bad Script', cursive;
         color: #220A2E;
         text-align: center;
         margin-top: 50px;
         font-size: 50px !important;  
-    }
+    } */
 
     .you_a_woman{ 
         font-size: 50px !important;
@@ -1289,14 +1242,14 @@ font-family: 'Playfair Display', serif;
     color: #220A2E;
     text-align: center;
     margin-top: 50px;
-    font-size: 60px;
+    font-size: 10vw;
 }
 .product_h5{
     font-family: 'Bad Script', cursive;
     color: #220A2E;
     text-align: center;
     margin-top: 50px;
-    font-size: 80px; 
+    font-size: 10vw;
 }
 
 .you_a_woman{    
@@ -1588,21 +1541,21 @@ font-family: 'Playfair Display', serif;
         background-repeat: no-repeat;
         background-size: 100%;
         width: 95% !important;
-        min-height: 110px !important;
+        min-height: 150px !important;
     }   
     .therst_new_events{
         background: url("./media/image/2\ 1.png");
         background-repeat: no-repeat;
         background-size: 100%;
         width: 95% !important;
-        min-height: 110px !important;
+        min-height: 150px !important;
     }
     .fourth_new_events{
         background: url("./media/image/3\ 1.png");
         background-repeat: no-repeat;
         background-size: 100%;
         width: 95% !important;
-        min-height: 110px !important;
+        min-height: 150px !important;
     }
     .but_in_div_mastter{
         border: none;
@@ -1727,13 +1680,13 @@ font-size: 30px;
     .height_line_div{
         display: none;
     }
-    .product_h10{
+    /* .product_h10{
         font-family: 'Bad Script', cursive;
         color: #220A2E;
         text-align: center;
         margin-top: 50px;
         font-size: 50px !important;
-    }
+    } */
     .for_block_text_in_calendar{
         text-align: center;
         width: 100%;
@@ -1749,7 +1702,7 @@ font-size: 30px;
     color: #220A2E;
     text-align: center;
     margin-top: 50px;
-    font-size: 80px;
+    font-size: 10vw;
 }
 
 /* reviews */
@@ -2058,10 +2011,10 @@ height: 17.240vw;
 
 .product_h2{
     font-family: 'Bad Script', cursive;
-    color: #fff;
+    color: #220A2E;
     text-align: center;
-    /* margin-top: 2.604vw; */
-    font-size: 4.167vw;
+    margin-top: 50px;
+    font-size: 10vw;
     z-index: 99999;
   }
 
@@ -2205,11 +2158,7 @@ z-index: 123;
     width: 9.635vw;
 height: 3.333vw;
   }
-@media (max-width:500px) {
-    .product_h2{
-        font-size: 30px;
-    }
-}
+
 
 .accordion-item{
     width: 80% !important;
