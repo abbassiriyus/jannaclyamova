@@ -1950,65 +1950,78 @@ height: 17.240vw;
 
 /* answer_to_question */
 
-  .product_h2{
+
+.product_h2{
     font-family: 'Bad Script', cursive;
     color: #fff;
     text-align: center;
-    /* margin-top: 50px; */
-    font-size: 80px;
+    /* margin-top: 2.604vw; */
+    font-size: 4.167vw;
     z-index: 99999;
   }
 
   .answer_to_question{
+    position: relative;
     background-color: #220A2E;
-    /* margin-bottom: 50px; */
+    /* margin-bottom: 2.604vw; */
     padding-bottom: 2.604vw;
   }
+
   .kichkina_div_question{
     background-color: #fff;
-    margin-top: 20px;
+    margin-top: 1.042vw;
     width: 70%;
     margin-left: 15%;
-    height: 30px;
-    border-radius: 20px;
+    height: 1.563vw;
+    border-radius: 1.042vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.042vw;
+    z-index: 123;
 
   }
   .text_question{
     color: #220A2E;
-    font-size: 25px;
+    font-size: 1.302vw;
   }
 
-  .bx-plus-medical{
-    font-size: 30px;
-    color: #220A2E;
-    font-family: 'Jost', sans-serif;
-  }
 
   .text_center_question{
     text-align: center;
     color: #fff;
-    font-size: 25px;
-    margin-top: 30px;
+    font-size: 1.667vw;
+    margin-top: 2.563vw;
+font-family: 'PT Sans Caption', sans-serif;
+
   }
   .but_ostavit_zayav{
-    background-color: #FDBA1A;
-    width: 320px;
-    height: 50px;
-    font-size: 18px;
+    width: 22.760vw;
+    height: 4.740vw;
+    margin-top: 3.125vw;   
+    border-radius: 1.510vw;
     border: none;
-    border-radius: 20px;
-    margin-top: 30px;
+    background: #FDBA1A;
+    color: #271845;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
   }
   .div_for_button_in_question{
     display: flex;
     justify-content: center;
     align-items: center;
   }
+<<<<<<< Updated upstream
   /* .sloy32{
+=======
+
+  .sloy32{
+>>>>>>> Stashed changes
     width: 20.365vw;
     height: 17.240vw;
     position: absolute;
@@ -2022,48 +2035,100 @@ height: 17.240vw;
     bottom: 18vw;
     left: 0px;
 }
-  @media (max-width:950px) {
-
-    .text_question{
-        font-size: 20px;
-      }
+  .kichkinaro_div_question{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1.042vw;
   }
-  @media (max-width:700px) {
-    .sloy32{
-        display: none;
-      }
-      .sloy35{
-        display: none;  
-      }
-      .kichkina_div_question{
-        width: 90%;
-        margin-left: 2%;
-        height: 15px;
-      }
-      .product_h2{
-        padding-top: 20px;
-        font-size: 40px;
-      }
-      .text_question{
-        font-size: 15px;
-      }
-      .bx-plus-medical{
-        font-size: 25px;
-      }
-      .text_center_question{
-        font-size: 18px;
-      }
-      .img_into_footer .bot{
-        width: 30px !important;
-        height: 30px !important;
-    }
+  .accordion-item h2{
+    background-color: #220A2E;;
     
   }
-  @media (max-width:500px) {
-    .but_ostavit_zayav {
-        width: 90%;
-    }
+
+ .accordion-item button{
+    width: 70.573vw;
+    height: 5vw;
+    position: relative;
+    margin-top: 30px !important;
+    border-radius: 1.042vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 1.042vw;
+    padding-right: 4.5vw;
+    z-index: 123;
+    outline: none;
+    border-radius: 1.302vw !important;
+border: 0.260vw solid #E1E1E1;
+background: #FFF;
+color: #271845;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
   }
+  .accordion-body{
+    /* width: 65.573vw;  */
+    margin-top: -20px !important;
+    padding: 20px;
+    padding-top: 40px !important;
+    margin: auto;
+    background: #fff;
+    border-bottom-left-radius: 1.302vw !important;
+    border-bottom-right-radius: 1.302vw !important;
+  }
+  .accordion-item{
+    border-radius: 30px;
+  }
+  .accordion-body{
+    border-bottom-left-radius: 30px !important;
+  }
+  .bx-plus{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 11vw;
+    font-size: 5.167vw;
+color: #271845;
+z-index: 123;
+  }
+  .logo_in_footer{
+    width: 9.635vw;
+height: 3.333vw;
+  }
+@media (max-width:500px) {
+    .product_h2{
+        font-size: 30px;
+    }
+}
+
+.accordion-item{
+    width: 80% !important;
+    margin: auto;
+    border-radius: 30px !important;
+}
+.accordion-button{
+    width: 100% !important;
+}
+.accordion-header{
+    margin-bottom: -1px !important ;
+}
+.accordion-button{
+    box-sizing: border-box !important;
+}
+.collapsed{
+    box-sizing: border-box !important;
+}
+
+
+
+
 
   
 
@@ -2101,4 +2166,62 @@ height: 17.240vw;
         border-radius: 10px;
     }
 }
+
+
+
+
+
+
+.footer{
+    width: 90%;
+margin-top: 5.208vw !important;
+border-radius: 3.542vw;
+background: #331644;
+display: flex;
+padding:3.083vw;
+gap: 4.688vw;
+margin: auto;
+  }
+  .a_href_in_footer{
+    display: flex;
+    align-items: center;
+    gap: 1.354vw;
+    margin-top: 1.563vw;
+    margin-bottom: 1.563vw;
+  }
+  .text_into_a_href{
+    text-decoration: none;
+    color: #FFF;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .img_into_footer{
+    display: flex;
+    align-items: center;
+    gap: 1.302vw;
+  }
+  .div_kishkina_into_footer2{
+    display: block;
+    margin: auto;
+  }
+  .footer_text{
+    color: rgba(255, 255, 255, 0.50);
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: 1.563vw;
+margin-bottom: 0px;
+  }
+  .img_in_footer{
+    width: 2.396vw;
+height: 2.396vw;
+  }
+  .futer_text{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+  }
 
