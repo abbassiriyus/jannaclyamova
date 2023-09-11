@@ -15,6 +15,7 @@
     href="https://triple-slider.uiinitiative.com/assets/index.b097f28c.css"
   /> -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 
@@ -202,13 +203,10 @@
 
 
 
-
-
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
-        function swip1(){
-
-        }
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -259,56 +257,6 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
-          spaceBetween: 30,
-          centeredSlides: true,
-          pagination: {
-              el: ".swiper-pagination",
-              type: "fraction",
-          },
-          breakpoints: {
-              // when window width is >= 320px
-              320: {
-                  slidesPerView: 1,
-                  spaceBetween: 20,
-                  slideToClickedSlide: true,
-              },
-              // when window width is >= 480px
-              480: {
-                  slidesPerView: 1,
-
-                  spaceBetween: 10,
-                  slideToClickedSlide: true,
-              },
-              // when window width is >= 640px
-              640: {
-                  slidesPerView: 2,
-                  centeredSlides: true,
-                  spaceBetween: 20,
-                  slideToClickedSlide: true,
-              },
-              991: {
-                  slidesPerView: 2,
-                  spaceBetween: 30,
-                  slideToClickedSlide: true,
-              },
-              1440: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                  slideToClickedSlide: true,
-              },
-              1880: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                  slideToClickedSlide: true,
-              },
-          },
-          navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-          },
-      });
     </script>
      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>

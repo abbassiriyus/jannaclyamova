@@ -15,7 +15,7 @@
 
 @media (max-width:400px) {
     .video_in_swiper{
-        width: 320px !important;
+        width: 300px !important;
         height: 500px !important;
     }
 }
