@@ -723,7 +723,7 @@ font-family: 'Playfair Display', serif;
 }
 .star_in_product2{
     position: absolute;
-    margin-left: 80%;
+    margin-right: 0px;
     margin-top: 250px;
     width: 300px;
 }
@@ -775,7 +775,7 @@ font-family: 'Playfair Display', serif;
 }
 .moneystar_in_product3{
     position: absolute;
-    left: 88%;
+    right: 0px;
 }
 
 .jupiter_in_product{
@@ -1964,6 +1964,7 @@ height: 17.240vw;
     position: relative;
     background-color: #220A2E;
     /* margin-bottom: 2.604vw; */
+    padding-top: 3vw;
     padding-bottom: 2.604vw;
   }
 
@@ -2016,18 +2017,14 @@ font-family: 'PT Sans Caption', sans-serif;
     justify-content: center;
     align-items: center;
   }
-<<<<<<< Updated upstream
-  /* .sloy32{
-=======
 
   .sloy32{
->>>>>>> Stashed changes
     width: 20.365vw;
     height: 17.240vw;
     position: absolute;
     top: 1.042vw;
     right: 0px;
-} */
+} 
 .sloy35{
     width: 33.365vw;
     height: 17.240vw;
