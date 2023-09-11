@@ -379,6 +379,9 @@ cursor: pointer;
     .swiper-slide img{
         scale: 0.7;
     }
+    .swiper-wrapper{
+        height: 600px !important;
+    }
     .swiper-slide-active{
             opacity: 1 !important;
             scale: 0.8 !important;
