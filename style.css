@@ -1217,6 +1217,7 @@ font-family: 'PT Sans Caption', sans-serif;
     align-items: start;
     justify-content: space-around;
     gap: 50px;
+    padding: 10px;
 }
 @media (max-width: 950px) {
     .events{
@@ -1228,16 +1229,9 @@ font-family: 'PT Sans Caption', sans-serif;
         width: 90% !important;
     }
     .new_events{
-        width: 95%;
-        margin-left: 0.5%;
+        width: 98%;
+        margin-left: 2%;
     }
-    /* .product_h5{
-        font-family: 'Bad Script', cursive;
-        color: #220A2E;
-        text-align: center;
-        margin-top: 50px;
-        font-size: 50px !important;  
-    } */
 
     .you_a_woman{ 
         font-size: 50px !important;
@@ -1558,7 +1552,11 @@ font-family: 'PT Sans Caption', sans-serif;
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
+    .new_events{
+        width: 90%;
+        margin-left: 4%;
+    }
     .calendar_master{
         display: flex;
         align-items: center;
@@ -1595,7 +1593,6 @@ font-family: 'PT Sans Caption', sans-serif;
         border-radius: 19px;
         font-family: 'Noto Serif', serif;
         font-size: 2vw;
-        margin-top: -20px;
     }
 
     .time_master_class_kotta{
