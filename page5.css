@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@font-face {
+    font-family: "SignPainter";
+    src: url("./fonts/signpainter_housescript.otf") format("truetype");
+    /* Другие свойства шрифта, такие как font-weight и font-style */
+  }
+  @font-face {
+    font-family: "AGOpusHighResolution";
+    src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
+    /* Другие свойства шрифта, такие как font-weight и font-style */
+  }
+
+  
 *{
     padding: 0;
     margin: 0;
 }
+
 
 
 
@@ -29,7 +40,7 @@ margin-left: -3.646vw;
 .contact_name{
     color: #271845;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     font-size: 4.208vw;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +102,7 @@ margin-top: 2.5vw;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 5vw;
 font-style: normal;
 font-weight: 400;
@@ -158,7 +169,7 @@ position: relative;
 .phone_name{
     color: #271845;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     font-size: 4.208vw;
     font-style: normal;
     font-weight: 400;
@@ -190,7 +201,7 @@ font-weight: 700;
 .phone_text{
     color: #271845;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     font-size: 4.208vw;
     font-style: normal;
     font-weight: 400;
@@ -253,7 +264,7 @@ height: 8vw;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;

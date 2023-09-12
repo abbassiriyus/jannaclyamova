@@ -1,13 +1,14 @@
 @font-face {
-  font-family: "SignPainter";
-  src: url("./fonts/signpainter_housescript.otf") format("truetype");
-  /* Другие свойства шрифта, такие как font-weight и font-style */
-}
-@font-face {
-  font-family: "AGOpusHighResolution";
-  src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
-  /* Другие свойства шрифта, такие как font-weight и font-style */
-}
+    font-family: "SignPainter";
+    src: url("./fonts/signpainter_housescript.otf") format("truetype");
+    /* Другие свойства шрифта, такие как font-weight и font-style */
+  }
+  @font-face {
+    font-family: "AGOpusHighResolution";
+    src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
+    /* Другие свойства шрифта, такие как font-weight и font-style */
+  }
+
 * {
   padding: 0;
   margin: 0;
@@ -68,7 +69,7 @@ button {
   gap: 30px;
 }
 .navbar li {
-  font-family: "AGOpusHighResolution", sans-serif;
+    font-family: "PT Sans Caption", sans-serif !important;
   font-size: 1.5vw;
   font-weight: 700;
   line-height: 38px;
@@ -176,9 +177,9 @@ button {
   max-width: 65%;
 }
 .header_glavniy .glavniy_text {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 4vw;
-  letter-spacing: 0.521vw;
+  /* letter-spacing: 0.521vw; */
   font-weight: 100;
   padding-bottom: 30px;
   text-align: right;
@@ -596,7 +597,7 @@ button {
   position: relative;
 }
 .product_h1 {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
@@ -612,7 +613,7 @@ button {
 }
 .text_in_small_product {
   color: #fdba1a;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 70px;
   line-height: 97px;
 }
@@ -1216,7 +1217,7 @@ button {
     margin-left: 0.5%;
   }
   /* .product_h5{
-        font-family: 'Bad Script', cursive;
+        font-family: "SignPainter", sans-serif;
         color: #220A2E;
         text-align: center;
         margin-top: 50px;
@@ -1248,14 +1249,14 @@ button {
 }
 
 .product_h11 {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
   font-size: 10vw;
 }
 .product_h5 {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
@@ -1263,7 +1264,7 @@ button {
 }
 
 .you_a_woman {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif !important;
   color: #220a2e;
   font-size: 2.5vw;
   font-weight: 700;
@@ -1689,7 +1690,7 @@ button {
     display: none;
   }
   /* .product_h10{
-        font-family: 'Bad Script', cursive;
+        font-family: "SignPainter", sans-serif;
         color: #220A2E;
         text-align: center;
         margin-top: 50px;
@@ -1706,7 +1707,7 @@ button {
   }
 }
 .product_h10 {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
@@ -1813,7 +1814,7 @@ button {
 .main_otziv_name1 {
   color: #000;
   text-align: center;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 7.292vw;
   font-style: normal;
   font-weight: 400;
@@ -1846,7 +1847,7 @@ button {
 .main_otziv_name {
   color: #fff;
   text-align: center;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 7.292vw;
   font-style: normal;
   font-weight: 400;
@@ -2013,14 +2014,15 @@ button {
 
 /* answer_to_question */
 
-.product_h2 {
-  font-family: "Bad Script", cursive;
-  color: #220a2e;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 10vw;
-  z-index: 99999;
-}
+.product_h2{
+    font-family: "SignPainter", sans-serif;
+    color: #fff;
+    text-align: center;
+    /* margin-top: 2.604vw; */
+    font-size: 4.167vw;
+    z-index: 99999;
+    padding-top: 1.563vw;
+  }
 
 .answer_to_question {
   position: relative;
@@ -2186,7 +2188,7 @@ button {
 .main_otziv_name1 {
   color: #000;
   text-align: center;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 7.292vw;
   font-style: normal;
   font-weight: 400;
