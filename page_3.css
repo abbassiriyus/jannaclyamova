@@ -1,29 +1,18 @@
-@font-face {
-    font-family: "SignPainter";
-    src: url("./fonts/signpainter_housescript.otf") format("truetype");
-    /* Другие свойства шрифта, такие как font-weight и font-style */
-  }
-  @font-face {
-    font-family: "AGOpusHighResolution";
-    src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
-    /* Другие свойства шрифта, такие как font-weight и font-style */
-  }
-
-  
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 
-
-
-
-
+#body{
+    background: #fff !important;
+}
 
 .main_otziv_name2{
     color: #000;
     text-align: center;
-    font-family: "SignPainter", sans-serif;
+    font-family: 'Bad Script', cursive;
     font-size: 7.292vw;
     font-style: normal;
     font-weight: 400;
@@ -52,7 +41,7 @@ margin-left: -5.208vw;
 .page3_name{
     color: #271845;
 text-align: center;
-font-family: "SignPainter", sans-serif;
+font-family: 'Bad Script', cursive;
 font-size: 4.208vw;
 font-style: normal;
 font-weight: 400;
@@ -105,7 +94,7 @@ cursor: pointer;
 .textoviye_otzv{
     color: #271845;
     text-align: center;
-    font-family: "SignPainter", sans-serif;
+    font-family: 'Bad Script', cursive;
     font-size: 4.208vw;
     font-style: normal;
     font-weight: 400;
@@ -140,7 +129,7 @@ cursor: pointer;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: "SignPainter", sans-serif;
+font-family: 'Bad Script', cursive;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;
@@ -318,7 +307,7 @@ height: 17.240vw;
 .main_otziv_name{
     color: #fff;
     text-align: center;
-    font-family: "SignPainter", sans-serif;
+    font-family: 'Bad Script', cursive;
     font-size: 7.292vw;
     font-style: normal;
     font-weight: 400;
@@ -354,7 +343,7 @@ height: 17.240vw;
 .otziv_name{
     color: #FFF;
 text-align: center;
-font-family: "SignPainter", sans-serif;
+font-family: 'Bad Script', cursive;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;
