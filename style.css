@@ -259,6 +259,68 @@ margin-top: 50px !important;
 
 /* reklama joyi */
 
+@media (max-width:2560px) {
+    .reklama_text1{
+        font-size: 1.172vw !important;
+        font-family: 'PT Sans Caption', sans-serif;
+        width: 250px;
+        line-height: 40px !important;
+        margin-top: 10px;
+        }
+
+        .reklama_text2{
+            font-size: 1.172vw !important;
+            font-family: 'PT Sans Caption', sans-serif;
+            width: 250px;
+            line-height: 40px;
+            margin-top: 10px;
+            }
+        
+        .reklama_text3{
+                font-size: 1.172vw !important;
+                font-family: 'PT Sans Caption', sans-serif;
+                width: 250px;
+                line-height: 40px !important;
+                margin-top: 10px;
+            }
+
+}
+
+@media (max-width:1334px) {
+    .reklama_text1{
+        font-size: 2vw !important;
+        }
+        
+        .reklama_text2{
+            font-size: 2vw !important;
+            }
+        
+        .reklama_text3{
+                font-size: 2vw !important;
+            }
+}
+
+.reklama_text1{
+    font-family: 'PT Sans Caption', sans-serif;
+    width: 250px;
+    line-height: 30px;
+    margin-top: 10px;
+    }
+    
+    .reklama_text2{
+        font-family: 'PT Sans Caption', sans-serif;
+        width: 250px;
+        line-height: 30px;
+        margin-top: 10px;
+        }
+    
+    .reklama_text3{
+            font-family: 'PT Sans Caption', sans-serif;
+            width: 250px;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+
 .reklama_user{
 display: flex;
 justify-content: space-around;
@@ -286,29 +348,7 @@ padding: 20px;
     width: 250px;
 }
 
-.reklama_text1{
-font-size: 2vw;
-font-family: 'PT Sans Caption', sans-serif;
-width: 250px;
-line-height: 30px;
-margin-top: 10px;
-}
 
-.reklama_text2{
-    font-size: 2vw;
-    font-family: 'PT Sans Caption', sans-serif;
-    width: 250px;
-    line-height: 30px;
-    margin-top: 10px;
-    }
-
-.reklama_text3{
-        font-size: 2vw;
-        font-family: 'PT Sans Caption', sans-serif;
-        width: 250px;
-        line-height: 30px;
-        margin-top: 10px;
-    }
 
      .reklama_card1{
             margin-top: 10px;
@@ -429,6 +469,35 @@ margin-top: 10px;
 
 /* about self */
 
+@media (max-width:2560px) {
+    .about_self_text{
+        color: #220A2E;
+        font-size: 1.172vw !important;
+    font-family: 'PT Sans Caption', sans-serif;
+    }
+    
+    .about_self_text1{
+        color: #220A2E;
+        font-size: 1.172vw;
+    font-family: 'PT Sans Caption', sans-serif;
+        margin-top: 30px;
+    }
+    
+    .about_self_text2{
+        color: #220A2E;
+        font-size: 1.172vw;
+    font-family: 'PT Sans Caption', sans-serif;
+        margin-top: 30px;
+    }
+    
+    .about_self_text3{
+        color: #220A2E;
+        font-size: 1.172vw;
+    font-family: 'PT Sans Caption', sans-serif;
+        margin-top: 30px;
+    }
+}
+
 .about_theirself{
     display: flex;
     justify-content: space-around;
@@ -443,16 +512,12 @@ margin-top: 10px;
     color: #220A2E;
     font-size: 2.5vw;
 font-family: 'PT Sans Caption', sans-serif;
-
-/* font-family: 'Playfair Display', serif; */
 }
 
 .about_self_text1{
     color: #220A2E;
     font-size: 2.5vw;
 font-family: 'PT Sans Caption', sans-serif;
-
-/* font-family: 'Playfair Display', serif; */
     margin-top: 30px;
 }
 
@@ -460,8 +525,6 @@ font-family: 'PT Sans Caption', sans-serif;
     color: #220A2E;
     font-size: 2.5vw;
 font-family: 'PT Sans Caption', sans-serif;
-
-/* font-family: 'Playfair Display', serif; */
     margin-top: 30px;
 }
 
@@ -469,8 +532,6 @@ font-family: 'PT Sans Caption', sans-serif;
     color: #220A2E;
     font-size: 2.5vw;
 font-family: 'PT Sans Caption', sans-serif;
-
-/* font-family: 'Playfair Display', serif; */
     margin-top: 30px;
 }
 
