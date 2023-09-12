@@ -1,5 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@font-face {
+  font-family: "SignPainter";
+  src: url("./fonts/signpainter_housescript.otf") format("truetype");
+  /* Другие свойства шрифта, такие как font-weight и font-style */
+}
+@font-face {
+  font-family: "AGOpusHighResolution";
+  src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
+  /* Другие свойства шрифта, такие как font-weight и font-style */
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +18,9 @@
 *, ::after, ::before {
   box-sizing: content-box !important;
 }
+
+
+
 
 
 
@@ -29,7 +42,7 @@ margin-left: 5.208vw;
 .statya_name{
     color: #271845;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+     font-family: "SignPainter", sans-serif;
     font-size: 5vw;
     font-style: normal;
     font-weight: 400;
@@ -174,7 +187,7 @@ border: none;
 
 
 .product_h2{
-    font-family: 'Bad Script', cursive;
+     font-family: "SignPainter", sans-serif;
     color: #fff;
     text-align: center;
     /* margin-top: 2.604vw; */

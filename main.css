@@ -1,5 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@font-face {
+    font-family: "SignPainter";
+    src: url("./fonts/signpainter_housescript.otf") format("truetype");
+    /* Другие свойства шрифта, такие как font-weight и font-style */
+  }
+  @font-face {
+    font-family: "AGOpusHighResolution";
+    src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
+    /* Другие свойства шрифта, такие как font-weight и font-style */
+  }
+
+
 *{
     padding: 0;
     margin: 0;
@@ -9,8 +19,12 @@
 *::after {
   box-sizing:content-box !important;
 }
-
-
+@media (min-width:1880px) {
+    body{
+        padding-inline: 1.823vw;
+    }
+    
+}
 
 
 @media (max-width:400px) {
@@ -77,8 +91,8 @@ line-height: 102.3%;
 }
 .db_jenwina_card{
     color: #FFF;
-text-align: right;
-font-family: 'Bad Script', cursive;
+text-align: center;
+font-family: "SignPainter", sans-serif;
 font-size: 5vw;
 font-style: normal;
 font-weight: 400;
@@ -219,7 +233,7 @@ font-weight: 700;
     margin-top: 4.688vw;
     color: #220A2E;
 text-align: right;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;
@@ -319,7 +333,7 @@ font-weight: 700;
     margin-top: 4.688vw;
     color: #220A2E;
 text-align: center;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;
@@ -354,7 +368,7 @@ border-radius: 3.646vw;
     margin-top: -2vw;
     color: #FFF;
 text-align: center;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 4.5vw;
 font-style: normal;
 font-weight: 400;
@@ -387,7 +401,7 @@ line-height: 2.240vw;
     margin-top: 1vw;
     color: #FFF;
 text-align: center;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 4vw;
 font-style: normal;
 font-weight: 400;
@@ -429,7 +443,7 @@ margin-left: -5.208vw;
 .family_db_name_db_two{
     color: #FFF;
 text-align: center;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 4vw;
 font-style: normal;
 font-weight: 400;
@@ -516,7 +530,7 @@ height: 6.719vw;
 .mix_name{
     color: #271845;
 text-align: center;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 4.208vw;
 font-style: normal;
 font-weight: 400;
@@ -595,7 +609,7 @@ font-weight: 700;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;
@@ -755,7 +769,7 @@ cursor: pointer;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 5vw;
 font-style: normal;
 font-weight: 400;
@@ -879,7 +893,7 @@ cursor: pointer;
 .main_otziv_name1{
     color: #000;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     font-size: 7.292vw;
     font-style: normal;
     font-weight: 400;
@@ -912,7 +926,7 @@ height: 17.240vw;
 .main_otziv_name{
     color: #fff;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     font-size: 7.292vw;
     font-style: normal;
     font-weight: 400;
@@ -964,7 +978,7 @@ height: 17.240vw;
 .otziv_name{
     color: #FFF;
 text-align: center;
-font-family: 'Bad Script', cursive;
+font-family: "SignPainter", sans-serif;
 font-size: 6vw;
 font-style: normal;
 font-weight: 400;
@@ -1073,12 +1087,13 @@ margin-bottom: -100px;
 
 
 .product_h2{
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     color: #fff;
     text-align: center;
     /* margin-top: 2.604vw; */
     font-size: 4.167vw;
     z-index: 99999;
+    padding-top: 1.563vw;
   }
 
   .answer_to_question{
@@ -1282,4 +1297,11 @@ height: 2.396vw;
   .futer_text{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.50);
+  }
+
+
+
+
+  .you_a_woman{
+    font-family: "SignPainter", sans-serif !important;
   }
