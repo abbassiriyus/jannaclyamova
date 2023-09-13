@@ -2147,12 +2147,12 @@ color: #CAC2DA;
 
 /* answer_to_question */
 
-.product_h2 {
-  font-family: "Bad Script", cursive;
-  color: #220a2e;
+.product_h2{
+  font-family: 'Bad Script', cursive;
+  color: #fff;
   text-align: center;
-  margin-top: 50px;
-  font-size: 10vw;
+  /* margin-top: 2.604vw; */
+  font-size: 4.167vw;
   z-index: 99999;
 }
 
@@ -2263,7 +2263,7 @@ color: #CAC2DA;
 }
 .accordion-body {
   /* width: 65.573vw;  */
-  margin-top: -20px !important;
+  margin-top: -20px;
   padding: 20px;
   padding-top: 40px !important;
   margin: auto;
@@ -2405,5 +2405,31 @@ color: #CAC2DA;
 @media (max-width: 800px) {
   .accordion-body {
     font-size: 1.667vw;
+  }
+}
+
+
+
+@media (max-width:450px) {
+  .footer{
+    display: flex !important;
+  }
+  .logo_in_footer{
+      width: 70% !important;
+      height: auto !important;
+  }
+  .a_href_in_footer{
+      width: 30% !important;
+      display: block !important;
+  }
+  .text_into_a_href{
+      font-size: 14px !important;
+  }
+  /* .div_kishkina_into_footer2{
+      width: 30%;
+  } */
+  .futer_text{
+      font-size: 14px !important;
+      line-height: 20px;
   }
 }

@@ -20,6 +20,20 @@
     }
 }
 
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    content: none !important;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+   background: url("./media/image/Polygon\ 1.png") !important; 
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: none !important;
+}
+.swiper-button-next,.swiper-rtl .swiper-button-prev{
+    background: url("./media/image/Polygon\ 1.png") !important; 
+    transform: rotate(180deg);
+}
+
 
 
 .header_stranisa_ikki{
@@ -480,6 +494,7 @@ line-height: 2.240vw;
     .family_text {
         font-size: 35px;
     }
+    
     .header_family_card_three{
         margin-bottom: 110vw !important;
     }
@@ -558,7 +573,7 @@ font-weight: 700;
         gap: 3.854vw;
     }
     .mix_card{
-        width: 280px;
+        width: 260px;
         height: 280px;
         padding: 20px;
     }
@@ -861,12 +876,53 @@ cursor: pointer;
         border-radius: 10px;
         font-size: 12px;
     }
-}
-@media (max-width:1000px) {
-    .master_li .li_dot{
-        display: none !important;
+    .master_cards{
+        display: block;
+    }
+    .master_class{
+        font-size: 26px;
+    }
+    .master_janna{
+        font-size: 32px;
+    }
+    .master_card{
+        margin: auto !important;
+    }
+    .master_ul{
+        width: 70%;
+        text-align: center !important;
+        margin-top: 30px !important;
+        margin: auto;
+        /* margin-left: 15vw; */
+    }
+    .li_dot{
+        width: 2px !important;
+        height: 2px !important;
+        margin-top: 10px !important;
+        margin-right: 3px !important;
+        margin: auto;
+    }
+    .master_text{
+        font-size: 16px !important;
+    }
+    .master_img{
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+        margin: auto !important;
+        width: 60%;
+        height: auto;
+    }
+    .master_happiness{
+        margin-top: 20px !important;
+        font-size: 14px !important;
     }
 }
+/* @media (max-width:1000px) {
+    .master_li .li_dot{
+        display: none ;
+    }
+} */
 
 
 .main_swipers1{
@@ -1045,10 +1101,21 @@ margin-bottom: -100px;
         .main_otziv_name {
             font-size: 46px;
         }
+        .otziv_btn{
+            width: 200px !important;
+            height: 40px !important;
+            font-size: 18px;
+        }
+}
+.swiper-slide-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width:630px) {
     .swiper-slide img{
         scale: .7;
+        /* margin-top: -80px; */
     }
     .swiper-wrapper{
         height: 600px !important;
@@ -1223,7 +1290,24 @@ height: 3.333vw;
   }
 @media (max-width:500px) {
     .product_h2{
-        font-size: 30px;
+        font-size: 30px !important;
+    }
+    .but_ostavit_zayav{
+        width: 80% !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+    .text_center_question{
+        font-size: 12px !important;
+    }
+    .accordion-item button{
+        width: 100% !important; 
+        font-size: 10px !important;
+    }
+    .accordion-body{
+        margin-top: -30px !important;
+        padding: 10px !important;
+        font-size: 8px !important;
     }
 }
 
@@ -1282,4 +1366,44 @@ height: 2.396vw;
   .futer_text{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.50);
+  }
+
+  @media (max-width:450px) {
+    .footer{
+      display: flex !important;
+    }
+    .logo_in_footer{
+        width: 70% !important;
+        height: auto !important;
+    }
+    .a_href_in_footer{
+        width: 30% !important;
+        display: block !important;
+    }
+    .text_into_a_href{
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+    /* .div_kishkina_into_footer2{
+        width: 30%;
+    } */
+    .futer_text{
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+  }
+
+
+
+  .accordion-button::after{
+    content: none !important;
+    background: url("./media/image/+.png") !important;
+  }
+  .accordion-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .accordion_plus{
+/* display: flex; */
   }
