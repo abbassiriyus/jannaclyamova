@@ -471,3 +471,28 @@ height: 3.333vw;
         height: 6.275vw;
     }
   }
+
+
+  @media (max-width:450px) {
+    .footer{
+      display: flex !important;
+    }
+    .logo_in_footer{
+        width: 70% !important;
+        height: auto !important;
+    }
+    .a_href_in_footer{
+        width: 30% !important;
+        display: block !important;
+    }
+    .text_into_a_href{
+        font-size: 14px !important;
+    }
+    /* .div_kishkina_into_footer2{
+        width: 30%;
+    } */
+    .futer_text{
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+  }

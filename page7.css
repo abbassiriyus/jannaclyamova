@@ -66,7 +66,8 @@ height: 33.802vw;
     background-color: #F5F2ED;
     width: 90%;
     padding: 20px;
-    margin-left: 4%;
+    margin: auto;
+    /* margin-left: 4%; */
     border-radius: 50px;
 }
 .page7_schedule_div_info{

@@ -88,6 +88,13 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+@media (max-width:800px) {
+  .swiper-backface-hidden .swiper-slide{
+    /* margin-top: -50px; */
+    display: flex;
+    justify-content: center;
+  }
+}
 .swiper-3d.swiper-css-mode .swiper-wrapper {
   perspective: 1200px;
 }
