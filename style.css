@@ -159,6 +159,12 @@ button {
 }
 
 /* header glavniy */
+
+@media (max-width:2560px) {
+  .glavniy_img{
+    width: 55% !important;
+  }
+}
 .header_glavniy {
   display: flex;
   align-items: center;
@@ -268,7 +274,7 @@ button {
         font-family: 'PT Sans Caption', sans-serif;
         width: 250px;
         line-height: 40px !important;
-        margin-top: 10px;
+        margin-top: 20px !important;
         }
 
         .reklama_text2{
@@ -276,7 +282,7 @@ button {
             font-family: 'PT Sans Caption', sans-serif;
             width: 250px;
             line-height: 40px;
-            margin-top: 10px;
+            margin-top: 20px !important;
             }
         
         .reklama_text3{
@@ -284,7 +290,7 @@ button {
                 font-family: 'PT Sans Caption', sans-serif;
                 width: 250px;
                 line-height: 40px !important;
-                margin-top: 10px;
+                margin-top: 20px !important;
             }
 
 }
@@ -547,7 +553,7 @@ padding: 20px;}
     }
     .self_button {
         background: #fdba1a;
-        width: 300px !important;
+        width: 320px !important;
         height: 50px !important;
         border-radius: 15px;
         color: #220a2e;
@@ -557,6 +563,7 @@ padding: 20px;}
         justify-content: center;
         margin-top: 50px !important;
         border: none;
+        padding: 10px;
       }
       .img_self {
         width: 550px !important;
@@ -809,6 +816,19 @@ font-family: 'PT Sans Caption', sans-serif;
 
 
 /* product page */
+
+@media (max-width:2560px) {
+    .moneystar_in_product3 {
+    display: none;
+  }
+  .product_h1, .product_h5, .product_h11{
+    font-size: 4vw !important;
+  }
+}
+@media (max-width: 1920px) {
+  .moneystar_in_product3 {
+  display: flex;
+}}
 .life_reviews_card {
   position: relative;
 }
@@ -817,7 +837,17 @@ font-family: 'PT Sans Caption', sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
-  font-size: 10vw;
+  font-size: 7.292vw  !important;
+}
+
+@media (max-width:1334px) {
+  .product_h1, .product_h5, .product_h11 {
+    font-family: "Bad Script", cursive;
+    color: #220a2e;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 8vw !important;
+  }
 }
 
 .life_reviews_img {
@@ -1294,7 +1324,7 @@ font-family: 'PT Sans Caption', sans-serif;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .but_product3 {
     width: 100%;
@@ -1318,8 +1348,8 @@ font-family: 'PT Sans Caption', sans-serif;
     margin-top: 50px !important;
   }
   .text_in_small_product {
-    font-size: 5vw;
-    line-height: 40px;
+    font-size: 8vw;
+    line-height: 50px;
   }
   .text_p_in_opisaniya {
     font-size: 2.5vw !important;
@@ -1432,12 +1462,15 @@ font-family: 'PT Sans Caption', sans-serif;
         border: none;
         color: #220a2e;
         width: 200px !important;
-        height: 50px !important;
+        height: 40px !important;
         background-color: #fff;
         border-radius: 19px;
         font-family: "Noto Serif", serif;
-        font-size: 1vw;
+        font-size: 1vw ;
         padding: 10px;
+      }
+      .calendar_master{
+        margin-top: 0% !important;
       }
 }
 
@@ -1473,7 +1506,7 @@ font-family: 'PT Sans Caption', sans-serif;
         border: none;
         color: #220a2e;
         width: 150px !important;
-        height: 30px !important;
+        height: 20px !important;
         background-color: #fff;
         border-radius: 19px;
         font-family: "Noto Serif", serif;
@@ -1518,13 +1551,6 @@ font-family: 'PT Sans Caption', sans-serif;
     width: 95%;
     margin-left: 0.5%;
   }
-  /* .product_h5{
-        font-family: 'Bad Script', cursive;
-        color: #220A2E;
-        text-align: center;
-        margin-top: 50px;
-        font-size: 50px !important;  
-    } */
 
   .you_a_woman {
     font-size: 50px !important;
@@ -1547,6 +1573,9 @@ font-family: 'PT Sans Caption', sans-serif;
     background-color: #fff;
     border-radius: 19px;
     font-family: "Noto Serif", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -1593,8 +1622,8 @@ font-family: 'PT Sans Caption', sans-serif;
 .but_in_div_mastter {
   border: none;
   color: #220a2e;
-  width: 150px;
-  height: 40px;
+  /* width: 150px;
+  height: 40px; */
   background-color: #fff;
   border-radius: 19px;
   font-family: "Noto Serif", serif;
@@ -1742,7 +1771,7 @@ font-family: 'PT Sans Caption', sans-serif;
     border: none;
     color: #220a2e;
     width: 150px !important;
-    height: 50px !important;
+    height: 20px !important;
     background-color: #fff;
     border-radius: 19px;
     font-family: "Noto Serif", serif;
@@ -1831,7 +1860,7 @@ font-family: 'PT Sans Caption', sans-serif;
     border: none;
     color: #220a2e;
     width: 100px !important;
-    height: 0px !important;
+    height: 10px !important;
     background-color: #fff;
     border-radius: 19px;
     font-family: "Noto Serif", serif;
