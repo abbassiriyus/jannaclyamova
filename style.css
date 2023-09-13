@@ -34,7 +34,7 @@ button {
 @media (max-width: 1000px) {
   .navbar {
     height: auto !important;
-    padding: 1.042vw;
+
     justify-content: space-around !important;
   }
   .navbar .logo {
