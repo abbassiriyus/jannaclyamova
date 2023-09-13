@@ -821,7 +821,7 @@ font-family: 'PT Sans Caption', sans-serif;
     .moneystar_in_product3 {
     display: none;
   }
-  .product_h1, .product_h5, .product_h11{
+  .product_h1,  .product_h11{
     font-size: 4vw !important;
   }
 }
@@ -841,7 +841,7 @@ font-family: 'PT Sans Caption', sans-serif;
 }
 
 @media (max-width:1334px) {
-  .product_h1, .product_h5, .product_h11 {
+  .product_h1, .product_h11 {
     font-family: "Bad Script", cursive;
     color: #220a2e;
     text-align: center;
@@ -1430,631 +1430,281 @@ font-family: 'PT Sans Caption', sans-serif;
 
 /* new events */
 
-@media (max-width:2560px) {
-    .five_new_events {
-        background: url("./media/image/1\ 1.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 450px !important;
-        width: 100%;
-        border-radius: 19px;
-        padding: 15px;
-      }
-      .therst_new_events {
-        background: url("./media/image/2\ 1.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 450px !important; 
-        width: 100%;
-        border-radius: 19px;
-        padding: 15px;
-      }
-      .fourth_new_events {
-        background: url("./media/image/3\ 1.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 450px !important;
-        width: 100%;
-        border-radius: 19px;
-        padding: 15px;
-      }
-      .but_in_div_mastter {
-        border: none;
-        color: #220a2e;
-        width: 200px !important;
-        height: 40px !important;
-        background-color: #fff;
-        border-radius: 19px;
-        font-family: "Noto Serif", serif;
-        font-size: 1vw ;
-        padding: 10px;
-      }
-      .calendar_master{
-        margin-top: 0% !important;
-      }
+.img_upcoming_events{
+  position: absolute;
+  left: -100px;
+  margin-top: -50px;
 }
 
-@media (max-width: 1482px) {
-    .five_new_events {
-        background: url("./media/image/1\ 1.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 300px !important;
-        width: 100%;
-        border-radius: 19px;
-        padding: 15px;
-      }
-      .therst_new_events {
-        background: url("./media/image/2\ 1.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 300px !important; 
-        width: 100%;
-        border-radius: 19px;
-        padding: 15px;
-      }
-      .fourth_new_events {
-        background: url("./media/image/3\ 1.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 300px !important;
-        width: 100%;
-        border-radius: 19px;
-        padding: 15px;
-      }
-      .but_in_div_mastter {
-        border: none;
-        color: #220a2e;
-        width: 150px !important;
-        height: 20px !important;
-        background-color: #fff;
-        border-radius: 19px;
-        font-family: "Noto Serif", serif;
-        font-size: 1vw;
-        padding: 10px;
-      }
+.img_upcoming_events2{
+  position: absolute;
+  right: 0px;
+  margin-top: -200px;
 }
 
+.img_upcoming_events3{
+  position: absolute;
+  left: 0;
+  margin-top: 250px;
+}
 
-.new_events {
-  width: 45%;
-  padding: 15px;
+.new_event_big_div{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
 }
-.new_event_big_div {
-  background-color: #fff;
-}
-@media (max-width: 900px) {
-  .img_neweventd {
-    display: none;
-  }
-}
-.img_neweventd {
-  margin-top: 50px;
-}
-.events {
+
+.events{
+  width: 95%;
+  margin-left: 2.5%;
   display: flex;
   align-items: start;
   justify-content: space-around;
-  gap: 50px;
-}
-@media (max-width: 950px) {
-  .events {
-    display: block;
-    padding: 10px;
-    text-align: center;
-  }
-  .calendar_events {
-    width: 90% !important;
-    margin-left: 2%;
-  }
-  .new_events {
-    width: 95%;
-    margin-left: 0.5%;
-  }
-
-  .you_a_woman {
-    font-size: 50px !important;
-  }
-  .calendar_master {
-    justify-content: space-around !important    ;
-    margin-top: 55px !important;
-  }
-  .time_master_class {
-    font-size: 30px !important;
-  }
-  .bx_calendar2 {
-    font-size: 40px !important;
-  }
-  .but_in_div_mastter {
-    border: none;
-    color: #220a2e;
-    width: 200px !important;
-    height: 50px !important;
-    background-color: #fff;
-    border-radius: 19px;
-    font-family: "Noto Serif", serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.product_h11 {
-  font-family: "Bad Script", cursive;
-  color: #220a2e;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 10vw;
-}
-.product_h5 {
-  font-family: "Bad Script", cursive;
-  color: #220a2e;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 10vw;
-}
-
-.you_a_woman {
-  font-family: "Bad Script", cursive;
-  color: #220a2e;
-  font-size: 2.5vw;
-  font-weight: 700;
-}
-.calendar_master {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 5%;
-}
-.time_master_class {
-  color: #220a2e;
-  font-family: "Noto Serif", serif;
-  font-size: 1.3vw;
-}
-.time_master_class_kotta {
-  text-align: center;
-  margin-left: 50%;
-  margin-top: 5%;
-}
-.bx_calendar2 {
-  font-size: 2vw !important;
-}
-.but_in_div_mastter {
-  border: none;
-  color: #220a2e;
-  /* width: 150px;
-  height: 40px; */
-  background-color: #fff;
-  border-radius: 19px;
-  font-family: "Noto Serif", serif;
-  font-size: 1vw;
-}
-.for_just_events {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-.five_new_events {
-  background: url("./media/image/1\ 1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 320px;
-  width: 100%;
-  border-radius: 19px;
-  padding: 15px;
-}
-.therst_new_events {
-  background: url("./media/image/2\ 1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 320px;
-  width: 100%;
-  border-radius: 19px;
-  padding: 15px;
-}
-.fourth_new_events {
-  background: url("./media/image/3\ 1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 320px;
-  width: 100%;
-  border-radius: 19px;
-  padding: 15px;
-}
-
-@media (max-width: 1100px) {
-  .but_in_div_mastter {
-    border: none;
-    color: #220a2e;
-    width: 150px;
-    height: 35px;
-  }
-
-  .you_a_woman {
-    /* font-family: 'Noto Serif', serif; */
-    color: #220a2e;
-  }
-  .time_master_class {
-    color: #220a2e;
-    font-family: "Noto Serif", serif;
-    text-align: center;
-  }
-  .calendar_master {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 0%;
-  }
-  .time_master_class_kotta {
-    margin-top: 2%;
-  }
-}
-
-@media (max-width: 950px) {
-  .five_new_events {
-    background: url("./media/image/1\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 360px !important;
-  }
-  .therst_new_events {
-    background: url("./media/image/2\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 360px !important;
-  }
-  .fourth_new_events {
-    background: url("./media/image/3\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 360px !important;
-  }
-  .but_in_div_mastter {
-    border: none;
-    color: #220a2e;
-    width: 150px !important;
-    height: 40px !important;
-    background-color: #fff;
-    border-radius: 19px;
-    font-family: "Noto Serif", serif;
-    font-size: 2vw;
-  }
-
-  .you_a_woman {
-    /* font-family: 'Noto Serif', serif; */
-    color: #220a2e;
-  }
-  .time_master_class {
-    color: #220a2e;
-    font-family: "Noto Serif", serif;
-    text-align: center;
-  }
-  .bx_calendar2 {
-    font-size: 5vw !important;
-  }
-
-  .calendar_master {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 0%;
-  }
-}
-
-@media (max-width: 800px) {
-  .five_new_events {
-    background: url("./media/image/1\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 320px !important;
-  }
-  .therst_new_events {
-    background: url("./media/image/2\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 320px !important;
-  }
-  .fourth_new_events {
-    background: url("./media/image/3\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 320px !important;
-  }
-  .but_in_div_mastter {
-    border: none;
-    color: #220a2e;
-    width: 150px !important;
-    height: 20px !important;
-    background-color: #fff;
-    border-radius: 19px;
-    font-family: "Noto Serif", serif;
-    font-size: 2vw;
-  }
-
-  .you_a_woman {
-    /* font-family: 'Noto Serif', serif; */
-    color: #220a2e;
-    font-size: 5vw !important;
-  }
-  .time_master_class {
-    color: #220a2e;
-    font-family: "Noto Serif", serif;
-    text-align: center;
-    font-size: 3vw !important;
-  }
-  .bx_calendar2 {
-    font-size: 3vw !important;
-  }
-
-  .calendar_master {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 5% !important;
-  }
-  .time_master_class_kotta {
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 650px) {
-  .five_new_events {
-    background: url("./media/image/1\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 250px !important;
-  }
-  .therst_new_events {
-    background: url("./media/image/2\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 250px !important;
-  }
-  .fourth_new_events {
-    background: url("./media/image/3\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 250px !important;
-  }
-}
-
-@media (max-width: 500px) {
-  .calendar_master {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 5% !important;
-  }
-  .five_new_events {
-    background: url("./media/image/1\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 185px !important;
-  }
-  .therst_new_events {
-    background: url("./media/image/2\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 185px !important;
-  }
-  .fourth_new_events {
-    background: url("./media/image/3\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 185px !important;
-  }
-  .but_in_div_mastter {
-    border: none;
-    color: #220a2e;
-    width: 100px !important;
-    height: 10px !important;
-    background-color: #fff;
-    border-radius: 19px;
-    font-family: "Noto Serif", serif;
-    font-size: 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 400px) {
-  .calendar_master {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 0% !important;
-  }
-  .five_new_events {
-    background: url("./media/image/1\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 150px !important;
-  }
-  .therst_new_events {
-    background: url("./media/image/2\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 150px !important;
-  }
-  .fourth_new_events {
-    background: url("./media/image/3\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 95% !important;
-    min-height: 150px !important;
-  }
-  .but_in_div_mastter {
-    border: none;
-    color: #220a2e;
-    width: 50px !important;
-    height: 0px !important;
-    background-color: #fff;
-    border-radius: 19px;
-    font-family: "Noto Serif", serif;
-    font-size: 2vw;
-    margin-top: -20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .time_master_class_kotta {
-    margin-top: -2%;
-  }
-  .new_events{
-    width: 90%;
-  }
-  .calendar_events{
-    width: 85% !important;
-  }
-}
-
-.calendar_events {
-  background-color: #f5f2ed;
-  width: 50%;
-  border-radius: 30px;
-  z-index: 99999;
-  padding: 20px;
-}
-.calendar_events_small {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin-bottom: 50px;
-  width: 100%;
-}
-.big_for_block {
-  width: 90%;
-  margin-left: 5%;
-}
-.calendar_text_p {
-  color: #cac2da;
-  font-size: 15px;
-  /* font-family: 'Playfair Display', serif; */
-}
-.calendar_text_p2 {
-  color: #271845;
-  font-weight: 700;
-  /* font-family: 'Playfair Display', serif; */
-  font-size: 25px;
-}
-.for_experement {
-  display: flex;
   gap: 10px;
 }
-.bx-calendar {
+
+.for_block_events{
+  width: 50%;
+  z-index: 99999;
+}
+
+.first_event{
+  width: 100%;
+  background: url("./media/image/1\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 335px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.block_button_text{
+  display: block;
+  text-align: center;
+}
+.img_in_event{
+  width: 40px;
+  margin-top: 30px;
+}
+.sentyabr_event{
+  font-size: 1.3vw;
+  font-weight:600;
+  margin-top: 20px;
   color: #271845;
-  font-size: 30px;
 }
-.text_master_klass {
-  color: #fdba1a;
-  font-size: 10px;
-}
-.text_master_klass {
+
+.button_events{
+  font-size: 1.302vw;
+  height: 70px;
+  width: 268px;
+  color: #271845;
   border-radius: 50px;
-  border: 1px solid #fdba1a;
-  height: 35px;
-  width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  background-color: #f5f2ed;
-}
-.calendar_button {
   border: none;
-  background-color: #fdba1a;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.text_event{
+  font-size: 2.5vw;
+  font-family: "Bad Script", cursive;
+  font-weight: 600 !important;
   color: #271845;
-  height: 40px;
-  width: 260px;
-  border-radius: 30px;
-  font-size: 13px;
-  margin-bottom: 30px;
+  margin-top: 220px;
 }
-.div_for_button {
+
+.second_event{
+  width: 100%;
+  background: url("./media/image/2\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 335px;
+  border-radius: 70px;
+  margin-top: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
+  justify-content: space-around;
 }
 
-.height_line_div {
-  width: 3px;
-  height: 60px;
-  background-color: #e1e1e1;
-  margin-top: -60px;
-  margin-left: 23px;
-  margin-bottom: 15px;
+.thrird_event{
+  width: 100%;
+  background: url("./media/image/3\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 335px;
+  border-radius: 70px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.text_master_klass:active {
-  color: white;
-  background: #fdba1a;
-}
-
-@media (max-width: 500px) {
-  .calendar_events_small {
-    display: block;
-  }
-  .calendar_master_klass {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width:2668px) {
+  .first_event{
     width: 100%;
+    background: url("./media/image/1\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px !important;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .second_event{
+    width: 100%;
+    background: url("./media/image/2\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px !important;
+    border-radius: 70px;
     margin-top: 20px;
-  }
-  .text_master_klass {
-    width: 100%;
-    margin-left: -8%;
-  }
-  .for_experement {
-    display: block;
-  }
-  .calendar_button {
-    margin-bottom: 30px;
-  }
-  .height_line_div {
-    display: none;
-  }
-  /* .product_h10{
-        font-family: 'Bad Script', cursive;
-        color: #220A2E;
-        text-align: center;
-        margin-top: 50px;
-        font-size: 50px !important;
-    } */
-  .for_block_text_in_calendar {
-    text-align: center;
-    width: 100%;
-  }
-  .calendar_master_klass {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .thrird_event{
+    width: 100%;
+    background: url("./media/image/3\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px !important;
+    border-radius: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
   }
 }
-.product_h10 {
+
+
+@media (max-width:1700px) {
+  .first_event{
+    width: 100%;
+    background: url("./media/image/1\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px !important;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .second_event{
+    width: 100%;
+    background: url("./media/image/2\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px !important;
+    border-radius: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .thrird_event{
+    width: 100%;
+    background: url("./media/image/3\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px !important;
+    border-radius: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+.product_h111{
   font-family: "Bad Script", cursive;
   color: #220a2e;
   text-align: center;
-  margin-top: 50px;
-  font-size: 10vw;
+  font-size: 4.167vw;
+  font-weight: 600;
+}
+
+.big_div_calendar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+.for_calendar_block{
+  background-color: #F5F2ED;
+  width:40%;
+  border-radius: 70px;
+  padding: 30px;
+  z-index: 99999;
+}
+
+.calendar_block_lineh{
+  display: block;
+  text-align: center;
+}
+
+.img_calendar_div{
+  margin-top: 15px;
+}
+
+.line_height_calendar_div{
+  margin-top: 20px;
+}
+
+.text_calendar_div{
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+
+.text_calendar1{
+font-size: 1.563vw;
+color: #CAC2DA;
+}
+
+.text_calendar2{
+  font-size: 2.083vw;
+  color: #271845;
+}
+@media (max-width:2668px) {
+  .button_calendar{
+    width: 330px !important;
+    height: 100px !important;
+    font-size: 1.563vw;
+    color: #fdba1a;
+    border: 1px solid #fdba1a;
+    border-radius: 50px;
+  }
+}
+@media (max-width:2000px) {
+  .button_calendar{
+    width: 268px !important;
+    height: 70px !important;
+    font-size: 1.563vw;
+    color: #fdba1a;
+    border: 1px solid #fdba1a;
+    border-radius: 50px;
+  }
+}
+.button_calendar{
+  width: 268px;
+  height: 70px;
+  font-size: 1.563vw;
+  color: #fdba1a;
+  border: 1px solid #fdba1a;
+  border-radius: 50px;
+}
+
+.button_calendar_center_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button_calendar_center{
+  color: #271845;
+  background-color: #fdba1a;
+  border-radius: 29px;
+  border: none;
+  width: 400px;
+  height: 80px;
 }
 
 /* reviews */
