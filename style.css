@@ -34,7 +34,6 @@ button {
 @media (max-width: 1000px) {
   .navbar {
     height: auto !important;
-
     justify-content: space-around !important;
   }
   .navbar .logo {
