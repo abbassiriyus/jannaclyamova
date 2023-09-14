@@ -742,3 +742,19 @@ height: 2.396vw;
 
 
 
+
+  .accordion-button::after{
+    content: none !important;
+    background: url("./media/image/+.png") !important;
+  }
+.accordion_plus{
+    width: 2.583vw;
+    height: 2.583vw;
+    margin-right: -3vw;
+}
+@media (max-width:500px) {
+    .accordion_plus{
+        width: 15px;
+        height: 15px;
+    }
+}

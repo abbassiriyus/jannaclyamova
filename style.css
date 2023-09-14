@@ -182,7 +182,7 @@ button {
   max-width: 65%;
 }
 .header_glavniy .glavniy_text {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 4vw;
   letter-spacing: 0.521vw;
   font-weight: 100;
@@ -833,17 +833,17 @@ font-family: 'PT Sans Caption', sans-serif;
   position: relative;
 }
 .product_h1 {
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
-  font-size: 7.292vw  !important;
+  font-size: 5vw  !important;
   z-index: 99999;
 }
 
 @media (max-width:1334px) {
   .product_h1, .product_h11 {
-    font-family: "Bad Script", cursive;
+    font-family: "SignPainter", sans-serif;
     color: #220a2e;
     text-align: center;
     margin-top: 50px;
@@ -860,7 +860,7 @@ font-family: 'PT Sans Caption', sans-serif;
 }
 .text_in_small_product {
   color: #fdba1a;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 70px;
   line-height: 97px;
 }
@@ -1507,7 +1507,7 @@ font-family: 'PT Sans Caption', sans-serif;
 
 .text_event{
   font-size: 2.5vw;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif !important;
   font-weight: 600 !important;
   color: #271845;
   margin-top: 220px;
@@ -1710,9 +1710,14 @@ font-family: 'PT Sans Caption', sans-serif;
     margin-top: 80px;
   }
 }
+@media (max-width:500px) {
+  .product_h1{
+    font-size: 40px !important;
+  }
+}
 
 .product_h111{
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   color: #220a2e;
   text-align: center;
   font-size: 4.167vw;
@@ -1947,7 +1952,7 @@ color: #CAC2DA;
 .main_otziv_name1 {
   color: #000;
   text-align: center;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 7.292vw;
   font-style: normal;
   font-weight: 400;
@@ -1980,7 +1985,7 @@ color: #CAC2DA;
 .main_otziv_name {
   color: #fff;
   text-align: center;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 7.292vw;
   font-style: normal;
   font-weight: 400;
@@ -2148,11 +2153,11 @@ color: #CAC2DA;
 /* answer_to_question */
 
 .product_h2{
-  font-family: 'Bad Script', cursive;
+  font-family: "SignPainter", sans-serif;
   color: #fff;
   text-align: center;
   /* margin-top: 2.604vw; */
-  font-size: 4.167vw;
+  font-size: 5.2vw;
   z-index: 99999;
 }
 
@@ -2320,7 +2325,7 @@ color: #CAC2DA;
 .main_otziv_name1 {
   color: #000;
   text-align: center;
-  font-family: "Bad Script", cursive;
+  font-family: "SignPainter", sans-serif;
   font-size: 7.292vw;
   font-style: normal;
   font-weight: 400;
@@ -2431,5 +2436,24 @@ color: #CAC2DA;
   .futer_text{
       font-size: 14px !important;
       line-height: 20px;
+  }
+}
+
+
+
+
+.accordion-button::after{
+  content: none !important;
+  background: url("./media/image/+.png") !important;
+}
+.accordion_plus{
+  width: 2.583vw;
+  height: 2.583vw;
+  margin-right: -3vw;
+}
+@media (max-width:500px) {
+  .accordion_plus{
+      width: 15px;
+      height: 15px;
   }
 }
