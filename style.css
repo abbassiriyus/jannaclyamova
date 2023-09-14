@@ -192,6 +192,19 @@ button {
   position: relative;
   top: 20px;
 }
+.glavniy_text{
+  margin-right: 30px;
+}
+@media (max-width:500px) {
+  .glavniy_text{
+    margin-right: 10px;
+    text-align: right;
+  }
+  .header_button {
+    margin-right: 20px;
+    padding: 0px 0px  !important;
+  }
+}
 .text_header {
   font-size: 5vw;
   margin-right: 50px;
