@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@font-face {
+  font-family: "SignPainter";
+  src: url("./fonts/signpainter_housescript.otf") format("truetype");
+  /* Другие свойства шрифта, такие как font-weight и font-style */
+}
+
+@font-face {
+  font-family: "AGOpusHighResolution";
+  src: url("./fonts/agopushighresolution_boldoblique.ttf") format("truetype");
+  /* Другие свойства шрифта, такие как font-weight и font-style */
+}
 *{
     padding: 0;
     margin: 0;
@@ -29,7 +38,7 @@ margin-left: 5.208vw;
 .statya_name{
     color: #271845;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     font-size: 5vw;
     font-style: normal;
     font-weight: 400;
@@ -59,6 +68,37 @@ font-weight: 700;
     line-height: normal;
     cursor: pointer;
 }
+@media (max-width:500px) {
+  .statya_name{
+    font-size: 30px;
+    margin-bottom: 0px !important;
+  }
+  .statya_text{
+    font-size: 10px;
+  }
+  .statya_btns{
+    width: 90% !important;
+    flex-wrap: wrap;
+    padding: 0px !important;
+    padding-bottom: 5px !important;
+  }
+  .glavni_btn_statya{
+    width: auto !important;
+    height: 20px !important;
+    padding-inline: 10px !important;
+    font-size: 8px !important;
+    font-weight: 600;
+  }
+  .statya_btn{
+    width: auto !important;
+    padding-inline: 10px !important;
+    height: 20px !important;
+    font-size: 8px !important;
+  }
+  .statya_in_br{
+    display: none;
+  }
+}
 
 
 
@@ -72,11 +112,11 @@ font-weight: 700;
     padding-bottom: 5vw;
 }
 .statya_btns{
-    width: 80%;
+    width: 85%;
     border-radius: 4.010vw;
 background: #F5F2ED;
     padding: 2.083vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: auto;
 }
 .glavni_btn_statya{
@@ -118,14 +158,14 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
     margin: auto;
+    gap: 4.167vw 2.865vw;
     flex-wrap: wrap;
     margin-top: 5.208vw;
 }
 .statya_card{
     width: 25.073vw;
 text-align: center;
-margin: auto;
-margin-top: 2.604vw;
+/* margin-top: 2.604vw; */
 border-radius: 2.604vw;
 border: 0.260vw solid #F5F2ED;
 padding: 1.302vw;
@@ -165,7 +205,17 @@ border: none;
 .collapsed{
   box-sizing: border-box !important;
 }
-
+@media (max-width:500px) {
+  .statya_cards{
+    flex-wrap: wrap;
+  }
+  .statya_card{
+    width: 40%;
+  }
+  .statya_card_text{
+    font-size: 9px;
+  }
+}
 
 
 
@@ -174,7 +224,7 @@ border: none;
 
 
 .product_h2{
-    font-family: 'Bad Script', cursive;
+    font-family: "SignPainter", sans-serif;
     color: #fff;
     text-align: center;
     /* margin-top: 2.604vw; */

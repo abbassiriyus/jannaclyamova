@@ -115,9 +115,9 @@
 
 .db_jenwina_card {
     color: #FFF;
-    text-align: right;
+    text-align: center;
     font-family: "SignPainter", sans-serif;
-    font-size: 5vw;
+    font-size: 6vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -193,7 +193,7 @@
     }
 
     .db_jenwina_card {
-        font-size: 6.250vw;
+        font-size: 8.250vw;
     }
 
     .db_btn_zakas {
@@ -202,6 +202,11 @@
         font-size: 2.500vw;
         border-radius: 10px;
         margin-top: 3vw;
+    }
+}
+@media (max-width:1000px) {
+    .db_jenwina_card {
+        font-size: 8vw;
     }
 }
 
@@ -1020,7 +1025,7 @@
 }
 
 .master_happiness {
-    margin-top: 60px;
+    margin-top: 3.125vw ;
     color: #220A2E;
     text-align: center;
     font-family: 'PT Sans Caption', sans-serif;
@@ -1992,7 +1997,7 @@ margin-bottom: -100px;
     color: #220a2e;
     text-align: center;
     font-size: 4.167vw;
-    font-weight: 600;
+    font-weight: 400;
   }
   
   .big_div_calendar{
