@@ -1588,7 +1588,17 @@ font-family: 'PT Sans Caption', sans-serif;
     justify-content: space-around;
   }
   .text_event{
-    margin-top: 250px !important;
+    margin-top: 280px !important;
+  }
+  .button_events{
+    font-size: 1.302vw;
+    height: 70px;
+    width: 350px !important ;
+    color: #271845;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    margin-top: 80px;
   }
 }
 
@@ -1628,7 +1638,17 @@ font-family: 'PT Sans Caption', sans-serif;
     justify-content: space-around;
   }
   .text_event{
-    margin-top: 230px;
+    margin-top: 230px !important;
+  }
+  .button_events{
+    font-size: 1.302vw;
+    height: 50px !important;
+    width: 260px !important ;
+    color: #271845;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    margin-top: 60px !important;
   }
 }
 
@@ -1918,7 +1938,12 @@ color: #CAC2DA;
 }
 @media (max-width:2668px) {
   .button_calendar{
+    width: 268px !important;
+    height: 50px !important;
     font-size: 1vw !important;
+    color: #fdba1a;
+    border: 1px solid #fdba1a;
+    border-radius: 50px;
   }
 }
 @media (max-width:2000px) {
@@ -1933,7 +1958,7 @@ color: #CAC2DA;
 }
 @media (max-width: 1700px) {
   .button_calendar_center{
-    width: 400px !important;
+    width: 200px !important;
     height: 60px !important;
     font-size: 1.563vw;
     color: #fdba1a;
