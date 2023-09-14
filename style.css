@@ -1571,6 +1571,9 @@ font-family: 'PT Sans Caption', sans-serif;
     display: flex;
     justify-content: space-around;
   }
+  .text_event{
+    margin-top: 250px !important;
+  }
 }
 
 
@@ -1658,7 +1661,7 @@ font-family: 'PT Sans Caption', sans-serif;
     margin-top: 60px;
   }
   .text_event{
-    margin-top: 220px;
+    margin-top: 220px !important;
   }
 }
 @media (max-width:1000px) {
@@ -2013,6 +2016,7 @@ color: #CAC2DA;
   @media (max-width: 500px) {
     .button_calendar{
       border: none !important;
+      font-size: 20px !important;
     }
     .line_height_calendar_div{
       display: none;
