@@ -2009,7 +2009,11 @@ color: #CAC2DA;
     }
   }
 
+
   @media (max-width: 500px) {
+    .button_calendar{
+      border: none !important;
+    }
     .line_height_calendar_div{
       display: none;
     }
@@ -2028,16 +2032,14 @@ color: #CAC2DA;
       align-items: center;
       justify-content: center;
     }
-    .button_calendar{
-      width: 100% !important;
-      height: 50px !important;
-      font-size: 4vw !important;
-      color: #fdba1a;
+    .button_div_calendar{
+      background-color: #F5F2ED;
+      width: 90%;
+      height: 30px;
       border: 1px solid #fdba1a;
       border-radius: 50px;
-    }
-    .button_div_calendar{
-      width: 90%;
+      margin-left: 5%;
+      margin-top: 20px !important;
     }
     .img_calendar_div{
       margin-bottom: 20px ;
@@ -2055,9 +2057,9 @@ color: #CAC2DA;
         margin-bottom: 30px;
       }
     }
-
-
-@media (max-width:800px) {
+ 
+    
+    @media (max-width:800px) {
   .text_calendar1{
     font-size: 1.563vw;
     color: #CAC2DA;
@@ -2113,6 +2115,7 @@ color: #CAC2DA;
   color: #fdba1a;
   border: 1px solid #fdba1a;
   border-radius: 50px;
+  background-color: #F5F2ED;
 }
 
 .button_calendar_center_div{
@@ -2129,6 +2132,7 @@ color: #CAC2DA;
   border: none;
   width: 400px;
   height: 80px;
+  background-color: #F5F2ED;
 }
 
 /* reviews */
