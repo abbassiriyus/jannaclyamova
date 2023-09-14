@@ -854,6 +854,7 @@ font-family: 'PT Sans Caption', sans-serif;
   text-align: center;
   margin-top: 50px;
   font-size: 5vw  !important;
+  font-weight: 400;
   z-index: 99999;
 }
 
@@ -1888,7 +1889,7 @@ display: none;
   color: #220a2e;
   text-align: center;
   font-size: 4.167vw;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 30px;
 }
 
