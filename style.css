@@ -77,6 +77,10 @@ button {
   letter-spacing: 0em;
   text-align: right;
   color: rgba(255, 255, 255, 1);
+  transition: .5s;
+}
+.nav:hover{
+  color: #FDBA1A;
 }
 .navbar a {
   text-decoration: none;
@@ -354,28 +358,12 @@ background-color: #220A2E;
 height: auto;
 color: white;
 width: 80%;
-margin-left: 8%;
+margin: auto;
 border-radius: 60px;
 margin-top: 100px;
 margin-bottom: 10px;
 text-align: center;
 padding: 20px;}
-.reklama_user {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #220a2e;
-  height: auto;
-  color: white;
-  width: 80%;
-  margin-left: 8%;
-  border-radius: 60px;
-  margin-top: 100px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 20px;
-}
 
 .reklama_card3_div {
   display: flex;
@@ -511,28 +499,29 @@ padding: 20px;}
     width: 100px;
   }
   .reklama_text1 {
-    font-size: 2vw;
+    font-size: 2.5vw !important;
     width: 110px;
-    line-height: 20px;
-    margin-top: 10px;
+    line-height: 20px !important;
+    margin-top: 5px !important;
   }
 
   .reklama_text2 {
-    font-size: 2vw;
+    font-size: 2.5vw !important ;
     width: 110px;
-    line-height: 20px;
-    margin-top: 10px;
+    line-height: 20px !important;
+    margin-top: 5px !important;
   }
 
   .reklama_text3 {
-    font-size: 2vw;
+    font-size: 2.5vw !important;
     width: 110px;
-    line-height: 20px;
-    margin-top: 10px;
+    line-height: 20px !important;
+    margin-top: 5px !important;
   }
   .reklama_user {
     width: 80%;
-    margin-left: 4%;
+    margin: auto;
+    margin-top: 50px;
   }
 }
 
@@ -887,13 +876,13 @@ font-family: 'PT Sans Caption', sans-serif;
 .product_page {
   background: #220a2e;
   width: 95%;
+  margin: auto;
   border-radius: 35px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 1%;
   overflow: hidden;
   margin-top: 50px;
 }
@@ -1033,7 +1022,8 @@ font-family: 'PT Sans Caption', sans-serif;
   .product_page1,
   .product_page {
     width: 90% !important;
-    margin-left: 2% !important;
+  margin: auto !important;
+  margin-top: 50px !important;
   }
   .product_kichkina {
     display: block !important;
@@ -1334,11 +1324,13 @@ font-family: 'PT Sans Caption', sans-serif;
   }
   .product_page {
     width: 80% !important;
-    margin-left: 5% !important;
+    margin: auto;
+    margin-top: 50px !important;
   }
   .product_page1 {
     width: 80% !important;
-    margin-left: 5% !important;
+    margin: auto;
+    margin-top: 50px !important;
   }
   .button_product {
     display: flex;
@@ -1402,13 +1394,13 @@ font-family: 'PT Sans Caption', sans-serif;
 .product_page1 {
   background: #271845;
   width: 95%;
+  margin: auto;
   border-radius: 35px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 1%;
   overflow: hidden;
   margin-top: 50px;
 }
@@ -1827,10 +1819,7 @@ cursor: pointer;
   margin-top: 180px;
 }
 
-.video_in_swiper {
-  margin-top: 50px;
-  border-radius: 20px;
-}
+
 .but_in_reviews {
   background-color: #fdba1a;
   border: none;
@@ -2446,5 +2435,261 @@ cursor: pointer;
       height: 40px;
       border-radius: 10px;
       font-size: 14px;
+  }
+}
+
+
+
+
+
+
+.main_swipers1 {
+  padding-top: 1vw;
+  background: url("./media/image/Слой\ 1\ 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
+
+
+.main_swipers {
+  position: relative;
+  padding-top: 1vw;
+  text-align: center;
+  background: #220A2E;
+  user-select: none;
+}
+
+.main_stars1 {
+  width: 20.365vw;
+  height: 17.240vw;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.main_stars2 {
+  width: 33.365vw;
+  height: 17.240vw;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.main_otziv_name {
+  color: #fff;
+  text-align: center;
+  font-family: "SignPainter", sans-serif;
+  font-size: 5.2vw;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1vw;
+  margin-bottom: -2vw;
+}
+
+.swiper-pagination-horizontal {
+  display: none;
+}
+
+.swiper-slide-active {
+  /* height: 38.458vw !important; */
+  opacity: 1 !important;
+  scale: 0.8 !important;
+  margin: auto;
+  text-align: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #FDBA1A !important;
+}
+
+.swiper-slide {
+  scale: 0.7;
+  /* height: 34.458vw !important; */
+  opacity: 0.5;
+}
+
+@media (max-width:500px) {
+
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+      font-size: 20px !important;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+      font-size: 20px !important;
+  }
+  .main_otziv_name1{
+      font-size: 40px !important;
+  }
+
+}
+
+.img_into_footer {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+
+
+.header_otziv {
+  padding-top: 2.604vw;
+  padding-bottom: 2.604vw;
+  background: #220A2E;
+  position: relative;
+}
+
+.otziv_name {
+  color: #FFF;
+  text-align: center;
+  font-family: "SignPainter", sans-serif;
+  font-size: 6vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.otziv_star_img_one {
+  position: absolute;
+  top: 7.813vw;
+  right: 0px;
+}
+
+.otziv_star_img_two {
+  position: absolute;
+  bottom: 0px;
+}
+
+.otziv_btn {
+  width: 22.760vw;
+  height: 4.740vw;
+  margin-top: 4.688vw;
+  margin-bottom: 5vw;
+  border-radius: 1.510vw;
+  background: #FDBA1A;
+  border: none;
+  color: #271845;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* .swiper-horizontal {
+margin-top: -100px;
+margin-bottom: -100px;
+} */
+@media (max-width:800px) {
+  .swiper-slide img {
+      scale: .9;
+  }
+
+  .swiper-wrapper {
+      height: 700px !important;
+  }
+
+  .swiper-slide-active {
+      /* height: 38.458vw !important; */
+      opacity: 1 !important;
+      scale: 0.8 !important;
+      margin: auto;
+      text-align: center;
+  }
+
+  .swiper-slide {
+      scale: 0.5;
+      /* height: 34.458vw !important; */
+      opacity: 0.5;
+  }
+
+  .accordion-body {
+      font-size: 1.667vw;
+  }
+}
+
+@media (max-width:500px) {
+  .swiper-slide-active {
+      /* height: 38.458vw !important; */
+      opacity: 1 !important;
+      scale: 0.5 !important;
+      margin: auto;
+      text-align: center;
+  }
+
+  .swiper-slide {
+      scale: 0.4;
+      /* height: 34.458vw !important; */
+      opacity: 0.5;
+  }
+
+  .swiper-wrapper {
+      margin-top: -100px;
+      margin-bottom: -100px;
+  }
+
+  .main_otziv_name {
+      font-size: 40px !important;
+  }
+
+  .otziv_btn {
+      width: 200px !important;
+      height: 40px !important;
+      font-size: 18px;
+  }
+}
+
+.swiper-slide-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:630px) {
+  .swiper-slide img {
+      scale: .7;
+      /* margin-top: -80px; */
+  }
+
+  .swiper-wrapper {
+      height: 600px !important;
+  }
+}
+
+@media (max-width:500px) {
+  .swiper-slide img {
+      scale: .5;
+  }
+}
+
+
+
+.video_in_swiper {
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 400px;
+  height: 700px;
+}
+
+
+@media (max-width: 800px) {
+  .video_in_swiper {
+      width: 300px ;
+      height: 500px ;
+  }
+}
+@media (max-width: 500px) {
+  .video_in_swiper {
+      width: 400px !important;
+      height: 700px !important;
   }
 }
