@@ -15,13 +15,16 @@
 .media_toggle {
   margin-right: -40px;
 }
-
+*, ::after, ::before {
+  box-sizing: content-box !important;
+}
 body {
   overflow-x: hidden;
 }
 button {
   font-family: "PT Sans Caption", sans-serif !important;
 }
+
 
 /* navbar */
 .navbar {
@@ -1119,7 +1122,7 @@ font-family: 'PT Sans Caption', sans-serif;
   }
   .woman_in_product {
     margin-top: -300px;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   .moneystar_in_product3 {
@@ -1449,53 +1452,86 @@ font-family: 'PT Sans Caption', sans-serif;
 /* new events */
 
 
+
+
+
+
 .page_sobitiya{
-  text-align: center;
+  position: relative;
+    text-align: center;
+}
+.index_star_left_top{
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 0;
+  width: 40.365vw;
+height: auto;
+}
+.index_star_left_bottom{
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+  z-index: 0;
+  height: 40.365vw;
+width: auto;
+}
+.index_star_right_top{
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  z-index: 0;
+  width: 40.365vw;
+height: auto;
 }
 .sobitiya_name{
-  color: #271845;
+    color: #271845;
 text-align: center;
 font-family: "SignPainter", sans-serif;
 font-size: 7.292vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+z-index: 12 !important;
+position: relative;
 }
 .sobitiya_df_big{
-  margin-top: -1.563vw;
-  display: flex;
-  justify-content: center;
-  gap: 2.865vw;
+    margin-top: -1.563vw;
+    display: flex;
+    justify-content: center;
+    gap: 2.865vw;
+    margin-bottom: 4.688vw;
 }
 .sobitiya_db_cards1{
-  width: 47.500vw;
+    width: 47.500vw;
 height: 18.958vw;
 margin-top: 1.563vw;
 position: relative;
-  border-radius: 4.115vw;
+    border-radius: 4.115vw;
+    z-index: 12;
 }
 .sobitiya_db_cards2{
-  width: 47.500vw;
+    width: 47.500vw;
 height: 18.958vw;
 margin-top: 1.563vw;
 position: relative;
-  border-radius: 4.115vw;
+    border-radius: 4.115vw;
 }
 .sobitiya_db_cards3{
-  width: 47.500vw;
+    width: 47.500vw;
 height: 18.958vw;
 margin-top: 1.563vw;
 position: relative;
-  border-radius: 4.115vw;
+    border-radius: 4.115vw;
 }
 .sobitiya_card{
-  display: flex;
+    display: flex;
 }
 .sobitiya_card h3{
-  position: absolute;
-  top: 8.771vw;
-  left: 2.344vw;
-  color: #271845;
+    position: absolute;
+    top: 12.771vw;
+    left: 2.344vw;
+    color: #271845;
 text-align: center;
 font-family: "SignPainter", sans-serif;
 font-size: 4.167vw;
@@ -1504,21 +1540,21 @@ font-weight: 400;
 line-height: normal;
 }
 .sobitiya_mini_db_card{
-  width: 30%;
-  height: 100%;
-  top: 2.604vw;
-  right: 1.4vw;
-  position: absolute;
-  text-align: center;
-  line-height: 1.563vw;
+    width: 30%;
+    height: 100%;
+    top: 2.604vw;
+    right: 1.4vw;
+    position: absolute;
+    text-align: center;
+    line-height: 1.563vw;
 }
 .calendar_icon_img{
-  width: 2.708vw;
+    width: 2.708vw;
 height: 2.708vw;
 margin-bottom: 0.521vw;
 }
 .sobitiya_text_itd{
-  color: #271845;
+    color: #271845;
 text-align: center;
 font-family: "AGOpusHighResolution";
 font-size: 1.563vw;
@@ -1526,7 +1562,7 @@ font-style: normal;
 font-weight: 700;
 }
 .sobitiya_btn{
-  width: 13.958vw;
+    width: 13.958vw;
 height: 3.958vw;
 margin-top: 3.3vw;
 text-align: center;
@@ -1544,57 +1580,59 @@ font-weight: 700;
 
 
 .sobitiya_calendar_name{
-  color: #271845;
+    color: #271845;
 text-align: center;
 font-family: "SignPainter", sans-serif;
 font-size: 5.208vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 1.563vw;
+margin-top: 1.8vw;
+margin-bottom: 5.463vw;
 }
 .sobitiya_db{
-  width: 40vw;
+    width: 40vw;
 height: 100%;
 margin-top: 1.563vw;
 padding-inline: 1.563vw;
 border-radius: 4.010vw;
 background: #F5F2ED;
+z-index: 12;
 }
 .dalee_df{
-  display: flex;
-  align-items: center;
-  position: relative;
-  gap: 1.302vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 1.302vw;
 }
 .sobitiya_db_calendar_icon{
-  width: 1.927vw;
+    width: 1.927vw;
 height: 1.927vw;
 margin-top: -3.3vw;
 }
 .dalee_df span{
-  text-align: left;
-  color: #CAC2DA;
+    text-align: left;
+    color: #CAC2DA;
 font-family: AGOpusHighResolution;
 font-size: 1.563vw;
 font-style: normal;
 font-weight: 700;
-line-height: 0;
+line-height: 0.521vw;
 }
 .dalee_df span p{
-  color: #271845;
+    color: #271845;
 font-family: AGOpusHighResolution;
 font-size: 2.083vw;
 font-style: normal;
 font-weight: 700;
-line-height: 0px;
+line-height: 3.125vw;
 }
 .right_btn{
-  position: absolute;
-  right: 0px;
+    position: absolute;
+    right: 0px;
 }
 .calendar_master_btn{
-  width: 13.958vw;
+    width: 13.958vw;
 height: 3.958vw;
 margin-top: -2vw;
 margin-left: 1.563vw;
@@ -1610,11 +1648,11 @@ font-weight: 700;
 transition: all .3s ease;
 }
 .calendar_master_btn:hover{
-  color: #F5F2ED;
-  background: #FDBA1A;
+    color: #F5F2ED;
+    background: #FDBA1A;
 }
 .sobitya_line{
-  width: 0.260vw;
+    width: 0.260vw;
 height: 4.583vw;
 margin-top: -1.5vw;
 margin-bottom: 1.5vw;
@@ -1622,8 +1660,8 @@ margin-left: .850vw;
 background: #E1E1E1;
 }
 .calendar_bottom_btn{
-  width: 22.760vw;
-height: 4.740vw;
+    width: 22.760vw;
+height: 5.3vw;
 margin-top: 4.208vw;
 margin-bottom: 4.2vw;
 border: none;
@@ -1638,108 +1676,120 @@ font-weight: 700;
 line-height: normal;
 cursor: pointer;
 }
+.dalee_p{
+  margin-bottom: 0px !important;
+}
 
 @media (max-width:500px) {
-  .sobitiya_df_big{
-      display: block;
-      margin: auto !important;
-  }
-  .sobitiya_mini_cards{
-      margin: auto;
-  }
-  .sobitiya_db_cards1{
-      width: 80%;
-      min-width: 300px;
-      height: 120px !important;
-      border-radius: 24px;
-      margin: auto;
-  }
-  .sobitiya_db_cards2{
-      width: 80%;
-      min-width: 300px;
-      height: 120px !important;
-      border-radius: 24px;
-      margin: auto;
-      margin-top: 20px;
-  }
-  .sobitiya_db_cards3{
-      width: 80%;
-      min-width: 300px;
-      height: 120px !important;
-      border-radius: 24px;
-      margin: auto;
-      margin-top: 20px;
-  }
-  .sobitiya_jenwina{
-      top: 55px !important;
-      font-size: 26px !important;
-  }
-  .calendar_icon_img{
-      width: 20px;
-      height: 20px;
-  }
-  .sobitiya_text_itd{
-      font-size: 12px;
-      line-height: 15px;
-  }
-  .sobitiya_btn{
-      width: 90px;
-      height: 20px;
-      font-size: 9px;
-      margin-top: 20px;
-  }
-  .sobitiya_mini_db_card{
-      top: 12px;
-  }
-  .sobitiya_db{
-      width: 73%;
-      min-width: 260px;
-      margin: auto;
-      padding-inline: 20px;
-      border-radius: 24px;
-  }
-  .sobitiya_calendar_name{
-      font-size: 30px;
-      margin-top: 30px;
-      padding-top: 15px;
-  }
-  .sobitiya_db_calendar_icon{
-      width: 15px;
-      height: 15px;
-      margin-top: -25px !important;
-  }
-  .dalee_span{
-      font-size: 12px !important;
-  }
-  .dalee_p{
-      font-size: 16px !important;
-  }
-  .right_btn{
-      margin-top: -10px;
-  }
-  .calendar_master_btn{
-      width: 90px;
-      height: 25px;
-      font-size: 8px;
-  }
-  .sobitya_line{
-      width: 2px;
-      height: 35px;
-      margin-left: 7px;
-      margin-bottom: 20px;
-  }
-  .calendar_bottom_btn{
-      width: 90%;
-      height: 30px;
-      border-radius: 25px;
-      font-size: 12px;
-  }
+    .sobitiya_df_big{
+        display: block;
+        margin: auto !important;
+    }
+    .sobitiya_mini_cards{
+        margin: auto;
+    }
+    .sobitiya_db_cards1{
+        width: 80%;
+        min-width: 300px;
+        height: 120px !important;
+        border-radius: 24px;
+        margin: auto;
+    }
+    .sobitiya_db_cards2{
+        width: 80%;
+        min-width: 300px;
+        height: 120px !important;
+        border-radius: 24px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .sobitiya_db_cards3{
+        width: 80%;
+        min-width: 300px;
+        height: 120px !important;
+        border-radius: 24px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .sobitiya_jenwina{
+        top: 55px !important;
+        font-size: 26px !important;
+    }
+    .calendar_icon_img{
+        width: 20px;
+        height: 20px;
+    }
+    .sobitiya_text_itd{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .sobitiya_btn{
+        width: 90px;
+        height: 20px;
+        font-size: 9px;
+        margin-top: 20px;
+    }
+    .sobitiya_mini_db_card{
+        top: 12px;
+    }
+    .sobitiya_db{
+        width: 73%;
+        min-width: 260px;
+        margin: auto;
+        padding-inline: 20px;
+        border-radius: 24px;
+        margin-bottom: 30px;
+    }
+    .sobitiya_calendar_name{
+        font-size: 30px;
+        margin-top: 30px;
+        padding-top: 15px;
+    }
+    .sobitiya_db_calendar_icon{
+        width: 15px;
+        height: 15px;
+        margin-top: -25px !important;
+    }
+    .dalee_span{
+      line-height: 20px !important;
+        font-size: 12px !important;
+        margin-top: -20px;
+    }
+    .dalee_p{
+        font-size: 16px !important;
+    }
+    .right_btn{
+        margin-top: -10px;
+    }
+    .calendar_master_btn{
+        width: 90px;
+        height: 25px;
+        font-size: 8px;
+    }
+    .sobitya_line{
+        width: 2px;
+        height: 35px;
+        margin-left: 7px;
+        margin-bottom: 20px;
+    }
+    .calendar_bottom_btn{
+        width: 90%;
+        height: 30px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
 }
 
 
 
 
 
+
+@media (max-width:500px) {
+  .swiper_img_glavniy{
+    scale: .7 !important;
+  }
+}
 
 
 /* reviews */
