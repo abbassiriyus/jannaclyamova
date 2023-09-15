@@ -1770,7 +1770,7 @@ font-family: 'PT Sans Caption', sans-serif;
   font-size: 3vw;
 }
 .img_in_event{
-  margin-top: 10px;
+  margin-top: 40px !important;
   width: 30px;
 }
   
@@ -1847,37 +1847,40 @@ display: none;
 }
   
   .first_event{
-    width: 90%;
+    width: 90% !important;
     background: url("./media/image/1\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 200px !important;
     border-radius: 70px;
     display: block ;
+    margin: auto !important;
     text-align: center;
     padding: 20px;
   }
   .second_event{
-    width: 90%;
+    width: 90% !important;
     background: url("./media/image/2\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 200px !important;
     border-radius: 70px;
-    margin-top: 20px;
+    margin-top: 20px !important;
+    margin: auto !important;
     display: block;
     padding: 20px;
 
   }
   
   .thrird_event{
-    width: 90%;
+    width: 90% !important;
     background: url("./media/image/3\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 200px !important;
     border-radius: 70px;
-    margin-top: 20px;
+    margin-top: 20px !important;
+    margin: auto !important;
     display: block;
     padding: 20px;
 
@@ -2067,7 +2070,7 @@ color: #CAC2DA;
       display: none;
     }
     .big_div_calendar{
-      display: block;
+      display: block !important;
       text-align: center;
       width: 90%;
       margin-top: 0px !important;
@@ -2371,6 +2374,10 @@ color: #CAC2DA;
   .swiper-rtl .swiper-button-next:after {
     font-size: 20px !important;
   }
+  .swiper_img_glavniy{
+  scale: 0.8 !important;
+  }
+  
 }
 .img_into_footer {
   text-decoration: none;
