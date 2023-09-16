@@ -132,7 +132,7 @@ button {
   margin-top: 30px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .form,
   .nav-link {
     display: none !important;
@@ -142,7 +142,7 @@ button {
   }
   .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between !important;
     width: 100%;
     height: 50px !important;
   }
