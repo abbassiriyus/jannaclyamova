@@ -56,7 +56,7 @@
     color: #271845;
     text-align: center;
     font-family: "SignPainter", sans-serif;
-    font-size: 4.208vw;
+    font-size: 5.208vw;
     font-style: normal;
     font-weight: 400;
     line-height: 6.208vw;
@@ -114,7 +114,7 @@
     color: #271845;
     text-align: center;
     font-family: "SignPainter", sans-serif;
-    font-size: 4.208vw;
+    font-size: 7.208vw;
     font-style: normal;
     font-weight: 400;
     line-height: 6.208vw;
@@ -129,7 +129,7 @@
     }
 
     .page3_name {
-        font-size: 30px;
+        font-size: 8vw;
     }
 
     .page3_buttons_filter {
@@ -139,17 +139,17 @@
 
     .page3_btn_text {
         width: auto;
-        height: 20px;
-        font-size: 8px;
-        padding-inline: 10px;
+        height: 30px;
+        font-size: 12px;
+        padding-inline: 15px;
     }
 
     .page3_btns {
         width: auto;
-        height: 20px;
-        font-size: 8px;
+        height: 30px;
+        font-size: 12px;
         font-weight: 600;
-        padding-inline: 10px;
+        padding-inline: 15px;
     }
 
     .page3_in_br {
@@ -180,7 +180,7 @@
     margin-top: 4.688vw;
     color: #220A2E;
     font-family: "SignPainter", sans-serif;
-    font-size: 6vw;
+    font-size: 7.2vw;
     font-style: normal;
     font-weight: 400;
     line-height: 5.208vw;
@@ -375,6 +375,7 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
+    z-index: 0;
 }
 
 .main_otziv_name {
@@ -459,6 +460,8 @@
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
+    z-index: 12;
+    position: relative;
 }
 
 @media (max-width:800px) {
@@ -514,6 +517,9 @@
         margin-top: 30px !important;
         font-size: 16px !important;
     }
+    .accordion-body {
+        font-size: 10px !important;
+    }
 }
 
 
@@ -532,6 +538,8 @@
     padding: 3.083vw;
     gap: 4.688vw;
     margin: auto;
+    z-index: 123;
+    position: relative;
 }
 
 .a_href_in_footer {
@@ -587,7 +595,7 @@
     color: rgba(255, 255, 255, 0.50);
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
     .footer {
         display: flex !important;
     }
@@ -604,17 +612,18 @@
 
     .text_into_a_href {
         font-size: 14px !important;
+        line-height: 25px !important;
     }
 
-    /* .div_kishkina_into_footer2{
-        width: 30%;
-    } */
     .futer_text {
         font-size: 14px !important;
         line-height: 20px;
     }
-}
 
+    .a_href_in_footer br {
+        display: block;
+    }
+}
 
 .accordion-button::after {
     content: none !important;

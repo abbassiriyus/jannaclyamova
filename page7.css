@@ -32,7 +32,7 @@ height: 33.802vw;
     color: #271845;
     text-align: center;
     font-family: "SignPainter", sans-serif;
-    font-size: 5vw;
+    font-size: 7.2vw;
     font-style: normal;
     font-weight: 400;
     line-height: 6vw;
@@ -173,17 +173,35 @@ justify-content: space-around;
 
 @media (max-width:500px) {
     .calendar_name{
-        font-size: 30px;
-        line-height: 25px;
+        font-size: 8.5vw;
+        line-height: 7vw;
+    }
+    .page7_schedule_select{
+      width: 100%;
     }
     .calendar_text{
-        font-size: 8px;
+      margin-top: 2vw;
+        font-size: 2.600vw;
     }
     .page7_aside{
         text-align: center;
     }
     .page7_schedule_h1{
-        font-size: 40px;
+        font-size: 8vw;
+    }
+    .calendar_btn{
+      width: 30vw;
+      height: 6vw;
+      font-size: 2.400vw;
+      border-radius: 2vw;
+    }
+    .page7_schedule_div_kotta{
+      width: 70% ;
+      border-radius: 6vw;
+    }
+    .page7_calendar_img{
+      width: 55%;
+      height: auto;
     }
 }
 

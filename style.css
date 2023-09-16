@@ -845,7 +845,7 @@ font-family: 'PT Sans Caption', sans-serif;
   color: #220a2e;
   text-align: center;
   margin-top: 50px;
-  font-size: 5vw  !important;
+  font-size: 7.2vw  !important;
   font-weight: 400;
   z-index: 99999;
 }
@@ -1389,6 +1389,9 @@ font-family: 'PT Sans Caption', sans-serif;
     font-size: 2vw !important;
     margin-top: 0px !important;
   }
+  .product_h1{
+    font-size: 40px !important;
+  }
 }
 
 .product_page1 {
@@ -1477,6 +1480,7 @@ width: auto;
 height: auto;
 }
 .sobitiya_name{
+  margin-top: 50px;
     color: #271845;
 text-align: center;
 font-family: "SignPainter", sans-serif;
@@ -1677,6 +1681,9 @@ cursor: pointer;
         display: block;
         margin: auto !important;
     }
+    .sobitiya_name{
+      font-size: 40px !important;
+    }
     .sobitiya_mini_cards{
         margin: auto;
     }
@@ -1704,7 +1711,7 @@ cursor: pointer;
         margin-top: 20px;
     }
     .sobitiya_jenwina{
-        top: 55px !important;
+        top: 85px !important;
         font-size: 26px !important;
     }
     .calendar_icon_img{
@@ -1972,7 +1979,7 @@ cursor: pointer;
   color: #fff;
   text-align: center;
   /* margin-top: 2.604vw; */
-  font-size: 5.2vw;
+  font-size: 7.2vw;
   z-index: 99999;
 }
 
@@ -2167,6 +2174,9 @@ cursor: pointer;
     width: 26px;
     height: 26px;
   }
+  .accordion-item{
+    width: 90% !important;
+  }
 }
 
 .footer {
@@ -2178,6 +2188,8 @@ cursor: pointer;
   padding: 3.083vw;
   gap: 4.688vw;
   margin: auto;
+  z-index: 123;
+    position: relative;
 }
 .a_href_in_footer {
   display: flex;
@@ -2227,30 +2239,86 @@ cursor: pointer;
     font-size: 1.667vw;
   }
 }
-
-
-
-@media (max-width:450px) {
-  .footer{
-    display: flex !important;
+@media (max-width:500px) {
+  .product_h2 {
+      font-size: 40px !important;
   }
-  .logo_in_footer{
+
+  .but_ostavit_zayav {
+      width: 80% !important;
+      height: 30px !important;
+      font-size: 14px !important;
+  }
+
+  .text_center_question {
+      font-size: 12px !important;
+  }
+
+  .accordion-item button {
+      width: 100% !important;
+      font-size: 10px !important;
+  }
+
+  .accordion-body {
+      margin-top: -35px !important;
+      padding: 10px !important;
+      font-size: 10px !important;
+  }
+}
+.accordion-body {
+  /* width: 65.573vw;  */
+  margin-top: -27px !important;
+  padding: 20px;
+  padding-top: 40px !important;
+  margin: auto;
+  background: #fff;
+  border-bottom-left-radius: 1.302vw !important;
+  border-bottom-right-radius: 1.302vw !important;
+}
+
+.accordion-item {
+  border-radius: 30px;
+}
+
+.accordion-body {
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+  .footer {
+      display: flex !important;
+  }
+
+  .logo_in_footer {
       width: 70% !important;
       height: auto !important;
   }
-  .a_href_in_footer{
+
+  .a_href_in_footer {
       width: 30% !important;
       display: block !important;
   }
-  .text_into_a_href{
+
+  .text_into_a_href {
       font-size: 14px !important;
+      line-height: 25px !important;
   }
-  /* .div_kishkina_into_footer2{
-      width: 30%;
-  } */
-  .futer_text{
+
+  .futer_text {
       font-size: 14px !important;
       line-height: 20px;
+  }
+
+  .a_href_in_footer br {
+      display: block;
   }
 }
 
@@ -2288,7 +2356,7 @@ cursor: pointer;
   margin-top: 4.688vw;
   color: #220A2E;
 font-family: "SignPainter", sans-serif;
-font-size: 6vw;
+font-size: 7.2vw;
 font-style: normal;
 font-weight: 400;
 line-height: 5.208vw;
@@ -2474,13 +2542,14 @@ cursor: pointer;
   position: absolute;
   bottom: 0px;
   left: 0px;
+  z-index: 0;
 }
 
 .main_otziv_name {
   color: #fff;
   text-align: center;
   font-family: "SignPainter", sans-serif;
-  font-size: 5.2vw;
+  font-size: 7.2vw;
   font-style: normal;
   font-weight: 400;
   margin-top: 1vw;
@@ -2503,6 +2572,29 @@ cursor: pointer;
 .swiper-button-prev {
   color: #FDBA1A !important;
 }
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: none !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    background: url("./media/image/Polygon\ 1.png") !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: none !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    background: url("./media/image/Polygon\ 1.png") !important;
+    transform: rotate(180deg);
+}
+
+
 
 .swiper-slide {
   scale: 0.7;
@@ -2583,6 +2675,8 @@ cursor: pointer;
   font-weight: 700;
   line-height: normal;
   cursor: pointer;
+  z-index: 12;
+  position: relative;
 }
 
 /* .swiper-horizontal {
@@ -2591,11 +2685,11 @@ margin-bottom: -100px;
 } */
 @media (max-width:800px) {
   .swiper-slide img {
-      scale: .9;
+      scale: .7;
   }
 
   .swiper-wrapper {
-      height: 700px !important;
+      height: 600px !important;
   }
 
   .swiper-slide-active {

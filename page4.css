@@ -128,7 +128,7 @@ list-style: none;
 .master_ul .li_dot{
     width: 0.260vw;
     height: 0.260vw;
-    margin:1.042vw 0.781vw 0.260vw 0.260vw;
+    margin:0vw 0.781vw 0.260vw 0vw;
     border-radius: 50%;
     background: #FDBA1A;
 }
@@ -149,6 +149,17 @@ height: 37.031vw;
 margin: auto;
 margin-left: -2.604vw;
 }
+@media (max-width:1024px) {
+    .li_dot{
+        margin-top: -10px !important;
+    }
+}
+@media (max-width:500px) {
+    .li_dot{
+        margin-top: 0px !important;
+        margin: 0px !important;
+    }
+}
 
 
 
@@ -167,7 +178,7 @@ margin-left: -2.604vw;
     color: #220A2E;
 text-align: center;
 font-family: "SignPainter", sans-serif;
-font-size: 6vw;
+font-size: 7.2vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -329,6 +340,7 @@ cursor: pointer;
         height: 35px;
         font-size: 14px;
         border-radius: 20px;
+        margin-top: 10px;
     }
     .page4_excursiya_btn{
         width: 60%;
@@ -336,6 +348,9 @@ cursor: pointer;
         border-radius: 10px;
         font-size: 16px;
         margin-bottom: 50px;
+    }
+    .excusriya_text_page4{
+        font-size: 40px;
     }
 }
 
@@ -385,6 +400,7 @@ cursor: pointer;
     position: absolute;
     bottom: 0px;
     left: 0px;
+    z-index: 0;
 }
 
 .main_otziv_name {
@@ -767,6 +783,8 @@ display: flex;
 padding:3.083vw;
 gap: 4.688vw;
 margin: auto;
+z-index: 123;
+    position: relative;
   }
   .a_href_in_footer{
     display: flex;
@@ -829,7 +847,7 @@ height: 2.396vw;
 }
 
 
-@media (max-width:450px) {
+@media (max-width:500px) {
     .footer{
       display: flex !important;
     }
@@ -850,6 +868,12 @@ height: 2.396vw;
     .futer_text{
         font-size: 14px !important;
         line-height: 20px;
+    }
+    .accordion-item{
+        width: 90% !important;
+    }
+    .accordion-body{
+        font-size: 10px !important;
     }
   }
 

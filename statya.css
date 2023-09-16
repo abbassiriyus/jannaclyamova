@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2.604vw;
 }
 .statya_db{
     margin: auto;
@@ -39,7 +40,7 @@ margin-left: 5.208vw;
     color: #271845;
     text-align: center;
     font-family: "SignPainter", sans-serif;
-    font-size: 5vw;
+    font-size: 5.2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -70,11 +71,12 @@ font-weight: 700;
 }
 @media (max-width:500px) {
   .statya_name{
-    font-size: 30px;
+    font-size: 8vw;
     margin-bottom: 0px !important;
   }
   .statya_text{
-    font-size: 10px;
+    margin-top: 5px;
+    font-size: 3vw;
   }
   .statya_btns{
     width: 90% !important;
@@ -85,18 +87,26 @@ font-weight: 700;
   .glavni_btn_statya{
     width: auto !important;
     height: 20px !important;
-    padding-inline: 10px !important;
-    font-size: 8px !important;
+    padding-inline: 15px !important;
+    font-size: 10px !important;
     font-weight: 600;
   }
   .statya_btn{
     width: auto !important;
-    padding-inline: 10px !important;
+    padding-inline: 15px !important;
     height: 20px !important;
-    font-size: 8px !important;
+    font-size: 10px !important;
   }
   .statya_in_br{
     display: none;
+  }
+  .statya_btn_glavniy{
+    font-size: 2.400vw;
+    font-weight: 700;
+    width: 28vw;
+    height: 6vw;
+    margin-top: 5px !important;
+    border-radius: 2vw;
   }
 }
 
@@ -373,6 +383,14 @@ height: 3.333vw;
 .accordion-header{
     margin-bottom: -1px !important ;
 }
+@media (max-width:500px) {
+  .accordion-item{
+    width: 90% !important;
+  }
+  .accordion-body{
+    font-size: 10px !important;
+}
+}
 
 
 
@@ -388,6 +406,8 @@ display: flex;
 padding:3.083vw;
 gap: 4.688vw;
 margin: auto;
+z-index: 123;
+    position: relative;
   }
   .a_href_in_footer{
     display: flex;
@@ -436,30 +456,35 @@ height: 2.396vw;
 
 
 
-  @media (max-width:450px) {
-    .footer{
-      display: flex !important;
+  @media (max-width:500px) {
+    .footer {
+        display: flex !important;
     }
-    .logo_in_footer{
+
+    .logo_in_footer {
         width: 70% !important;
         height: auto !important;
     }
-    .a_href_in_footer{
+
+    .a_href_in_footer {
         width: 30% !important;
         display: block !important;
     }
-    .text_into_a_href{
+
+    .text_into_a_href {
         font-size: 14px !important;
+        line-height: 25px !important;
     }
-    /* .div_kishkina_into_footer2{
-        width: 30%;
-    } */
-    .futer_text{
+
+    .futer_text {
         font-size: 14px !important;
         line-height: 20px;
     }
-  }
 
+    .a_href_in_footer br {
+        display: block;
+    }
+}
 
   
   .accordion-button::after{

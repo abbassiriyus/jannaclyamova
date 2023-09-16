@@ -40,7 +40,7 @@ margin-left: -3.646vw;
     color: #271845;
     text-align: center;
     font-family: "SignPainter", sans-serif;
-    font-size: 4.208vw;
+    font-size: 7.208vw;
     font-style: normal;
     font-weight: 400;
     line-height: 6.208vw;
@@ -76,10 +76,15 @@ margin-top: 2.5vw;
 @media (max-width:500px) {
     .contact_name{
         margin-top: 30px;
-        font-size: 25px;
+        font-size: 8vw;
     }
     .contact_text{
-        font-size: 8px;
+        font-size: 2.800vw;
+    }
+    .contact_btn{
+        width: 30vw;
+        height: 6vw;
+        font-size: 2.400vw;
     }
 }
 
@@ -88,80 +93,203 @@ margin-top: 2.5vw;
 
 
 
-.header_master{
+
+.header_master {
     background: #FFF7EE;
     padding-top: 4.688vw;
-    padding-bottom: 5vw;
 }
-.master_cards{
+
+.master_cards {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     gap: 0.521vw;
 }
-.master_card{
+
+.master_card {
     margin: auto;
     margin-top: -2.604vw;
 }
-.master_class{
+
+.master_class {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: "SignPainter", sans-serif;
-font-size: 5vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: "SignPainter", sans-serif;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.master_janna{
+
+.master_janna {
     color: #FDBA1A;
-text-align: center;
-font-family: 'PT Sans Caption', sans-serif;
-font-size: 6vw;
-font-style: normal;
-font-weight: 700;
-line-height: 3.646vw;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.646vw;
 }
-.master_ul{
+
+.master_ul {
     margin-top: 1.563vw;
     margin-left: 0.521vw;
 
 }
-.master_li{
-display: flex;
-align-items: center;
-justify-content: left;
-margin-left: 5.208vw;
-list-style: none;
+
+.master_li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 5.208vw;
+    list-style: none;
 }
-.master_ul .li_dot{
+
+.master_ul .li_dot {
     width: 0.260vw;
     height: 0.260vw;
-    margin:1.042vw 0.781vw 0.260vw 0.260vw;
+    margin-top: 0 vw;
+    margin-left: 0.781vw;
+    margin-right: 0.260vw;
     border-radius: 50%;
     background: #FDBA1A;
 }
-.master_li .master_text{
+
+.master_li .master_text {
     padding-top: 0.521vw;
     font-size: 2vw;
     color: #220A2E;
-font-size: 2.500vw;
-font-style: normal;
-font-weight: 700;
+    font-size: 2.500vw;
+    font-style: normal;
+    font-weight: 700;
     font-family: 'PT Sans Caption', sans-serif;
     line-height: 4.646vw;
     cursor: pointer;
 }
-.master_img{
+
+.master_img {
     width: 32.552vw;
-height: 37.031vw;
-margin: auto;
-margin-left: -2.604vw;
+    height: 37.031vw;
+    margin: auto;
+    margin-left: -2.604vw;
 }
 
+.master_happiness {
+    margin-top: 3.125vw ;
+    color: #220A2E;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 3.333vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.master_btn_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.604vw;
+    padding-bottom: 5vw;
+}
+
+.master_btn_zakas {
+    width: 22.760vw;
+    height: 4.740vw;
+    border-radius: 1.510vw;
+    background: #FDBA1A;
+    border: none;
+    color: #271845;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.accordion-item {
+    width: 80% !important;
+    margin: auto;
+    border-radius: 30px !important;
+}
+
+.accordion-button {
+    width: 100% !important;
+}
+
+.accordion-header {
+    margin-bottom: -1px !important;
+}
+
+.accordion-button {
+    box-sizing: border-box !important;
+}
+
+.collapsed {
+    box-sizing: border-box !important;
+}
+
+@media (max-width:500px) {
+    .master_btn_zakas {
+        width: 80%;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    .master_cards {
+        display: block;
+    }
+
+    .master_class {
+        font-size: 30px;
+    }
+
+    .master_janna {
+        font-size: 32px;
+    }
+
+    .master_card {
+        margin: auto !important;
+    }
+
+    .master_ul {
+        width: 70%;
+        text-align: center !important;
+        margin-top: 30px !important;
+        margin: auto;
+        /* margin-left: 15vw; */
+    }
+
+    .li_dot {
+        width: 2px !important;
+        height: 2px !important;
+        margin-top: 10px !important;
+        margin-right: 3px !important;
+        margin: auto;
+    }
+
+    .master_text {
+        font-size: 16px !important;
+    }
+
+    .master_img {
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+        margin: auto !important;
+        width: 60%;
+        height: auto;
+    }
+
+    .master_happiness {
+        margin-top: 20px !important;
+        font-size: 14px !important;
+    }
+}
 
 
 
@@ -220,6 +348,9 @@ font-weight: 700;
     margin-bottom: 15.625vw;
     width: auto;
 }
+.social_df a{
+    text-decoration: none;
+}
 .social_df img{
     width: 8vw;
 height: 8vw;
@@ -250,6 +381,16 @@ height: 8vw;
 @media (max-width:690px) {
     .phone_star_top, .phone_star_bottom{
         display: none;
+    }
+}
+@media (max-width:500px) {
+    .phone_name{
+        font-size: 8vw;
+        margin-bottom: 20px;
+    }
+    .phone_text{
+        font-size: 8vw;
+        margin-bottom: 15px;
     }
 }
 
@@ -434,6 +575,8 @@ display: flex;
 padding:3.083vw;
 gap: 4.688vw;
 margin: auto;
+z-index: 123;
+    position: relative;
   }
   .a_href_in_footer{
     display: flex;
@@ -484,12 +627,41 @@ height: 2.396vw;
     width: 9.635vw;
 height: 3.333vw;
   }
-  @media (max-width:500px) {
+  /* @media (max-width:500px) {
     .logo_in_footer{
         width: 18.137vw;
         height: 6.275vw;
     }
-  }
+  } */
+  @media (max-width:500px) {
+    .footer {
+        display: flex !important;
+    }
+
+    .logo_in_footer {
+        width: 70% !important;
+        height: auto !important;
+    }
+
+    .a_href_in_footer {
+        width: 30% !important;
+        display: block !important;
+    }
+
+    .text_into_a_href {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+
+    .futer_text {
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    .a_href_in_footer br {
+        display: block;
+    }
+}
 
 
   @media (max-width:450px) {
