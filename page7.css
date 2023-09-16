@@ -69,6 +69,7 @@ height: 33.802vw;
     margin-top: 50px;
     font-size: 5.208vw;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 
@@ -97,29 +98,51 @@ justify-content: space-around;
     background-color: #fff;
 }
 
+.page7_schedule_select:active{
+border: none;
+}
+
 .page7_schedule_select{
-    background-color: #E1E1E1;
-    width: 300px;
+    background-color: #E1E1E1 !important;
+    width: 280px;
     height: 40px;
     border-radius: 15px;
     color: #271845;
     font-size: 20px;
+    border: none;
+    padding: 5px;
+    -webkit-appearance: none;
+    background: url("./Polygon\ 6.png") no-repeat right white;
+    background-size: 15px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+  } 
+  .fors_select{
+    width: 300px;
+    background-color: #E1E1E1;
+    border-radius: 15px;
     margin-top: 10px;
-}
+    padding: 5px;
+  }
 
-.page7_schedule_option_text{
+.page7_schedule_option{
     color: #220A2E !important;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
 }
 .page7_schedule_div_kichik{
     margin-top: 20px;
     width: 330px;
 }
 .page7_schedule_div_kichik_text{
+  font-family: 'Jost', sans-serif;
     font-size: 30px;
+    font-weight: 600;
     color: #271845;
 }
 
 .but_page7_schedule{
+  background-color: #F5F2ED;
     color: #FDBA1A;
     border-radius: 25px;
     border: 1px solid #FDBA1A;
@@ -136,59 +159,54 @@ justify-content: space-around;
 }
 
 
-@media (max-width:1222px) {
-    .page7_schedule_select{
-        background-color: #E1E1E1;
-        width: 200px;
-        height: 40px;
-        border-radius: 15px;
-        color: #FDBA1A;
-        font-size: 15px;
-        margin-top: 10px;
-    }
+  @media (max-width:755px) {
     .page7_schedule_div_kichik{
-        margin-top: 20px;
-        width: 220px;
-    }
+      margin-top: 20px;
+      width: 100%;
+  }
+  .page7_schedule_div_kichik_text{
+    text-align: center;
 }
-
-@media (max-width:543px) {
-    .page7_schedule_div_kichik_text{
-        text-align: center;
-    }
     .page7_schedule_select{
-        background-color: #E1E1E1;
-        width: 300px;
-        height: 40px;
-        border-radius: 15px;
-        color: #FDBA1A;
-        font-size: 15px;
-        margin-top: 10px;
-    }
-    .page7_schedule_div_kichik{
-        margin-top: 20px;
-        width: 300px;
-    }
-}
-
-@media (max-width:500px) {
-    .calendar_name{
-        font-size: 30px;
-        line-height: 25px;
-    }
-    .calendar_text{
-        font-size: 8px;
-    }
-    .page7_aside{
-        text-align: center;
+      background-color: #E1E1E1 !important;
+      width: 95% ;
+      height: 40px;
+      border-radius: 15px;
+      color: #271845;
+      font-size: 20px;
+      border: none;
+      padding: 5px;
+      -webkit-appearance: none;
+      background: url("./Polygon\ 6.png") no-repeat right white;
+      background-size: 15px;
+    } 
+    .fors_select{
+      width: 95%;
+      background-color: #E1E1E1;
+      border-radius: 15px;
+      margin-top: 10px;
+      padding: 5px;
     }
     .page7_schedule_h1{
-        font-size: 40px;
-    }
+      font-family: "SignPainter", sans-serif;
+      color: #220A2E;
+      text-align: center;
+      margin-top: 50px;
+      font-size: 8vw !important;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  }
+
+@media (max-width:500px) {
+  .page7_schedule_div_kotta{
+    background-color: #F5F2ED;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px;
 }
-
-
-
+}
 
 
 
