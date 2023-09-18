@@ -77,10 +77,14 @@ button {
   letter-spacing: 0em;
   text-align: right;
   color: rgba(255, 255, 255, 1);
-  transition: .5s;
+  
 }
 .nav:hover{
   color: #FDBA1A;
+}
+.nav_media:active{
+  color: #FDBA1A;
+  transition: .3s !important;
 }
 .navbar a {
   text-decoration: none;
@@ -163,6 +167,9 @@ button {
   .navbar li {
     font-size: 15px;
   }
+  #logo1{
+    width: 80px;
+  }
 }
 
 /* header glavniy */
@@ -198,7 +205,18 @@ button {
   .header_glavniy {
     display: flex;
     align-items: center;
-    gap: 20px !important;
+    gap: 50px !important;
+    background: rgba(146, 67, 247, 1);
+    max-height: 800px;
+    position: relative;
+    z-index: -1;
+  }
+}
+@media (max-width:400px) {
+  .header_glavniy {
+    display: flex;
+    align-items: center;
+    gap: 30px !important;
     background: rgba(146, 67, 247, 1);
     max-height: 800px;
     position: relative;
@@ -236,7 +254,7 @@ button {
 
 @media (max-width:500px) {
   .header_button {
-    margin-top: 20px !important;
+    margin-top: 0px !important;
     padding: 5px 5px  !important;
   }
 }
@@ -538,7 +556,7 @@ padding: 20px;}
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:425px) {
   .reklama_user{
     display: block;
   }
@@ -640,6 +658,98 @@ padding: 20px;}
         width: 550px !important;
         border-radius: 69px;
       }
+}
+@media (max-width:2000px) {
+  .about_self_text{
+      color: #220A2E;
+      font-size:  2.5vw !important;
+      font-family: 'Jost', sans-serif;
+  }
+  
+  .about_self_text1{
+      color: #220A2E;
+      font-size: 2.5vw !important;
+      font-family: 'Jost', sans-serif;
+      margin-top: 35px !important;
+  }
+  
+  .about_self_text2{
+      color: #220A2E;
+      font-size: 2.5vw !important;
+      font-family: 'Jost', sans-serif;
+      margin-top: 35px !important;
+  }
+  
+  .about_self_text3{
+      color: #220A2E;
+      font-size: 2.5vw !important;
+      font-family: 'Jost', sans-serif;
+      margin-top: 35px !important;
+  }
+  .self_button {
+      background: #fdba1a;
+      width: 320px !important;
+      height: 40px !important;
+      border-radius: 15px;
+      color: #220a2e;
+      font-size: 1.3vw !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px !important;
+      border: none;
+      padding: 10px;
+    }
+    .img_self {
+      width: 550px !important;
+      border-radius: 69px;
+    }
+}
+@media (max-width: 1440px) {
+  .about_self_text{
+      color: #220A2E;
+      font-size:  2.5vw !important;
+      font-family: 'Jost', sans-serif;
+  }
+  
+  .about_self_text1{
+      color: #220A2E;
+      font-size: 2.5vw !important;
+      font-family: 'Jost', sans-serif;
+      margin-top: 35px !important;
+  }
+  
+  .about_self_text2{
+      color: #220A2E;
+      font-size: 2.5vw !important;
+      font-family: 'Jost', sans-serif;
+      margin-top: 35px !important;
+  }
+  
+  .about_self_text3{
+      color: #220A2E;
+      font-size: 2.5vw !important;
+      font-family: 'Jost', sans-serif;
+      margin-top: 35px !important;
+  }
+  .self_button {
+      background: #fdba1a;
+      width: 320px !important;
+      height: 40px !important;
+      border-radius: 15px;
+      color: #220a2e;
+      font-size: 1.5vw !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 70px !important;
+      border: none;
+      padding: 10px;
+    }
+    .img_self {
+      width: 550px !important;
+      border-radius: 69px;
+    }
 }
 
 @media (max-width:1334px) {
@@ -1521,6 +1631,91 @@ font-weight: 600 !important;
     font-size: 40px !important;
   }
 }
+
+@media (max-width: 425px) {
+  .but_product {
+    background-color: #fff;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    color: #220a2e;
+    font-size: 3vw;
+    font-family: "Noto Serif", serif;
+  }
+  .product_page {
+    width: 80% !important;
+    margin: auto;
+    margin-top: 50px !important;
+  }
+  .product_page1 {
+    width: 80% !important;
+    margin: auto;
+    margin-top: 50px !important;
+  }
+  .button_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  .but_product3 {
+    width: 100%;
+    height: 30px !important;
+    font-size: 3vw;
+  }
+  .but2_product {
+    background-color: #fdba1a;
+    height: 30px;
+    width: 120px !important;
+    border: none;
+    border-radius: 15px;
+    color: #220a2e;
+    font-size: 3vw;
+    /* font-family: 'Playfair Display', serif; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text_in_product3 {
+    margin-top: 50px !important;
+  }
+  .text_in_small_product {
+    font-size: 13vw !important;
+    line-height: 50px;
+  }
+  .text_p_in_opisaniya {
+    font-size: 3.5vw !important;
+    margin-top: 0px !important;
+  }
+
+  .text_in_product2 {
+    font-size: 3vw !important;
+    margin-top: -30px;
+  }
+  .text_in_product1 {
+    font-size: 3vw !important;
+    margin-top: 20px !important;
+  }
+  .text_in_product {
+    font-size: 3vw !important;
+    margin-top: -30px !important;
+  }
+  .text_in_product3 {
+    font-size: 3.5vw !important;
+    margin-top: -30px !important;
+  }
+  .text_in_product5 {
+    font-size: 3vw !important;
+    margin-top: 0px !important;
+  }
+  .product_h1{
+    font-size: 40px !important;
+  }
+}
+
+
 
 .product_page1 {
   background: #271845;
