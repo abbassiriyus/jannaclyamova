@@ -207,6 +207,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 border: none;
+cursor: pointer;
 
 }
 .accordion-button{
@@ -220,10 +221,19 @@ border: none;
     flex-wrap: wrap;
   }
   .statya_card{
-    width: 40%;
+    width: 65%;
   }
   .statya_card_text{
-    font-size: 9px;
+    font-size: 4.200vw;
+    margin-top: 3vw;
+  }
+  .statya_card_btn{
+    width: 35vw;
+    height: 7vw;
+    font-size: 3.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
   }
 }
 
