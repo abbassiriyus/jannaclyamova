@@ -92,18 +92,19 @@ line-height: 2vw;
     margin: auto;
     margin-top: -2.604vw;
 }
-.master_class{
+.master_class {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 4.688vw;
     color: #220A2E;
-font-family: "SignPainter", sans-serif;
-font-size: 5vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: "SignPainter", sans-serif;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
 .master_janna{
     color: #FDBA1A;
 text-align: center;
@@ -724,7 +725,7 @@ height: 17.240vw;
     width: 70.573vw;
     height: 5vw;
     position: relative;
-    margin-top: 30px !important;
+    margin-top: 1.563vw !important;
     border-radius: 1.042vw;
     display: flex;
     align-items: center;

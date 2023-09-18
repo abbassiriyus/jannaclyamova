@@ -17,6 +17,7 @@
 
 
 
+
 .page5_header_contact{
     display: flex;
     justify-content: center;
@@ -105,6 +106,7 @@ margin-top: 2.5vw;
     align-items: center;
     margin: auto;
     gap: 0.521vw;
+    padding-bottom: 4.688vw;
 }
 
 .master_card {
@@ -124,6 +126,7 @@ margin-top: 2.5vw;
     font-weight: 400;
     line-height: normal;
 }
+
 
 .master_janna {
     color: #FDBA1A;
@@ -169,6 +172,13 @@ margin-top: 2.5vw;
     font-family: 'PT Sans Caption', sans-serif;
     line-height: 4.646vw;
     cursor: pointer;
+    margin-bottom: 1rem;
+}
+.master_class {
+margin-bottom: 0.5rem;
+}
+ul{
+    padding-left: 2rem;
 }
 
 .master_img {
