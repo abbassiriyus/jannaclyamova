@@ -167,6 +167,9 @@ button {
   .navbar li {
     font-size: 15px;
   }
+  #logo1{
+    width: 80px;
+  }
 }
 
 /* header glavniy */
