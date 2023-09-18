@@ -94,6 +94,10 @@
     color: #fff;
     background: #FDBA1A;
 }
+.page3_btn_text:focus{
+    background: #FDBA1A;
+    color: #fff;
+}
 
 .page3_btns {
     height: 4.010vw;
@@ -101,15 +105,25 @@
     margin-top: 2.083vw;
     margin-left: 1.563vw;
     border: none;
-    color: #271845;
     text-align: center;
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 1.583vw;
     border-radius: 1.563vw;
+    color: #271845;
     background: #E1E1E1;
     cursor: pointer;
 }
-
+.page3_btns:hover{
+    color: #fff;
+    background: #FDBA1A;
+}
+/* .yw{
+    background: #FDBA1A;
+} */
+/* .page3_btns:focus{
+    color: #fff;
+    background: #FDBA1A;
+} */
 .textoviye_otzv {
     color: #271845;
     text-align: center;

@@ -108,7 +108,7 @@
 
     <div class="page3_buttons_filter">
         <button class="page3_btn_text">Текстовые отзывы</button><button class="page3_btn_text">Живые отзывы</button><br>
-        <button class="page3_btns"> Личная консультация</button><button class="page3_btns">Клуб ДУШИ</button><button class="page3_btns">Я - ЖЕНЩИНА</button><button class="page3_btns">ДЕНЕЖНАЯ ЭНЕРГИЯ</button><br class="page3_in_br"><button class="page3_btns">Свет Человека</button><button class="page3_btns">Вебинары</button>
+        <button onclick="Focus1()" id="btn_1" class="page3_btns"> Личная консультация</button><button onclick="Focus2()" id="btn_2" class="page3_btns">Клуб ДУШИ</button><button onclick="Focus3()" id="btn_3" class="page3_btns">Я - ЖЕНЩИНА</button><button onclick="Focus4()" id="btn_4" class="page3_btns">ДЕНЕЖНАЯ ЭНЕРГИЯ</button><br class="page3_in_br"><button onclick="Focus5()" id="btn_5" class="page3_btns">Свет Человека</button><button onclick="Focus6()" id="btn_6" class="page3_btns">Вебинары</button>
     </div>
 
     <center class="textoviye_otzv">
@@ -255,6 +255,54 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
+        function Focus1(){
+            document.querySelector("#btn_1").style="background:#FDBA1A;color:#fff;"
+            document.querySelector("#btn_2").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_3").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_4").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_5").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_6").style="color: #271845;background: #E1E1E1;"
+        }
+        function Focus2(){
+            document.querySelector("#btn_2").style="background:#FDBA1A;color:#fff;"
+            document.querySelector("#btn_1").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_3").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_4").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_5").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_6").style="color: #271845;background: #E1E1E1;"
+        }
+        function Focus3(){
+            document.querySelector("#btn_3").style="background:#FDBA1A;color:#fff;"
+            document.querySelector("#btn_2").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_1").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_4").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_5").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_6").style="color: #271845;background: #E1E1E1;"
+        }
+        function Focus4(){
+            document.querySelector("#btn_4").style="background:#FDBA1A;color:#fff;"
+            document.querySelector("#btn_2").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_3").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_1").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_5").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_6").style="color: #271845;background: #E1E1E1;"
+        }
+        function Focus5(){
+            document.querySelector("#btn_5").style="background:#FDBA1A;color:#fff;"
+            document.querySelector("#btn_2").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_3").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_4").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_1").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_6").style="color: #271845;background: #E1E1E1;"
+        }
+        function Focus6(){
+            document.querySelector("#btn_6").style="background:#FDBA1A;color:#fff;"
+            document.querySelector("#btn_2").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_3").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_4").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_5").style="color: #271845;background: #E1E1E1;"
+            document.querySelector("#btn_1").style="color: #271845;background: #E1E1E1;"
+        }
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
