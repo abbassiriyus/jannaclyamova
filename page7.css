@@ -160,26 +160,19 @@ border: none;
 
 
   @media (max-width:755px) {
-    .page7_schedule_div_kichik{
-      margin-top: 20px;
-      width: 100%;
-  }
   .page7_schedule_div_kichik_text{
     text-align: center;
 }
-    .page7_schedule_select{
-        background-color: #E1E1E1;
-        width: 300px;
-        height: 40px;
-        border-radius: 15px;
-        color: #FDBA1A;
-        font-size: 15px;
-        margin-top: 10px;
-    }
-    .page7_schedule_div_kichik{
-        margin-top: 20px;
-        width: 300px;
-    }
+.page7_schedule_select{
+  width: 95% !important;
+  margin: auto;
+}
+.fors_select{
+  width: 100%;
+}
+.page7_schedule_div_kichik{
+  width: 90%;
+}
 }
 
 @media (max-width:500px) {
@@ -207,7 +200,7 @@ border: none;
       border-radius: 2vw;
     }
     .page7_schedule_div_kotta{
-      width: 70% ;
+      width: 80% ;
       border-radius: 6vw;
     }
     .page7_calendar_img{
@@ -215,8 +208,26 @@ border: none;
       height: auto;
     }
 }
-
-
+@media (max-width:425px) {
+  .page7_schedule_div_kichik_text{
+    text-align: center;
+}
+.page7_schedule_select{
+  width: 95% !important;
+  margin: auto;
+}
+.fors_select{
+  width: 100%;
+}
+.page7_schedule_div_kichik{
+  width: 100%;
+  margin: auto;
+}
+.but_page7_schedule{
+    font-size: 18px;
+    height: 40px;
+}
+}
 
 
 .img_upcoming_events{
