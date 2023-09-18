@@ -36,12 +36,12 @@ button {
 }
 @media (max-width: 1000px) {
   .navbar {
-    height: auto !important;
+    height: 7vw !important;
     justify-content: space-around !important;
   }
   .navbar .logo {
     vertical-align: top;
-    min-width: 50px !important;
+    min-width: 70px !important;
   }
   .logo_ahref {
     width: 50px;
@@ -51,6 +51,10 @@ button {
   .navbar {
     justify-content: space-between !important;
   }
+  .navbar .logo {
+    width: 30% !important; 
+  }
+
 }
 .navbar .nav-link {
   display: flex;
@@ -59,6 +63,7 @@ button {
 }
 .navbar .form {
   display: flex;
+  align-items: center;
   gap: 1.042vw;
 }
 .navbar .nav-link,
@@ -94,6 +99,7 @@ button {
   min-width: 100px;
 }
 .navbar .bot {
+  display: flex;
   width: 2.5vw;
 }
 .navbar .bot1 {
