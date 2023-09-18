@@ -73,6 +73,7 @@
     background: #F5F2ED;
 }
 
+
 .page3_btn_text {
     width: 17.813vw;
     height: 4.010vw;
@@ -655,4 +656,8 @@
         width: 15px;
         height: 15px;
     }
+}
+
+.swiper_move_up_down_2{
+    display: none;
 }

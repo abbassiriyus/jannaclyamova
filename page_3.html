@@ -15,7 +15,7 @@
     href="https://triple-slider.uiinitiative.com/assets/index.b097f28c.css"
   /> -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="main.css">
+  <!-- <link rel="stylesheet" href="main.css"> -->
     <title>Document</title>
 </head>
 
@@ -23,7 +23,7 @@
 
     
     <div class="navbar">
-        <a href="/index.html"><img class="logo" src="./media/Жанна Слямова 1.png" alt=""></a>
+        <a href="/index.html"><img class="logo" id="logo1" src="./media/Жанна Слямова 1.png" alt=""></a>
         <ul class="nav-link">
             <a href="/main.html">
                 <li class="nav">программы</li>
@@ -106,12 +106,111 @@
         <h2 class="page3_name">ОТЗЫВЫ</h2>
     </div>
 
-    <div class="page3_buttons_filter">
-        <button class="page3_btn_text">Текстовые отзывы</button><button class="page3_btn_text">Живые отзывы</button><br>
-        <button onclick="Focus1()" id="btn_1" class="page3_btns"> Личная консультация</button><button onclick="Focus2()" id="btn_2" class="page3_btns">Клуб ДУШИ</button><button onclick="Focus3()" id="btn_3" class="page3_btns">Я - ЖЕНЩИНА</button><button onclick="Focus4()" id="btn_4" class="page3_btns">ДЕНЕЖНАЯ ЭНЕРГИЯ</button><br class="page3_in_br"><button onclick="Focus5()" id="btn_5" class="page3_btns">Свет Человека</button><button onclick="Focus6()" id="btn_6" class="page3_btns">Вебинары</button>
+    <div class="page3_buttons_filter">        
+        <button class="page3_btn_text" onclick="swiperupdown1()">Текстовые отзывы</button>
+        <button class="page3_btn_text" onclick="swiperupdown2()">Живые отзывы</button><br>
+        <button onclick="Focus1()" id="btn_1" class="page3_btns"> Личная консультация</button>
+        <button onclick="Focus2()" id="btn_2" class="page3_btns">Клуб ДУШИ</button>
+        <button onclick="Focus3()" id="btn_3" class="page3_btns">Я - ЖЕНЩИНА</button>
+        <button onclick="Focus4()" id="btn_4" class="page3_btns">ДЕНЕЖНАЯ ЭНЕРГИЯ</button><br class="page3_in_br">
+        <button onclick="Focus5()" id="btn_5" class="page3_btns">Свет Человека</button>
+        <button onclick="Focus6()" id="btn_6" class="page3_btns">Вебинары</button>
     </div>
 
-    <center class="textoviye_otzv">
+    <div class="swiper_move_up_down_2">
+        <div class="main_swipers2">
+            <h2 class="main_otziv_name2">Живые отзывы</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <video class="video_in_swiper" width="400" height="700"  controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video_in_swiper" width="400" height="700"  controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video_in_swiper" width="400" height="700"  controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video_in_swiper" width="400" height="700"  controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video_in_swiper" width="400" height="700"  controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                </div>
+                <div class="swiper-button-prev">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+
+
+        <center class="textoviye_otzv">
+         Текстовые отзывы
+     </center>
+ 
+     <div class="page3_swipers">
+         <img class="main_stars1" src="./media/image/Слой 3 2.png" alt="">
+         <div class="swiper mySwiper">
+             <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                     <img class="swiper_img_page3" src="./media/image/Слой 10 1.png" alt="" />
+                 </div>
+                 <div id="swiper1"   class="swiper-slide">
+                     <img src="./media/image/Слой 10 1.png" alt="" />
+                 </div>
+                 <div id="swiper2"    class="swiper-slide">
+                     <img src="./media/image/Слой 10 1.png" alt="" />
+                 </div>
+                 <div id="swiper3"   class="swiper-slide">
+                     <img src="./media/image/Слой 10 1.png" alt="" />
+                 </div>
+                 <div id="swiper4"   class="swiper-slide">
+                     <img src="./media/image/Слой 10 1.png" alt="" />
+                 </div>
+             </div>
+             <div class="swiper-button-next">
+             </div>
+             <div class="swiper-button-prev">
+             </div>
+             <div  class="swiper-pagination"></div>
+         </div>
+         <img class="main_stars2" src="./media/image/Слой 3 5.png" alt="">
+         <button class="otziv_btn">забронировать место</button>
+     </div>
+ 
+  
+ 
+ 
+ 
+
+ </div>
+
+<div class="swiper_move_up_down_1">
+       <center class="textoviye_otzv">
         Текстовые отзывы
     </center>
 
@@ -144,6 +243,8 @@
         <img class="main_stars2" src="./media/image/Слой 3 5.png" alt="">
         <button class="otziv_btn">забронировать место</button>
     </div>
+
+ 
 
 
 
@@ -194,7 +295,7 @@
         <div class="swiper-pagination"></div>
     </div>
 </div>
-
+</div>
 
     <div class="header_page3_molochniy" id="page1">
         <center class="probudijenwinu_text">Измени свою жизнь<br>
@@ -302,6 +403,14 @@
             document.querySelector("#btn_4").style="color: #271845;background: #E1E1E1;"
             document.querySelector("#btn_5").style="color: #271845;background: #E1E1E1;"
             document.querySelector("#btn_1").style="color: #271845;background: #E1E1E1;"
+        }
+         function swiperupdown2() {
+            document.querySelector(".swiper_move_up_down_2").style = "display:block"
+            document.querySelector(".swiper_move_up_down_1").style = "display:none"
+        }
+        function swiperupdown1() {
+            document.querySelector(".swiper_move_up_down_1").style = "display:block"
+            document.querySelector(".swiper_move_up_down_2").style = "display:none"
         }
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
