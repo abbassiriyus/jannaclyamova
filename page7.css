@@ -653,3 +653,212 @@ border: none;
   .product_h1{
     font-weight: 400;
   }
+
+
+
+
+
+.page7_product{
+  background: #F5F2ED;
+}
+.page7_product_osn_name{
+  color: #220A2E;
+text-align: center;
+font-family: "SignPainter", sans-serif;
+font-size: 7.292vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.page7_product_df{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:2.552vw 2.083vw;
+}
+.product_card1{
+  position: relative;
+  width: 44.479vw;
+height: 21.250vw;
+border-radius: 4.010vw;
+background: #220A2E;
+}
+.product_inside_db{
+  display: block;
+  margin: auto;
+  padding: 2.083vw 0px 0.781vw 3.646vw;
+}
+.consultation_name{
+  color: #FDBA1A;
+  position: relative;
+  font-family: "SignPainter", sans-serif;
+font-size: 5.208vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+z-index: 123;
+}
+.product_btn1{
+  width: 12.917vw;
+height: 4.740vw;
+border-radius: 1.510vw;
+background: #F5F2ED;
+color: #271845;
+text-align: center;
+font-family: AGOpusHighResolution;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.product_btn2{
+  width: 12.917vw;
+height: 4.740vw;
+margin-left: 1.302vw;
+border-radius: 1.510vw;
+background: #FDBA1A;
+color: #271845;
+text-align: center;
+font-family: AGOpusHighResolution;
+font-size: 1.667vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.product_sun_img{
+  position: absolute;
+  width: 8.750vw;
+  height: 8.750vw;
+  top: 2.8vw;
+  right: 4.688vw;
+  z-index: 12;
+}
+.product_stars_img{
+  position: absolute;
+  width: 8.281vw;
+  height: 19.479vw;
+  top: -1.042vw;
+  right: 2.083vw;
+  z-index: 1;
+}
+.product_card2{
+  position: relative;
+  width: 44.479vw;
+  height: 21.250vw;
+  border-radius: 4.010vw;
+  background: #271845;
+}
+.consultation_text{
+  color: #FDBA1A;
+font-family: AGOpusHighResolution;
+font-size: 1.875vw;
+margin-top: -0.6vw;
+margin-bottom: 1.250vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.page7_moon_img{
+  position: absolute;
+  width: 14.063vw;
+  height: 10.365vw;
+  top: 2.292vw;
+  right: 6vw;
+}
+.page7_star1_img{
+  position: absolute;
+  width: 8.281vw;
+  height: 19.479vw;
+  top: -4.2vw;
+  right: 2.083vw;
+}
+.page7_star2_img{
+  position: absolute;
+  width: 19.479vw;
+  height: 8.281vw;
+  bottom: 1.667vw;
+  right: 2.604vw;
+}
+.consultation_name2{
+  margin-top: -0.781vw;
+  position: relative;
+  color: #FDBA1A;
+  font-family: "SignPainter", sans-serif;
+  font-size: 5.208vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.6vw;
+  z-index: 132;
+}
+.product_woman_img{
+  position: absolute;
+  width: 13.577vw;
+height: 14.775vw;
+transform: rotate(5.487deg);
+top: 1.563vw;
+right: 0.781vw;
+z-index: 12;
+}
+.product_stars_img2{
+  position: absolute;
+  width: 8.281vw;
+  height: 19.479vw;
+  top: 0.885vw;
+  right: 0px;
+  z-index: 1;
+}
+.page7_stars3_img{
+  position: absolute;
+  width: 19.479vw;
+height: 8.281vw;
+top: 0px;
+right: 0px;
+}
+.page7_money_img{
+  position: absolute;
+  width: 13.736vw;
+height: 13.815vw;
+/* transform: rotate(-4.828deg); */
+top: 1.854vw;
+right: 1.042vw;
+}
+.product_cosmos_img{
+  position: absolute;
+  width: 29.635vw;
+height: 15.573vw;
+bottom: 1.527vw;
+right: -7.208vw;
+}
+.consultation_name3{
+  color: #FDBA1A;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  font-family: "SignPainter", sans-serif;
+  font-size: 5.208vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  z-index: 123;
+}
+.page7_moon_img2{
+  position: absolute;
+  width: 14.063vw;
+  height: 10.365vw;
+  bottom: 70px;
+  right: 150px;
+
+}
+.page7_star1_img2{
+  position: absolute;
+  height: 19.479vw;
+  width: 8.281vw;
+}
+.page7_star2_img2{
+  position: absolute;
+  width: 19.479vw;
+  height: 8.281vw;
+  bottom: 0px;
+  left: 200px;
+}
