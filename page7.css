@@ -13,6 +13,9 @@
     padding: 0;
     margin: 0;
 }
+button{
+  cursor: pointer !important;
+}
 
 
 .page7_header{
@@ -660,6 +663,7 @@ border: none;
 
 .page7_product{
   background: #F5F2ED;
+  padding-bottom: 4.479vw;
 }
 .page7_product_osn_name{
   color: #220A2E;
@@ -669,6 +673,7 @@ font-size: 7.292vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 2vw;
 }
 .page7_product_df{
   display: flex;
@@ -700,8 +705,10 @@ line-height: normal;
 z-index: 123;
 }
 .product_btn1{
+  position: relative;
   width: 12.917vw;
 height: 4.740vw;
+border: none;
 border-radius: 1.510vw;
 background: #F5F2ED;
 color: #271845;
@@ -711,11 +718,14 @@ font-size: 1.667vw;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+z-index: 12;
 }
 .product_btn2{
+  position: relative;
   width: 12.917vw;
 height: 4.740vw;
 margin-left: 1.302vw;
+border: none;
 border-radius: 1.510vw;
 background: #FDBA1A;
 color: #271845;
@@ -725,6 +735,7 @@ font-size: 1.667vw;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+z-index: 12;
 }
 .product_sun_img{
   position: absolute;
@@ -830,35 +841,200 @@ height: 15.573vw;
 bottom: 1.527vw;
 right: -7.208vw;
 }
+.product_cosmos_star{
+  position: absolute;
+  width: 8.281vw;
+  height: 19.679vw;
+  top: 2.083vw;
+  left: -4vw;
+}
 .consultation_name3{
   color: #FDBA1A;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 0.781vw;
+  margin-bottom: 0.981vw;
   position: relative;
   font-family: "SignPainter", sans-serif;
   font-size: 5.208vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 80px;
+  line-height: 5.167vw;
   z-index: 123;
 }
 .page7_moon_img2{
   position: absolute;
   width: 14.063vw;
   height: 10.365vw;
-  bottom: 70px;
-  right: 150px;
+  bottom: 3.646vw;
+  right: 6.250vw;
 
 }
 .page7_star1_img2{
   position: absolute;
   height: 19.479vw;
   width: 8.281vw;
+  top: -1.042vw;
+  right: -2.604vw;
 }
 .page7_star2_img2{
   position: absolute;
   width: 19.479vw;
   height: 8.281vw;
   bottom: 0px;
-  left: 200px;
+  left: 12.817vw;
+}
+.product_btn_div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.page7_btn_more{
+  width: 22.760vw;
+  height: 4.740vw;
+  margin-top: 4.635vw;
+  border-radius: 1.510vw;
+  border: 0.156vw solid #FDBA1A;
+  color: #FDBA1A;
+  background: #F5F2ED;
+  display: flex;
+  gap: 2.5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: AGOpusHighResolution;
+  font-size: 1.667vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.product_more_btn_img{
+  width: 2.3vw;
+height: 1.9vw;
+}
+
+@media (max-width:500px) {
+  .product_card1,
+  .product_card2{
+    width: 70vw;
+    height: 29vw;
+    padding-bottom: 3vw;
+    border-radius: 25px;
+  }
+  .product_inside_db{
+    padding-left: 6vw !important;
+  }
+  .consultation_name,
+  .consultation_name3{
+    font-size: 8vw !important;
+    line-height: normal;
+  }
+  .consultation_name2{
+    margin-top: .7vw;
+    font-size: 8vw;
+    line-height: 7vw;
+  }
+  .consultation_text{
+    font-size: 2.800vw;
+    line-height: normal;
+  }
+  .product_btn1,
+  .product_btn2{
+    width: 20vw;
+    height: 6vw;
+    border-radius: 2vw;
+    font-size: 2.2vw;
+  }
+  .product_sun_img{
+    width: 15vw;
+    height: 15vw;
+    top: 4.5vw;
+  }
+  .product_stars_img{
+    width: 12vw;
+    height: 28vw;
+  }
+  .page7_moon_img{
+    width: 21.5vw;
+    height: 16vw;
+    top: 4vw;
+    right: 10vw;
+  }
+  .page7_star1_img{
+    width: 12vw;
+    height: 28vw;
+    top: -6vw;
+    right: 4vw;
+  }
+  .page7_star2_img{
+    height: 12vw;
+    width: 28vw;
+    right: 6vw;
+    bottom: 2vw;
+  }
+  .product_woman_img{
+    width: 20vw;
+    height: 21vw;
+    right: 1vw;
+    top: 4.5vw;
+  }
+  .product_stars_img2{
+    width: 12vw;
+    height: 29.5vw;
+    right: 0px;
+  }
+  .page7_money_img{
+    width: 20vw;
+    height: 21vw;
+    top: 4vw;
+    right: 2vw;
+  }
+  .page7_stars3_img{
+    height: 12vw;
+    width: 28vw;
+    top: 1vw;
+    right: 0px;
+  }
+  .product_cosmos_img{
+    width: 43vw;
+    height: 23.5vw;
+    bottom: 2vw;
+  }
+  .product_cosmos_star{
+    width: 12vw;
+    height: 28vw;
+    top: 4.5vw;
+    left: -5.5vw;
+  }
+  .page7_moon_img2{
+    width: 21.5vw;
+    height: 16vw;
+    top: 11vw;
+    right: 10vw;
+  }
+  .page7_star1_img2{
+    width: 12vw;
+    height: 28vw;
+    top: -3vw;
+    right: -4.7vw;
+  }
+  .page7_star2_img2{
+    height: 12vw;
+    width: 28vw;
+    left: 26vw;
+  }
+  .page7_btn_more{
+    width: 200px;
+    height: 6vw;
+    border-radius: 2vw;
+    font-size: 14px;
+  }
+  .product_more_btn_img{
+    width: 3.600vw;
+    height: 2.800vw;
+  }
+  .page7_product_osn_name{
+    font-size: 40px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
 }
