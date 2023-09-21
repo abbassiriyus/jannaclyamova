@@ -1728,5 +1728,86 @@ margin-bottom: -100px;
 
 
 
-
-
+.main_baby{
+    text-align: center;
+}
+.baby_name_glavniy{
+    color: #220A2E;
+    text-align: center;
+    font-family: "SignPainter", sans-serif;
+    font-size: 7.292vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.baby_four_cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5.156vw 6.927vw;
+}
+.baby_card{
+    width: 44.583vw;
+height: 21.250vw;
+border-radius: 4.010vw;
+background: #A886B9;
+display: flex;
+justify-content: center;
+}
+.baby_card .baby_text{
+    color: #FFF;
+text-align: center;
+margin: auto;
+font-family: AGOpusHighResolution;
+font-size: 2.500vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.baby_text2{
+    color: #FFF;
+text-align: center;
+margin: auto;
+font-family: AGOpusHighResolution;
+font-size: 2.500vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.baby_img_center{
+    width: 42.083vw;
+    height: 42.083vw;
+    position: absolute;
+}
+.empty_card{
+    width: 30%;
+}
+.empty_card1{
+    width: 28%;
+}
+.empty_card2{
+    width: 25%;
+}
+@media (max-width:500px) {
+    .baby_name_glavniy{
+        font-size: 40px;
+    }
+    .empty_card1,
+    .empty_card2,
+    .empty_card,
+    .baby_img_center{
+        display: none;
+    }
+    .baby_card{
+        width: 300px;
+        height: 200px;
+    }
+    .baby_text{
+        font-size: 20px !important;
+    }
+    .baby_text2{
+        font-size: 20px !important;
+    }
+}
