@@ -1811,3 +1811,248 @@ line-height: normal;
         font-size: 20px !important;
     }
 } */
+
+
+
+.club_milleoners_big{
+    width: 96%;
+    margin-left: 2%;
+}
+
+.milioner_learn_text{
+    color: #220A2E;
+    text-align: center;
+    font-family: "SignPainter", sans-serif;
+    font-size: 7.292vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_millioner_club{
+    width: 45vw;
+    height: 20vw;
+    border-radius: 4.010vw;
+    background: #A886B9;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.kotta_div_milleorder_club{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.156vw 6.927vw;
+}
+.text_club_million{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-left: 80px;
+}
+
+.text_club_million1{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-left: 50px;
+}
+
+
+.text_club_million2{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.text_club_million3{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-right: 80px;
+}
+
+
+.text_club_million4{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-right: 50px;
+}
+
+.text_club_million5{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-right: 50px;
+}
+
+
+@media (max-width:800px) {
+    .text_club_million{
+        color: white;
+        font-weight: 700;
+        font-size: 2.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-left: 50px;
+    }
+    .text_club_million1{
+        color: white;
+        font-weight: 700;
+        font-size: 2.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .text_club_million2{
+        color: white;
+        font-weight: 700;
+        font-size: 2.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .text_club_million3{
+        color: white;
+        font-weight: 700;
+        font-size: 2.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-right: 50px;
+    }
+.text_club_million4{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.text_club_million5{
+    color: white;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    margin-right: 30px;
+}
+}
+
+@media (max-width:500px) {
+    .milioner_learn_text{
+        font-size: 35px;
+    }
+    .million_club_img{
+        display: none;
+    }
+    .kotta_div_milleorder_club{
+        display: block;
+        margin: auto;
+    }
+    .text_club_million{
+        color: white;
+        font-weight: 700;
+        font-size: 3.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-left: none;
+    }
+    
+    .text_club_million1{
+        color: white;
+        font-weight: 700;
+        font-size: 3.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-left: none;
+    }
+    
+    
+    .text_club_million2{
+        color: white;
+        font-weight: 700;
+        font-size: 3.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-left: none;
+    }
+    
+    .text_club_million3{
+        color: white;
+        font-weight: 700;
+        font-size: 3.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-right: none;
+    }
+    
+    
+    .text_club_million4{
+        color: white;
+        font-weight: 700;
+        font-size: 3.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-right: none;
+    }
+    
+    .text_club_million5{
+        color: white;
+        font-weight: 700;
+        font-size: 3.500vw;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        margin-right: none;
+    }
+    .card_millioner_club{
+        width: 60vw;
+        height: 30vw;
+        border-radius: 4.010vw;
+        background: #A886B9;
+        display: flex;
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+        margin: auto;
+    }
+}
+
+
+.million_club_img{
+    width: 42.083vw;
+    height: 42.083vw;
+    position: absolute;
+}
