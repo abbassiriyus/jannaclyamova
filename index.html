@@ -111,19 +111,23 @@
                 тебя к <br>
                 твоей <br>
                 душе</h2>
-            <button class="header_button">заказать консультацию</button>
+            <button onclick="modal()" class="header_button">заказать консультацию</button>
         </div>
     </header>
 
 
-    <!-- <div class="header_background_filter">
+    <div class="header_background_filter">
         <div class="header_modal">
+            <!-- <img class="filter_cosmos" src="./media/image/Слой 1а 1.png" alt=""> -->
+        <div onclick="closeBtn()" class="close_btn_filter"><i class='bx bx-x-circle'></i></div>
+        <center class="modal_questions">ОСТАЛИСЬ ВОПРОСЫ?</center>
+        <p class="filter_text">Мы с радостью поможет вам!</p>
                 <input class="header_modal_inp" type="text" placeholder="Как тебя зовут?">
                 <input class="header_modal_inp" type="text" placeholder="Номер для связи">
                 <input class="header_modal_inp" type="text" placeholder="Почтовый адрес">
                 <button class="header_modal_btn" type="submit">Отправлять</button>
         </div>
-    </div> -->
+    </div>
 
     <div class="reklama_user">
         <div class="reklama_card1">
@@ -700,6 +704,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
+
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -753,7 +758,14 @@
             },
         });
     </script>
-
+    <script>
+    function modal() {
+            document.querySelector('.header_background_filter').style="display:flex !important;"
+        }
+        function closeBtn() {
+            document.querySelector('.header_background_filter').style="display:none !important;"
+        }
+    </script>
 
 </body>
 

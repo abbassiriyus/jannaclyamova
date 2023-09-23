@@ -1726,7 +1726,7 @@ margin-bottom: -100px;
     }
 }
 
-
+/* 
 
 .main_baby{
     text-align: center;
@@ -1810,10 +1810,10 @@ line-height: normal;
     .baby_text2{
         font-size: 20px !important;
     }
-    
-}
-/* a */
-/* 
+} */
+
+
+
 .club_milleoners_big{
     width: 96%;
     margin-left: 2%;
@@ -2055,4 +2055,4 @@ line-height: normal;
     width: 42.083vw;
     height: 42.083vw;
     position: absolute;
-} */
+}
