@@ -1,0 +1,171 @@
+.header_background_filter {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1111111111;
+  height: 100vh;
+  background-color: #fff;
+  /* backdrop-filter: blur(1.667vw); */
+}
+/* .close_btn_filter{
+    border-radius: 50%;
+  } */
+.bx-x-circle {
+  position: absolute;
+  top: 1.042vw;
+  right: 1.042vw;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fdba1a;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.bx-x-circle:hover {
+  color: #fff;
+  background: #fdba1a;
+  border-radius: 50%;
+}
+
+.header_page3_molochniy_modal {
+  margin: auto;
+  width: 80vw;
+  border-radius: 3.906vw;
+  background: #fff7ee;
+  box-shadow: 0.26vw 0.208vw 4.167vw 0.26vw rgba(0, 0, 0, 0.1);
+}
+.probudijenwinu_text_modal {
+  margin-top: 1.771vw;
+  color: #220a2e;
+  text-align: center;
+  font-family: SignPainter;
+  font-size: 5.208vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.25vw;
+}
+.header_page3_probudijenwinu_modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.344vw;
+}
+.duwa_jenwini_img_modal {
+  width: 32.177vw;
+  height: 32.177vw;
+  margin-left: 9.208vw;
+}
+.duwa_jenwini_df_modal {
+  text-align: center;
+}
+.text_duwa_modal {
+  color: #271845;
+  text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.name_duwa_modal {
+  margin-top: 1.563vw;
+  color: #fdba1a;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.inp_name_modal {
+  margin-top: 2.604vw;
+  width: 30.885vw;
+  height: 3.792vw;
+  outline: none;
+  padding-inline: 0.521vw;
+  border-radius: 1.302vw;
+  border: 0.26vw solid #e1e1e1;
+  background: #fff;
+  color: #271845;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.inp_number_modal {
+  margin-top: 1.302vw;
+  width: 30.885vw;
+  height: 3.792vw;
+  outline: none;
+  padding-inline: 0.521vw;
+  border-radius: 1.302vw;
+  border: 0.26vw solid #e1e1e1;
+  background: #fff;
+  color: #271845;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn_duwa_modal {
+  margin-top: 4.688vw;
+  width: 18.042vw;
+  height: 3.6vw;
+  border: none;
+  border-radius: 1.21vw;
+  background: #fdba1a;
+  color: #271845;
+  text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (max-width: 600px) {
+    .header_page3_molochniy_modal{
+        width: 90%;
+    }
+    .duwa_jenwini_img_modal{
+        display: none;
+    }
+    .probudijenwinu_text_modal{
+        margin-top: 5vw;
+        font-size: 10vw;
+        line-height: 6.667vw;
+    }
+    .text_duwa_modal{
+        margin-top: 2.500vw;
+        font-size: 3vw;
+    }
+    .name_duwa_modal{
+        margin-top: 1.667vw;
+        font-size: 3vw;
+    }
+    .inp_name_modal{
+        width: 86%;
+        height: 8.333vw;
+        border-radius: 1.667vw;
+        font-size: 3vw;
+        padding-inline: 2.500vw;
+    }
+    .inp_number_modal{
+        width: 86%;
+        height: 8.333vw;
+        margin-top: 1.667vw;
+        border-radius: 1.667vw;
+        font-size: 3vw;
+        padding-inline: 2.500vw;
+    }
+    .btn_duwa_modal{
+        width: 92%;
+        height: 8.333vw;
+        border-radius: 1.667vw;
+        font-size: 3vw;
+        margin-bottom: 1.667vw;
+    }
+}
