@@ -2198,14 +2198,13 @@ button {
   gap: 100px;
   margin-top: 30px;
 }
-.video_div{
+.video_div {
   width: 290px;
 }
 .video_in_video {
   border: none;
   border-radius: 10px;
 }
-
 
 @media (max-width: 1339px) {
   .flex_video {
@@ -3069,7 +3068,6 @@ margin-bottom: -100px;
     height: 700px !important;
   }
 }
-
 
 /* .header_modal{
   position: relative;
